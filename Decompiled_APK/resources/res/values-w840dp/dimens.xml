@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="achievement_badge_horizontal_margin">@dimen/ref_spacing_xlarge</dimen>
+    <dimen name="achievement_notification_width">480dp</dimen>
+</resources>

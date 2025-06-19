@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <com.quizlet.quizletandroid.ui.diagramming.DiagramView
+        android:id="@+id/setpage_diagram_diagram_view"
+        android:paddingBottom="100dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+    <com.quizlet.diagrams.layoutmanager.SnapRecyclerView
+        android:id="@+id/setpage_diagram_recycler_view"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"/>
+</RelativeLayout>

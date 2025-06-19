@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/new_feature_badge_view"
+    android:visibility="gone"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <com.quizlet.partskit.widgets.QTextView
+        android:textSize="10sp"
+        android:id="@+id/text_view_badge_title"
+        android:text="@string/smart_grading_badge_title_uppercase"
+        android:layout_marginStart="@dimen/quizlet_edge_margin_half"
+        android:layout_marginEnd="@dimen/quizlet_edge_margin_half"
+        android:letterSpacing="0.1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/imageViewSmartGradingInfo"
+        app:layout_constraintTop_toTopOf="parent"
+        style="@style/StudyModeSettingsGroupItemLabel"/>
+    <ImageView
+        android:id="@+id/imageViewSmartGradingInfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_sys_circle_info"
+        android:importantForAccessibility="no"
+        android:layout_marginEnd="@dimen/quizlet_edge_margin_half"
+        app:layout_constraintBottom_toBottomOf="@+id/text_view_badge_title"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/text_view_badge_title"
+        app:tint="?attr/textColor"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

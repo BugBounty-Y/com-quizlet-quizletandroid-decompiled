@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.quizlet.uicommon.ui.common.views.ArcProgressBar
+        android:id="@+id/arc_progress_bar"
+        android:layout_width="@dimen/arc_progress_bar_size"
+        android:layout_height="@dimen/arc_progress_bar_size"
+        app:strokeWidth="@dimen/arc_progress_bar_width"/>
+    <RelativeLayout
+        android:gravity="center"
+        android:layout_gravity="center_vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-6dp">
+        <com.quizlet.partskit.widgets.QTextView
+            android:textSize="@dimen/arc_progress_bar_text_size"
+            android:id="@+id/arc_progress_value"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:fontFamily="@font/hurme_geometric_sans_2_bold"/>
+        <com.quizlet.partskit.widgets.QTextView
+            android:textSize="@dimen/arc_progress_label_text"
+            android:gravity="center"
+            android:id="@+id/arc_progress_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/arc_progress_value"
+            android:layout_centerHorizontal="true"
+            style="@style/SubHeader.S5"/>
+    </RelativeLayout>
+</merge>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="?attr/selectableItemBackgroundBorderless"
+    android:layout_width="wrap_content"
+    android:layout_height="@dimen/quizlet_min_tap_target_size"
+    android:paddingStart="@dimen/ref_spacing_xxsmall"
+    android:paddingEnd="@dimen/ref_spacing_xxsmall">
+    <com.quizlet.partskit.widgets.QTextView
+        android:textColor="?attr/RefColorGray700"
+        android:gravity="center"
+        android:id="@+id/upgradeButton"
+        android:background="@drawable/assembly_pill_shape_plus"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:text="@string/upgrade"
+        android:layout_marginVertical="@dimen/ref_spacing_xxsmall"
+        android:paddingHorizontal="@dimen/ref_spacing_small"
+        android:paddingVertical="@dimen/ref_spacing_xxsmall"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        style="@style/SubHeader.S4"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

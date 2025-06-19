@@ -1,0 +1,91 @@
+package org.wordpress.aztec.spans;
+
+import android.graphics.Canvas;
+import android.graphics.Paint;
+import android.text.Layout;
+import android.text.Spanned;
+import kotlin.Metadata;
+import kotlin.jvm.internal.Intrinsics;
+import org.wordpress.aztec.C5146b;
+
+@Metadata
+/* loaded from: classes3.dex */
+public class AztecUnorderedListSpan extends AztecListSpan {
+    public int d;
+    public final C5146b e;
+    public org.wordpress.aztec.formatting.e f;
+    public final String g;
+    public final org.wordpress.aztec.x h;
+
+    /* JADX WARN: 'super' call moved to the top of the method (can break code semantics) */
+    public AztecUnorderedListSpan(int i, C5146b attributes, org.wordpress.aztec.formatting.e listStyle) {
+        super(listStyle.e);
+        Intrinsics.checkNotNullParameter(attributes, "attributes");
+        Intrinsics.checkNotNullParameter(listStyle, "listStyle");
+        this.d = i;
+        this.e = attributes;
+        this.f = listStyle;
+        this.g = "ul";
+        this.h = org.wordpress.aztec.x.h;
+    }
+
+    @Override // org.wordpress.aztec.spans.AztecListSpan, org.wordpress.aztec.spans.K
+    public final int a() {
+        return this.d;
+    }
+
+    @Override // android.text.style.LeadingMarginSpan.Standard, android.text.style.LeadingMarginSpan
+    public final void drawLeadingMargin(Canvas c, Paint p, int i, int i2, int i3, int i4, int i5, CharSequence text, int i6, int i7, boolean z, Layout l) {
+        Intrinsics.checkNotNullParameter(c, "c");
+        Intrinsics.checkNotNullParameter(p, "p");
+        Intrinsics.checkNotNullParameter(text, "text");
+        Intrinsics.checkNotNullParameter(l, "l");
+        if (z) {
+            Spanned spanned = (Spanned) text;
+            int spanStart = spanned.getSpanStart(this);
+            int spanEnd = spanned.getSpanEnd(this);
+            if (spanStart > i6 || i6 > spanEnd || spanStart > i7 || i7 > spanEnd) {
+                return;
+            }
+            Paint.Style style = p.getStyle();
+            int color = p.getColor();
+            p.setColor(this.f.a);
+            p.setStyle(Paint.Style.FILL);
+            String str = v(i7, text) != null ? "•" : "";
+            float fMeasureText = p.measureText(str);
+            float f = (this.f.b * i2 * 1.0f) + i;
+            if (i2 == 1) {
+                f -= fMeasureText;
+            }
+            c.drawText(str, f, (fMeasureText - p.descent()) + i4, p);
+            p.setColor(color);
+            p.setStyle(style);
+        }
+    }
+
+    @Override // org.wordpress.aztec.spans.C
+    public final C5146b f() {
+        return this.e;
+    }
+
+    @Override // android.text.style.LeadingMarginSpan.Standard, android.text.style.LeadingMarginSpan
+    public final int getLeadingMargin(boolean z) {
+        org.wordpress.aztec.formatting.e eVar = this.f;
+        return (eVar.d * 2) + eVar.b + eVar.c;
+    }
+
+    @Override // org.wordpress.aztec.spans.D
+    public final org.wordpress.aztec.G l() {
+        return this.h;
+    }
+
+    @Override // org.wordpress.aztec.spans.K
+    public final void t(int i) {
+        this.d = i;
+    }
+
+    @Override // org.wordpress.aztec.spans.M
+    public final String u() {
+        return this.g;
+    }
+}

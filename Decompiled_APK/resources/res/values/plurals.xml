@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="achievement_toast_streak_days">
+        <item quantity="other">You hit a %1$d-day study streak</item>
+    </plurals>
+    <plurals name="achievement_toast_streak_weeks">
+        <item quantity="other">You hit a %1$d-week study streak</item>
+    </plurals>
+    <plurals name="achievements_badge_streak_days">
+        <item quantity="one">%d-day streak</item>
+        <item quantity="other">%d-day streak</item>
+    </plurals>
+    <plurals name="achievements_badge_streak_weeks">
+        <item quantity="one">%d-week streak</item>
+        <item quantity="other">%d-week streak</item>
+    </plurals>
+    <plurals name="achievements_current_streak_days">
+        <item quantity="one">%d-day</item>
+        <item quantity="other">%d-day</item>
+    </plurals>
+    <plurals name="achievements_current_streak_weeks">
+        <item quantity="one">%d-week</item>
+        <item quantity="other">%d-week</item>
+    </plurals>
+    <plurals name="activity_center_unread_notification_message">
+        <item quantity="one">%d unread notification</item>
+        <item quantity="other">%d unread notifications</item>
+    </plurals>
+    <plurals name="added_materials_to_folder">
+        <item quantity="one">%1$s item added to %2$s</item>
+        <item quantity="other">%1$s items added to %2$s</item>
+    </plurals>
+    <plurals name="annual_plan_with_free_trial">
+        <item quantity="one">Annual + %1$d-day free trial</item>
+        <item quantity="other">Annual + %1$d-day free trial</item>
+    </plurals>
+    <plurals name="assistant_checkpoint_details_bucket_familiar">
+        <item quantity="other">FAMILIAR</item>
+    </plurals>
+    <plurals name="assistant_checkpoint_details_bucket_familiar_cd">
+        <item quantity="other">%d familiar</item>
+    </plurals>
+    <plurals name="assistant_checkpoint_details_bucket_term">
+        <item quantity="one">TERM</item>
+        <item quantity="other">TERMS</item>
+    </plurals>
+    <plurals name="assistant_checkpoint_details_bucket_term_cd">
+        <item quantity="one">%d term</item>
+        <item quantity="other">%d terms</item>
+    </plurals>
+    <plurals name="classes">
+        <item quantity="one">%s class</item>
+        <item quantity="other">%s classes</item>
+    </plurals>
+    <plurals name="exo_controls_fastforward_by_amount_description">
+        <item quantity="one">Fast forward %d second</item>
+        <item quantity="other">Fast forward %d seconds</item>
+    </plurals>
+    <plurals name="exo_controls_rewind_by_amount_description">
+        <item quantity="one">Rewind %d second</item>
+        <item quantity="other">Rewind %d seconds</item>
+    </plurals>
+    <plurals name="explanations_metering_pill_login_user">
+        <item quantity="one">%1$d free solution viewed of %2$d</item>
+        <item quantity="other">%1$d free solutions viewed of %2$d</item>
+    </plurals>
+    <plurals name="flashcards_next_steps_learn_terms">
+        <item quantity="one">Answer questions about this &lt;b&gt;1 term&lt;/b&gt; to build knowledge.</item>
+        <item quantity="other">Answer questions about these &lt;b&gt;%1$d terms&lt;/b&gt; to build knowledge.</item>
+    </plurals>
+    <plurals name="flashcards_next_steps_restart">
+        <item quantity="one">Study &lt;b&gt;1 term&lt;/b&gt; again from the beginning.</item>
+        <item quantity="other">Study all &lt;b&gt;%1$d terms&lt;/b&gt; again from the beginning.</item>
+    </plurals>
+    <plurals name="flashcards_next_steps_review_terms">
+        <item quantity="one">Review flashcards again for the &lt;b&gt;1 term&lt;/b&gt; you&apos;re still learning.</item>
+        <item quantity="other">Review flashcards again for the &lt;b&gt;%1$d terms&lt;/b&gt; you&apos;re still learning.</item>
+    </plurals>
+    <plurals name="flashcards_summary_learned_terms">
+        <item quantity="one">You just learned 1 term!</item>
+        <item quantity="other">You just learned %d terms!</item>
+    </plurals>
+    <plurals name="flashcards_summary_remaining_terms">
+        <item quantity="one">Keep practicing to master the remaining 1.</item>
+        <item quantity="other">Keep practicing to master the remaining %d.</item>
+    </plurals>
+    <plurals name="focused_learn_exit_dialog_text">
+        <item quantity="one">This %d missed term from your last test will not be saved.</item>
+        <item quantity="other">These %d missed terms from your last test will not be saved.</item>
+    </plurals>
+    <plurals name="focused_learn_keep_practicing">
+        <item quantity="one">Study your %d missed term with a variety of question types until you know it.</item>
+        <item quantity="other">Study your %d missed terms with a variety of question types until you know them.</item>
+    </plurals>
+    <plurals name="folder_items_count">
+        <item quantity="one">%s item</item>
+        <item quantity="other">%s items</item>
+    </plurals>
+    <plurals name="free_num_day_trial">
+        <item quantity="one">free %1$d-day trial</item>
+        <item quantity="other">free %1$d-day trial</item>
+    </plurals>
+    <plurals name="header_free_trial_subheader">
+        <item quantity="one">Free %1$d-day trial</item>
+        <item quantity="other">Free %1$d-day trial</item>
+    </plurals>
+    <plurals name="header_free_trial_today_bullet_info">
+        <item quantity="one">Get Quizlet Plus free for %1$d day.</item>
+        <item quantity="other">Get Quizlet Plus free for %1$d days.</item>
+    </plurals>
+    <plurals name="incorrect_number_of_times">
+        <item quantity="one">INCORRECT 1 TIME</item>
+        <item quantity="other">INCORRECT %d TIMES</item>
+    </plurals>
+    <plurals name="learn_metering_upsell_rounds_remaining_prompt">
+        <item quantity="one">%d free round left for this set</item>
+        <item quantity="other">%d free rounds left for this set</item>
+    </plurals>
+    <plurals name="learn_round_summary_studied_terms">
+        <item quantity="one">%d term studied</item>
+        <item quantity="other">%d terms studied</item>
+    </plurals>
+    <plurals name="learn_summary_num_terms">
+        <item quantity="one">%d term</item>
+        <item quantity="other">%d terms</item>
+    </plurals>
+    <plurals name="magic_notes_characters_error">
+        <item quantity="one">Text must be between %1$d and %2$d character</item>
+        <item quantity="other">Text must be between %1$d and %2$d characters</item>
+    </plurals>
+    <plurals name="magic_notes_not_enough_characters">
+        <item quantity="one">Your upload should have a minimum of %1$d character.</item>
+        <item quantity="other">Your upload should have a minimum of %1$d characters.</item>
+    </plurals>
+    <plurals name="match_challenge_time_header">
+        <item quantity="other">%s seconds</item>
+    </plurals>
+    <plurals name="members">
+        <item quantity="one">%s member</item>
+        <item quantity="other">%s members</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="one">%d new notification</item>
+        <item quantity="other">%d new notifications</item>
+    </plurals>
+    <plurals name="notification_study_reminder_text">
+        <item quantity="other">You&apos;ve got %1$d days left. Let&apos;s go study!</item>
+    </plurals>
+    <plurals name="notification_study_snoozed_reminder_today_text">
+        <item quantity="one">This %1$d term is waiting for you!</item>
+        <item quantity="other">These %1$d terms are waiting for you!</item>
+    </plurals>
+    <plurals name="number_of_questions_correct">
+        <item quantity="one">%d CORRECT</item>
+        <item quantity="other">%d CORRECT</item>
+    </plurals>
+    <plurals name="number_of_questions_incorrect">
+        <item quantity="one">%d INCORRECT</item>
+        <item quantity="other">%d INCORRECT</item>
+    </plurals>
+    <plurals name="or_play_selected_terms">
+        <item quantity="one">Study 1 starred</item>
+        <item quantity="other">Study %d starred</item>
+    </plurals>
+    <plurals name="paywall_get_quizlet_plus_free_trial_button">
+        <item quantity="zero">Get Quizlet Plus</item>
+        <item quantity="one">Start %1$d-day free trial</item>
+        <item quantity="other">Start %1$d-day free trial</item>
+    </plurals>
+    <plurals name="progressType_day">
+        <item quantity="one">Day</item>
+        <item quantity="other">Days</item>
+    </plurals>
+    <plurals name="progressType_week">
+        <item quantity="one">Week</item>
+        <item quantity="other">Weeks</item>
+    </plurals>
+    <plurals name="quizlet_upgrade_button_free_trial_format">
+        <item quantity="one">Try it free for %1$d day</item>
+        <item quantity="other">Try it free for %1$d days</item>
+    </plurals>
+    <plurals name="removed_materials_from_folder">
+        <item quantity="one">%1$s item removed from %2$s</item>
+        <item quantity="other">%1$s items removed from %2$s</item>
+    </plurals>
+    <plurals name="revision_center_countdown_cta">
+        <item quantity="one">You&apos;re %d day away.\nStart studying for the %s now.</item>
+        <item quantity="other">You&apos;re %d days away.\nStart studying for the %s now.</item>
+    </plurals>
+    <plurals name="search_set_filters_apply">
+        <item quantity="one">Apply (%d filter)</item>
+        <item quantity="other">Apply (%d filters)</item>
+    </plurals>
+    <plurals name="set_count">
+        <item quantity="one">1 set</item>
+        <item quantity="other">%d sets</item>
+    </plurals>
+    <plurals name="set_page_study_selected_terms_quantity">
+        <item quantity="one">Study %1$d</item>
+        <item quantity="other">Study %1$d</item>
+    </plurals>
+    <plurals name="set_page_study_selected_terms_quantity_description">
+        <item quantity="one">Study %1$d selected term</item>
+        <item quantity="other">Study %1$d selected terms</item>
+    </plurals>
+    <plurals name="sets_added_to_class_message">
+        <item quantity="one">%d set has been moved</item>
+        <item quantity="other">%d sets have been moved</item>
+    </plurals>
+    <plurals name="sets_added_to_folder_message">
+        <item quantity="one">%d set has been moved</item>
+        <item quantity="other">%d sets have been moved</item>
+    </plurals>
+    <plurals name="share_message_match_A">
+        <item quantity="other">Me %1$s You. Try to beat my time of %2$.1f seconds for %3$s on Quizlet. Prepare to battle: %4$s</item>
+    </plurals>
+    <plurals name="solutions">
+        <item quantity="one">%s solution</item>
+        <item quantity="other">%s solutions</item>
+    </plurals>
+    <plurals name="studiers_in_n_days">
+        <item quantity="one">%1$d studier in 3 days</item>
+        <item quantity="other">%1$d studiers in 3 days</item>
+    </plurals>
+    <plurals name="studiers_now">
+        <item quantity="one">%s studier now</item>
+        <item quantity="other">%s studiers now</item>
+    </plurals>
+    <plurals name="studiers_recently">
+        <item quantity="one">%s studier recently</item>
+        <item quantity="other">%s studiers recently</item>
+    </plurals>
+    <plurals name="studiers_today">
+        <item quantity="one">%s studier today</item>
+        <item quantity="other">%s studiers today</item>
+    </plurals>
+    <plurals name="study_selected_terms">
+        <item quantity="one">Study 1 starred</item>
+        <item quantity="other">Study %d starred</item>
+    </plurals>
+    <plurals name="study_set_description">
+        <item quantity="one">%1$s set, created by %2$s, with %3$d term</item>
+        <item quantity="other">%1$s set, created by %2$s, with %3$d terms</item>
+    </plurals>
+    <plurals name="study_set_description_no_creator">
+        <item quantity="one">%1$s set, with %2$d term</item>
+        <item quantity="other">%1$s set, with %2$d terms</item>
+    </plurals>
+    <plurals name="study_sets">
+        <item quantity="one">%s flashcard set</item>
+        <item quantity="other">%s flashcard sets</item>
+    </plurals>
+    <plurals name="task_summary_view_progress">
+        <item quantity="one">%1$d/%2$d term</item>
+        <item quantity="other">%1$d/%2$d terms</item>
+    </plurals>
+    <plurals name="term_search_view_all_button">
+        <item quantity="one">View %d term</item>
+        <item quantity="other">View all %d terms</item>
+    </plurals>
+    <plurals name="terms">
+        <item quantity="one">1 term</item>
+        <item quantity="other">%d terms</item>
+    </plurals>
+    <plurals name="terms_progress_most_recent">
+        <item quantity="one">%d/%d term</item>
+        <item quantity="other">%d/%d terms</item>
+    </plurals>
+    <plurals name="test_next_action_practice_missed_terms_title">
+        <item quantity="one">Practice %d missed term</item>
+        <item quantity="other">Practice %d missed terms</item>
+    </plurals>
+    <plurals name="timeline_annual_with_free_trial_first_task_info">
+        <item quantity="one">Get Quizlet Plus free for %1$d day with the annual plan.</item>
+        <item quantity="other">Get Quizlet Plus free for %1$d days with the annual plan.</item>
+    </plurals>
+    <plurals name="updated_materials_to_folder">
+        <item quantity="one">Updated %1$s item in %2$s</item>
+        <item quantity="other">Updated %1$s items in %2$s</item>
+    </plurals>
+    <plurals name="uuf_paste_text_minimum_character_text">
+        <item quantity="one">Text must be at least %1$s character</item>
+        <item quantity="other">Text must be at least %1$s characters</item>
+    </plurals>
+    <plurals name="uuf_remaining_tests_upload_message">
+        <item quantity="one">%d practice test left to generate for free</item>
+        <item quantity="other">%d practice tests left to generate for free</item>
+    </plurals>
+    <plurals name="verified_solutions">
+        <item quantity="one">%s verified solution</item>
+        <item quantity="other">%s verified solutions</item>
+    </plurals>
+</resources>

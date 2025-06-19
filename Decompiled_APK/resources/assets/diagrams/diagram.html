@@ -1,0 +1,39 @@
+<html class="native-webview android">
+<head>
+    <meta name="viewport" content="initial-scale=1.0" />
+    <script type="text/javascript">
+        window.webkit = {
+            messageHandlers: {
+                diagram: {
+                    postMessage: function(message) {
+                        if (message.type == 'DIAGRAM_ACTION_TYPES.CLICK_DIAGRAM_SHAPE') {
+                            _diagram.onTermClick(message.payload.termId, message.payload.isSelected)
+                        } else if (message.type == 'DIAGRAM_ACTION_TYPES.CLICK_DIAGRAM') {
+                            _diagram.onClick()
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+    <script type="text/javascript" src="diagrams/Diagram.js"></script>
+    <script>
+      // window.Rollbar is bound by diagrams/Diagram.js
+      window.Rollbar.configure({
+        payload: {
+         context: 'android#diagrams',
+         environment: 'android-native'
+        }
+      });
+    </script>
+    <style>
+        * { -webkit-tap-highlight-color: rgba(0, 0, 0, 0); }
+        body { margin: 0; padding: 0; }
+    </style>
+    <link rel="stylesheet" href="diagrams/diagrams.css"/>
+</head>
+<body>
+    <div id="Target"></div>
+    <script type="text/javascript">%s</script>
+</body>
+</html>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.quizlet.partskit.widgets.QTextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:gravity="center_vertical"
+    android:id="@+id/language_dialog_item_text"
+    android:paddingLeft="@dimen/dialog_content_margin"
+    android:paddingRight="@dimen/dialog_content_margin"
+    android:layout_width="match_parent"
+    android:layout_height="48dp"
+    android:selectAllOnFocus="false"
+    style="@style/Body.B3"/>

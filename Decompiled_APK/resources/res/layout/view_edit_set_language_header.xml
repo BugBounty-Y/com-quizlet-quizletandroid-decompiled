@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <View
+        android:id="@+id/edit_set_language_gap"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/quizlet_edge_margin"/>
+    <com.quizlet.partskit.widgets.QTextView
+        android:textColor="?attr/textColorDisabled"
+        android:id="@+id/edit_set_language_header"
+        android:background="?attr/SysColorCard"
+        android:paddingLeft="@dimen/quizlet_edge_margin"
+        android:paddingTop="@dimen/quizlet_edge_margin"
+        android:paddingRight="@dimen/quizlet_edge_margin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/SubHeader.S5"/>
+</LinearLayout>

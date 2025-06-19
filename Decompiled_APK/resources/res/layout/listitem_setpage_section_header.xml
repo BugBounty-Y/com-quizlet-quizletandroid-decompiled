@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:paddingLeft="@dimen/quizlet_edge_margin"
+    android:paddingRight="@dimen/quizlet_edge_margin"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingStart="@dimen/quizlet_edge_margin"
+    android:paddingEnd="@dimen/quizlet_edge_margin">
+    <com.quizlet.partskit.widgets.QTextView
+        android:id="@+id/header_text_view"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        style="@style/Header.H5"/>
+    <LinearLayout
+        android:layout_gravity="center"
+        android:orientation="horizontal"
+        android:id="@+id/sort_container"
+        android:background="?attr/selectableItemBackgroundBorderless"
+        android:focusable="true"
+        android:clickable="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <com.quizlet.partskit.widgets.QTextView
+            android:textColor="?attr/textColorSecondary"
+            android:id="@+id/sort_option_text_View"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/alphabetical_sort"
+            android:layout_marginEnd="@dimen/quizlet_edge_margin_half"
+            style="@style/SubHeader.S3"/>
+        <ImageView
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_sys_filter"
+            android:contentDescription="@string/sort"
+            app:tint="?attr/textColorSecondary"/>
+    </LinearLayout>
+</LinearLayout>

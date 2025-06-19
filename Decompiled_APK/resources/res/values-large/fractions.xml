@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <fraction name="explanations_metering_subscribe_button_width">0.4</fraction>
+    <fraction name="study_preview_height_to_width_percent">50%</fraction>
+    <fraction name="study_preview_width_percent">60%</fraction>
+</resources>

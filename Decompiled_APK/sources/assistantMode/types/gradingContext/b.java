@@ -1,0 +1,24 @@
+package assistantMode.types.gradingContext;
+
+import assistantMode.types.v;
+
+/* loaded from: classes.dex */
+public final class b extends kotlin.coroutines.jvm.internal.c {
+    public v j;
+    public /* synthetic */ Object k;
+    public final /* synthetic */ c l;
+    public int m;
+
+    /* JADX WARN: 'super' call moved to the top of the method (can break code semantics) */
+    public b(c cVar, kotlin.coroutines.jvm.internal.c cVar2) {
+        super(cVar2);
+        this.l = cVar;
+    }
+
+    @Override // kotlin.coroutines.jvm.internal.a
+    public final Object invokeSuspend(Object obj) {
+        this.k = obj;
+        this.m |= Integer.MIN_VALUE;
+        return this.l.a(null, null, this);
+    }
+}

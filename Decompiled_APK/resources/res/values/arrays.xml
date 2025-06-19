@@ -1,0 +1,431 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="all_languages_all_caps_array">
+        <item>AFRIKAANS</item>
+        <item>AKAN</item>
+        <item>AKKADIAN</item>
+        <item>ALBANIAN</item>
+        <item>AMERICAN SIGN LANGUAGE</item>
+        <item>AMHARIC</item>
+        <item>ANGLO-SAXON</item>
+        <item>ARABIC</item>
+        <item>ARMENIAN</item>
+        <item>AZERBAIJANI</item>
+        <item>BASQUE</item>
+        <item>BELARUSIAN</item>
+        <item>BENGALI</item>
+        <item>BIHARI</item>
+        <item>BOSNIAN</item>
+        <item>BULGARIAN</item>
+        <item>BRETON</item>
+        <item>BURMESE</item>
+        <item>CATALAN</item>
+        <item>CEBUANO</item>
+        <item>CHAMORRO</item>
+        <item>CHEMISTRY</item>
+        <item>CHEROKEE</item>
+        <item>CHINESE (SIMPLIFIED)</item>
+        <item>CHINESE (PINYIN)</item>
+        <item>CHINESE (TRADITIONAL)</item>
+        <item>CORSICAN</item>
+        <item>CHOCTAW</item>
+        <item>COPTIC</item>
+        <item>CROATIAN</item>
+        <item>CZECH</item>
+        <item>DANISH</item>
+        <item>DENE</item>
+        <item>DHIVEHI</item>
+        <item>DHOLUO</item>
+        <item>DUTCH</item>
+        <item>ENGLISH</item>
+        <item>ESPERANTO</item>
+        <item>ESTONIAN</item>
+        <item>FAROESE</item>
+        <item>FINNISH</item>
+        <item>JOLA-FONYI</item>
+        <item>FRENCH</item>
+        <item>FULA</item>
+        <item>GAELIC</item>
+        <item>GALICIAN</item>
+        <item>GEORGIAN</item>
+        <item>GERMAN</item>
+        <item>GOTHIC</item>
+        <item>GREEK</item>
+        <item>GUARANI</item>
+        <item>GUJARATI</item>
+        <item>HAIDA</item>
+        <item>HAITIAN CREOLE</item>
+        <item>HAUSA</item>
+        <item>HAWAIIAN</item>
+        <item>HEBREW</item>
+        <item>HINDI</item>
+        <item>HMONG</item>
+        <item>HUNGARIAN</item>
+        <item>ICELANDIC</item>
+        <item>IGBO</item>
+        <item>ILONGGO</item>
+        <item>INDONESIAN</item>
+        <item>INUKTITUT</item>
+        <item>IRISH</item>
+        <item>ITALIAN</item>
+        <item>JAPANESE</item>
+        <item>JAPANESE (ROMAJI)</item>
+        <item>JAPANESE (KANA)</item>
+        <item>JAVANESE</item>
+        <item>KIKONGO</item>
+        <item>KINYARWANDA</item>
+        <item>KIOWA</item>
+        <item>KANNADA</item>
+        <item>KAZAKH</item>
+        <item>KHMER</item>
+        <item>KOREAN</item>
+        <item>SGAW KAREN</item>
+        <item>KURDISH</item>
+        <item>KYRGYZ</item>
+        <item>LAKOTA</item>
+        <item>LAO</item>
+        <item>LATIN</item>
+        <item>LATVIAN</item>
+        <item>LENAPE</item>
+        <item>LINGALA</item>
+        <item>LITHUANIAN</item>
+        <item>LUBA-KASAI</item>
+        <item>LUXEMBOURGISH</item>
+        <item>MACEDONIAN</item>
+        <item>MALAY</item>
+        <item>MALAGASY</item>
+        <item>MALAYALAM</item>
+        <item>MALTESE</item>
+        <item>MAORI</item>
+        <item>MAORI (COOK ISLANDS)</item>
+        <item>MARATHI</item>
+        <item>MARSHALLESE</item>
+        <item>MATH / SYMBOLS</item>
+        <item>MOHAWK</item>
+        <item>MONGOLIAN</item>
+        <item>NAHUATL</item>
+        <item>NAVAJO</item>
+        <item>NEPALI</item>
+        <item>NORWEGIAN</item>
+        <item>OCCITAN</item>
+        <item>ORIYA</item>
+        <item>OROMO</item>
+        <item>OJIBWE</item>
+        <item>PĀLI</item>
+        <item>PASHTO</item>
+        <item>PERSIAN</item>
+        <item>PHOTOS</item>
+        <item>FILIPINO</item>
+        <item>POLISH</item>
+        <item>PORTUGUESE</item>
+        <item>PUNJABI</item>
+        <item>QUECHUA</item>
+        <item>ROMANIAN</item>
+        <item>ROMANSH</item>
+        <item>RUSSIAN</item>
+        <item>SANSKRIT</item>
+        <item>SENECA</item>
+        <item>SERBIAN</item>
+        <item>SHAN</item>
+        <item>SINDHI</item>
+        <item>SINHALESE</item>
+        <item>SLOVAK</item>
+        <item>SLOVENIAN</item>
+        <item>SOMALI</item>
+        <item>SPANISH</item>
+        <item>SUNDANESE</item>
+        <item>SWAHILI</item>
+        <item>SWEDISH</item>
+        <item>SYRIAC</item>
+        <item>TAGALOG</item>
+        <item>TAJIK</item>
+        <item>TAMIL</item>
+        <item>TATAR</item>
+        <item>TELUGU</item>
+        <item>TETUM</item>
+        <item>THAI</item>
+        <item>TIBETAN</item>
+        <item>TIGRINYA</item>
+        <item>TONGA</item>
+        <item>TOHONO O\'ODHAM</item>
+        <item>TURKISH</item>
+        <item>TUVAN</item>
+        <item>UKRAINIAN</item>
+        <item>URDU</item>
+        <item>UZBEK</item>
+        <item>UIGHUR</item>
+        <item>VIETNAMESE</item>
+        <item>WELSH</item>
+        <item>WESTERN FRISIAN</item>
+        <item>WINNEBAGO</item>
+        <item>WOLOF</item>
+        <item>XHOSA</item>
+        <item>YIDDISH</item>
+        <item>YORUBA</item>
+        <item>ZULU</item>
+        <item>OTHER / UNKNOWN</item>
+    </array>
+    <array name="all_languages_array">
+        <item>Afrikaans</item>
+        <item>Akan</item>
+        <item>Akkadian</item>
+        <item>Albanian</item>
+        <item>American Sign Language</item>
+        <item>Amharic</item>
+        <item>Anglo-Saxon</item>
+        <item>Arabic</item>
+        <item>Armenian</item>
+        <item>Azerbaijani</item>
+        <item>Basque</item>
+        <item>Belarusian</item>
+        <item>Bengali</item>
+        <item>Bihari</item>
+        <item>Bosnian</item>
+        <item>Bulgarian</item>
+        <item>Breton</item>
+        <item>Burmese</item>
+        <item>Catalan</item>
+        <item>Cebuano</item>
+        <item>Chamorro</item>
+        <item>Chemistry</item>
+        <item>Cherokee</item>
+        <item>Chinese (Simplified)</item>
+        <item>Chinese (Pinyin)</item>
+        <item>Chinese (Traditional)</item>
+        <item>Corsican</item>
+        <item>Choctaw</item>
+        <item>Coptic</item>
+        <item>Croatian</item>
+        <item>Czech</item>
+        <item>Danish</item>
+        <item>Dene</item>
+        <item>Dhivehi</item>
+        <item>Dholuo</item>
+        <item>Dutch</item>
+        <item>English</item>
+        <item>Esperanto</item>
+        <item>Estonian</item>
+        <item>Faroese</item>
+        <item>Finnish</item>
+        <item>Jola-Fonyi</item>
+        <item>French</item>
+        <item>Fula</item>
+        <item>Gaelic</item>
+        <item>Galician</item>
+        <item>Georgian</item>
+        <item>German</item>
+        <item>Gothic</item>
+        <item>Greek</item>
+        <item>Guarani</item>
+        <item>Gujarati</item>
+        <item>Haida</item>
+        <item>Haitian Creole</item>
+        <item>Hausa</item>
+        <item>Hawaiian</item>
+        <item>Hebrew</item>
+        <item>Hindi</item>
+        <item>Hmong</item>
+        <item>Hungarian</item>
+        <item>Icelandic</item>
+        <item>Igbo</item>
+        <item>Ilonggo</item>
+        <item>Indonesian</item>
+        <item>Inuktitut</item>
+        <item>Irish</item>
+        <item>Italian</item>
+        <item>Japanese</item>
+        <item>Japanese (Romaji)</item>
+        <item>Japanese (Kana)</item>
+        <item>Javanese</item>
+        <item>KiKongo</item>
+        <item>Kinyarwanda</item>
+        <item>Kiowa</item>
+        <item>Kannada</item>
+        <item>Kazakh</item>
+        <item>Khmer</item>
+        <item>Korean</item>
+        <item>Sgaw Karen</item>
+        <item>Kurdish</item>
+        <item>Kyrgyz</item>
+        <item>Lakota</item>
+        <item>Lao</item>
+        <item>Latin</item>
+        <item>Latvian</item>
+        <item>Lenape</item>
+        <item>Lingala</item>
+        <item>Lithuanian</item>
+        <item>Luba-Kasai</item>
+        <item>Luxembourgish</item>
+        <item>Macedonian</item>
+        <item>Malay</item>
+        <item>Malagasy</item>
+        <item>Malayalam</item>
+        <item>Maltese</item>
+        <item>Maori</item>
+        <item>Maori (Cook Islands)</item>
+        <item>Marathi</item>
+        <item>Marshallese</item>
+        <item>Math / Symbols</item>
+        <item>Mohawk</item>
+        <item>Mongolian</item>
+        <item>Nahuatl</item>
+        <item>Navajo</item>
+        <item>Nepali</item>
+        <item>Norwegian</item>
+        <item>Occitan</item>
+        <item>Oriya</item>
+        <item>Oromo</item>
+        <item>Ojibwe</item>
+        <item>Pāli</item>
+        <item>Pashto</item>
+        <item>Persian</item>
+        <item>Photos</item>
+        <item>Filipino</item>
+        <item>Polish</item>
+        <item>Portuguese</item>
+        <item>Punjabi</item>
+        <item>Quechua</item>
+        <item>Romanian</item>
+        <item>Romansh</item>
+        <item>Russian</item>
+        <item>Sanskrit</item>
+        <item>Seneca</item>
+        <item>Serbian</item>
+        <item>Shan</item>
+        <item>Sindhi</item>
+        <item>Sinhalese</item>
+        <item>Slovak</item>
+        <item>Slovenian</item>
+        <item>Somali</item>
+        <item>Spanish</item>
+        <item>Sundanese</item>
+        <item>Swahili</item>
+        <item>Swedish</item>
+        <item>Syriac</item>
+        <item>Tagalog</item>
+        <item>Tajik</item>
+        <item>Tamil</item>
+        <item>Tatar</item>
+        <item>Telugu</item>
+        <item>Tetum</item>
+        <item>Thai</item>
+        <item>Tibetan</item>
+        <item>Tigrinya</item>
+        <item>Tonga</item>
+        <item>Tohono O\'odham</item>
+        <item>Turkish</item>
+        <item>Tuvan</item>
+        <item>Ukrainian</item>
+        <item>Urdu</item>
+        <item>Uzbek</item>
+        <item>Uighur</item>
+        <item>Vietnamese</item>
+        <item>Welsh</item>
+        <item>Western Frisian</item>
+        <item>Winnebago</item>
+        <item>Wolof</item>
+        <item>Xhosa</item>
+        <item>Yiddish</item>
+        <item>Yoruba</item>
+        <item>Zulu</item>
+        <item>Other / Unknown</item>
+    </array>
+    <array name="assume_strong_biometrics_models">
+        <item>Pixel 4</item>
+        <item>Pixel 4 XL</item>
+    </array>
+    <array name="com_google_android_gms_fonts_certs">
+        <item>@array/com_google_android_gms_fonts_certs_dev</item>
+        <item>@array/com_google_android_gms_fonts_certs_prod</item>
+    </array>
+    <array name="com_google_android_gms_fonts_certs_dev">
+        <item>MIIEqDCCA5CgAwIBAgIJANWFuGx90071MA0GCSqGSIb3DQEBBAUAMIGUMQswCQYDVQQGEwJVUzETMBEGA1UECBMKQ2FsaWZvcm5pYTEWMBQGA1UEBxMNTW91bnRhaW4gVmlldzEQMA4GA1UEChMHQW5kcm9pZDEQMA4GA1UECxMHQW5kcm9pZDEQMA4GA1UEAxMHQW5kcm9pZDEiMCAGCSqGSIb3DQEJARYTYW5kcm9pZEBhbmRyb2lkLmNvbTAeFw0wODA0MTUyMzM2NTZaFw0zNTA5MDEyMzM2NTZaMIGUMQswCQYDVQQGEwJVUzETMBEGA1UECBMKQ2FsaWZvcm5pYTEWMBQGA1UEBxMNTW91bnRhaW4gVmlldzEQMA4GA1UEChMHQW5kcm9pZDEQMA4GA1UECxMHQW5kcm9pZDEQMA4GA1UEAxMHQW5kcm9pZDEiMCAGCSqGSIb3DQEJARYTYW5kcm9pZEBhbmRyb2lkLmNvbTCCASAwDQYJKoZIhvcNAQEBBQADggENADCCAQgCggEBANbOLggKv+IxTdGNs8/TGFy0PTP6DHThvbbR24kT9ixcOd9W+EaBPWW+wPPKQmsHxajtWjmQwWfna8mZuSeJS48LIgAZlKkpFeVyxW0qMBujb8X8ETrWy550NaFtI6t9+u7hZeTfHwqNvacKhp1RbE6dBRGWynwMVX8XW8N1+UjFaq6GCJukT4qmpN2afb8sCjUigq0GuMwYXrFVee74bQgLHWGJwPmvmLHC69EH6kWr22ijx4OKXlSIx2xT1AsSHee70w5iDBiK4aph27yH3TxkXy9V89TDdexAcKk/cVHYNnDBapcavl7y0RiQ4biu8ymM8Ga/nmzhRKya6G0cGw8CAQOjgfwwgfkwHQYDVR0OBBYEFI0cxb6VTEM8YYY6FbBMvAPyT+CyMIHJBgNVHSMEgcEwgb6AFI0cxb6VTEM8YYY6FbBMvAPyT+CyoYGapIGXMIGUMQswCQYDVQQGEwJVUzETMBEGA1UECBMKQ2FsaWZvcm5pYTEWMBQGA1UEBxMNTW91bnRhaW4gVmlldzEQMA4GA1UEChMHQW5kcm9pZDEQMA4GA1UECxMHQW5kcm9pZDEQMA4GA1UEAxMHQW5kcm9pZDEiMCAGCSqGSIb3DQEJARYTYW5kcm9pZEBhbmRyb2lkLmNvbYIJANWFuGx90071MAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQEEBQADggEBABnTDPEF+3iSP0wNfdIjIz1AlnrPzgAIHVvXxunW7SBrDhEglQZBbKJEk5kT0mtKoOD1JMrSu1xuTKEBahWRbqHsXclaXjoBADb0kkjVEJu/Lh5hgYZnOjvlba8Ld7HCKePCVePoTJBdI4fvugnL8TsgK05aIskyY0hKI9L8KfqfGTl1lzOv2KoWD0KWwtAWPoGChZxmQ+nBli+gwYMzM1vAkP+aayLe0a1EQimlOalO762r0GXO0ks+UeXde2Z4e+8S/pf7pITEI/tP+MxJTALw9QUWEv9lKTk+jkbqxbsh8nfBUapfKqYn0eidpwq2AzVp3juYl7//fKnaPhJD9gs=</item>
+    </array>
+    <array name="com_google_android_gms_fonts_certs_prod">
+        <item>MIIEQzCCAyugAwIBAgIJAMLgh0ZkSjCNMA0GCSqGSIb3DQEBBAUAMHQxCzAJBgNVBAYTAlVTMRMwEQYDVQQIEwpDYWxpZm9ybmlhMRYwFAYDVQQHEw1Nb3VudGFpbiBWaWV3MRQwEgYDVQQKEwtHb29nbGUgSW5jLjEQMA4GA1UECxMHQW5kcm9pZDEQMA4GA1UEAxMHQW5kcm9pZDAeFw0wODA4MjEyMzEzMzRaFw0zNjAxMDcyMzEzMzRaMHQxCzAJBgNVBAYTAlVTMRMwEQYDVQQIEwpDYWxpZm9ybmlhMRYwFAYDVQQHEw1Nb3VudGFpbiBWaWV3MRQwEgYDVQQKEwtHb29nbGUgSW5jLjEQMA4GA1UECxMHQW5kcm9pZDEQMA4GA1UEAxMHQW5kcm9pZDCCASAwDQYJKoZIhvcNAQEBBQADggENADCCAQgCggEBAKtWLgDYO6IIrgqWbxJOKdoR8qtW0I9Y4sypEwPpt1TTcvZApxsdyxMJZ2JORland2qSGT2y5b+3JKkedxiLDmpHpDsz2WCbdxgxRczfey5YZnTJ4VZbH0xqWVW/8lGmPav5xVwnIiJS6HXk+BVKZF+JcWjAsb/GEuq/eFdpuzSqeYTcfi6idkyugwfYwXFU1+5fZKUaRKYCwkkFQVfcAs1fXA5V+++FGfvjJ/CxURaSxaBvGdGDhfXE28LWuT9ozCl5xw4Yq5OGazvV24mZVSoOO0yZ31j7kYvtwYK6NeADwbSxDdJEqO4k//0zOHKrUiGYXtqw/A0LFFtqoZKFjnkCAQOjgdkwgdYwHQYDVR0OBBYEFMd9jMIhF1Ylmn/Tgt9r45jk14alMIGmBgNVHSMEgZ4wgZuAFMd9jMIhF1Ylmn/Tgt9r45jk14aloXikdjB0MQswCQYDVQQGEwJVUzETMBEGA1UECBMKQ2FsaWZvcm5pYTEWMBQGA1UEBxMNTW91bnRhaW4gVmlldzEUMBIGA1UEChMLR29vZ2xlIEluYy4xEDAOBgNVBAsTB0FuZHJvaWQxEDAOBgNVBAMTB0FuZHJvaWSCCQDC4IdGZEowjTAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBBAUAA4IBAQBt0lLO74UwLDYKqs6Tm8/yzKkEu116FmH4rkaymUIE0P9KaMftGlMexFlaYjzmB2OxZyl6euNXEsQH8gjwyxCUKRJNexBiGcCEyj6z+a1fuHHvkiaai+KL8W1EyNmgjmyy8AW7P+LLlkR+ho5zEHatRbM/YAnqGcFh5iZBqpknHf1SKMXFh4dd239FJ1jWYfbMDMy3NS5CTMQ2XFI1MvcyUTdZPErjQfTbQe3aDQsQcafEQPD+nqActifKZ0Np0IS9L9kR/wbNvyz6ENwPiTrjV2KRkEjH78ZMcUQXg0L3BYHJ3lc69Vs5Ddf9uUGGMYldX3WfMBEmh/9iFBDAaTCK</item>
+    </array>
+    <array name="crypto_fingerprint_fallback_prefixes">
+    </array>
+    <array name="crypto_fingerprint_fallback_vendors">
+        <item>samsung</item>
+    </array>
+    <array name="delay_showing_prompt_models">
+        <item>Pixel 4</item>
+        <item>Pixel 4 XL</item>
+    </array>
+    <array name="display_labels_array">
+        <item>A while ago</item>
+        <item>Earlier this month</item>
+        <item>Last week</item>
+        <item>This week</item>
+        <item>Today</item>
+        <item>A few minutes ago</item>
+        <item>A few seconds ago</item>
+        <item>In progress</item>
+    </array>
+    <array name="engagement_widget_quote_active_streak">
+        <item>You\'ve got this!</item>
+        <item>Don\'t forget to hydrate.</item>
+        <item>Keep it up!</item>
+    </array>
+    <array name="exo_playback_speeds">
+        <item>0.25x</item>
+        <item>0.5x</item>
+        <item>0.75x</item>
+        <item>@string/exo_controls_playback_speed_normal</item>
+        <item>1.25x</item>
+        <item>1.5x</item>
+        <item>2x</item>
+    </array>
+    <array name="exo_speed_multiplied_by_100">
+        <item>25</item>
+        <item>50</item>
+        <item>75</item>
+        <item>100</item>
+        <item>125</item>
+        <item>150</item>
+        <item>200</item>
+    </array>
+    <array name="explanation_solution_tab_title">
+        <item>Solution A</item>
+        <item>Solution B</item>
+        <item>Solution C</item>
+        <item>Solution D</item>
+        <item>Solution E</item>
+        <item>Solution F</item>
+        <item>Solution G</item>
+        <item>Solution H</item>
+        <item>Solution I</item>
+        <item>Solution J</item>
+    </array>
+    <array name="hide_fingerprint_instantly_prefixes">
+        <item>SM-A50</item>
+        <item>SM-G973</item>
+        <item>SM-G975</item>
+        <item>SM-G977</item>
+        <item>SM-G770</item>
+        <item>SM-N970</item>
+        <item>SM-N971</item>
+        <item>SM-N975</item>
+        <item>SM-N976</item>
+        <item>SM-N770</item>
+        <item>SC-03L</item>
+        <item>SC-04L</item>
+        <item>SC-05L</item>
+        <item>SC-01M</item>
+        <item>SCV41</item>
+        <item>SCV42</item>
+        <item>SCV45</item>
+    </array>
+    <array name="interstitial_banner_ad_size">
+        <item>300</item>
+        <item>250</item>
+    </array>
+    <array name="learn_round_summary_motivational_headers">
+        <item>You\'ve got this, keep going.</item>
+        <item>Going strong, you can do this.</item>
+        <item>Great job, you\'re making progress.</item>
+        <item>Nice work, you\'re crushing it.</item>
+        <item>Keep up the good work!</item>
+    </array>
+</resources>

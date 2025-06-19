@@ -1,0 +1,77 @@
+package com.fasterxml.jackson.core.internal.shaded.fdp.v2_19_0;
+
+import com.skydoves.balloon.internals.DefinitionKt;
+
+/* loaded from: classes.dex */
+abstract class FastFloatMath {
+    private static final float[] FLOAT_POWER_OF_TEN = {1.0f, 10.0f, 100.0f, 1000.0f, 10000.0f, 100000.0f, 1000000.0f, 1.0E7f, 1.0E8f, 1.0E9f, 1.0E10f};
+
+    public static float fastScalb(float f, int i) {
+        return Float.intBitsToFloat((i + 127) << 23) * f;
+    }
+
+    public static float tryDecFloatToFloatTruncated(boolean z, long j, int i, boolean z2, int i2) {
+        if (j == 0) {
+            if (z) {
+                return -0.0f;
+            }
+            return DefinitionKt.NO_Float_VALUE;
+        }
+        if (!z2) {
+            if (-45 > i || i > 38) {
+                return Float.NaN;
+            }
+            return tryDecToFloatWithFastAlgorithm(z, j, i);
+        }
+        if (-45 <= i2 && i2 <= 38) {
+            float fTryDecToFloatWithFastAlgorithm = tryDecToFloatWithFastAlgorithm(z, j, i2);
+            float fTryDecToFloatWithFastAlgorithm2 = tryDecToFloatWithFastAlgorithm(z, j + 1, i2);
+            if (!Float.isNaN(fTryDecToFloatWithFastAlgorithm) && fTryDecToFloatWithFastAlgorithm2 == fTryDecToFloatWithFastAlgorithm) {
+                return fTryDecToFloatWithFastAlgorithm;
+            }
+        }
+        return Float.NaN;
+    }
+
+    public static float tryDecToFloatWithFastAlgorithm(boolean z, long j, int i) {
+        if (-10 <= i && i <= 10 && Long.compareUnsigned(j, 16777215L) <= 0) {
+            float f = j;
+            float f2 = i < 0 ? f / FLOAT_POWER_OF_TEN[-i] : f * FLOAT_POWER_OF_TEN[i];
+            return z ? -f2 : f2;
+        }
+        long j2 = FastDoubleMath.MANTISSA_64[i + 325];
+        long j3 = ((i * 217706) >> 16) + 191;
+        int iNumberOfLeadingZeros = Long.numberOfLeadingZeros(j);
+        long jUnsignedMultiplyHigh = FastIntegerMath.unsignedMultiplyHigh(j << iNumberOfLeadingZeros, j2);
+        long j4 = jUnsignedMultiplyHigh >>> 63;
+        long j5 = jUnsignedMultiplyHigh >>> ((int) (38 + j4));
+        int i2 = iNumberOfLeadingZeros + ((int) (j4 ^ 1));
+        long j6 = jUnsignedMultiplyHigh & 274877906943L;
+        if (j6 != 274877906943L) {
+            if (j6 != 0 || (3 & j5) != 1) {
+                long j7 = (j5 + 1) >>> 1;
+                if (j7 >= 16777216) {
+                    i2--;
+                    j7 = 8388608;
+                }
+                long j8 = j7 & (-8388609);
+                long j9 = j3 - i2;
+                if (j9 >= 1 && j9 <= 254) {
+                    return Float.intBitsToFloat((int) (j8 | (j9 << 23) | (z ? 2147483648L : 0L)));
+                }
+            }
+        }
+        return Float.NaN;
+    }
+
+    public static float tryHexFloatToFloatTruncated(boolean z, long j, int i, boolean z2, int i2) {
+        if (z2) {
+            i = i2;
+        }
+        if (-126 > i || i > 127) {
+            return Float.NaN;
+        }
+        float fFastScalb = fastScalb(j + (j < 0 ? 1.8446744E19f : DefinitionKt.NO_Float_VALUE), i);
+        return z ? -fFastScalb : fFastScalb;
+    }
+}

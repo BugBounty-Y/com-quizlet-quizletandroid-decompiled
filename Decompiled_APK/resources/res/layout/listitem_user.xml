@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="@dimen/ref_spacing_xsmall"
+    android:layout_marginStart="@dimen/quizlet_edge_margin"
+    android:layout_marginEnd="@dimen/quizlet_edge_margin"
+    app:cardCornerRadius="@dimen/ref_radius_medium"
+    app:cardElevation="@dimen/nav2_listitem_cardElevation">
+    <LinearLayout
+        android:orientation="vertical"
+        android:id="@+id/listitem_user_card"
+        android:background="?attr/SysColorCard"
+        android:paddingTop="@dimen/listitem_edge_margin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:foreground="?android:attr/selectableItemBackground">
+        <com.quizlet.features.infra.legacyadapter.common.UserListTitleView
+            android:gravity="center_vertical"
+            android:id="@+id/user_details_list_item"
+            android:paddingLeft="@dimen/listitem_edge_margin"
+            android:paddingRight="@dimen/listitem_edge_margin"
+            android:paddingBottom="@dimen/listitem_edge_margin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:isLargeView="true"/>
+        <com.quizlet.features.infra.legacyadapter.common.ListitemPressIndicatorLine
+            android:duplicateParentState="true"
+            android:layout_width="match_parent"
+            android:layout_height="4dp"/>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

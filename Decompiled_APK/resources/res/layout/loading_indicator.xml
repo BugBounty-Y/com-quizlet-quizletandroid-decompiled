@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+    <ProgressBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:indeterminate="true"
+        android:indeterminateTint="?attr/colorAccent"
+        style="?android:attr/progressBarStyleLargeInverse"/>
+    <com.quizlet.partskit.widgets.QTextView
+        android:textColor="?android:attr/textColorPrimary"
+        android:id="@+id/loading_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:text="@string/loading_with_ellipsis"
+        style="@style/Body.B3"/>
+</merge>

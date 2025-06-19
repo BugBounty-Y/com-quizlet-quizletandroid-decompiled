@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:textColor="?attr/SysColorTextSecondary"
+    android:background="?attr/SysColorBackground"
+    android:padding="@dimen/ref_spacing_small"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    style="@style/SubHeader.S4"/>

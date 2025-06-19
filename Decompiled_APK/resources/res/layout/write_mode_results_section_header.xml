@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <com.quizlet.partskit.widgets.QTextView
+        android:id="@+id/write_mode_results_section_header_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="@dimen/text_margin"
+        style="@style/SubHeader.S5"/>
+    <com.quizlet.partskit.widgets.icon.QStarIconView
+        android:textSize="@dimen/quizlet_icon_font_size"
+        android:textColor="?android:attr/textColorPrimary"
+        android:id="@+id/write_mode_results_section_header_star"
+        android:visibility="invisible"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:contentDescription="@string/icon_label_star"
+        android:layout_marginEnd="@dimen/text_margin"
+        android:layout_alignParentEnd="true"/>
+</RelativeLayout>

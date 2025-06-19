@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="?attr/SysColorCard"
+    android:padding="@dimen/quizlet_edge_margin"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/quizlet_edge_margin">
+    <com.quizlet.partskit.widgets.QTextView
+        android:id="@+id/view_rateus_promo_question"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/rateus_promo_initial_question_text"
+        style="@style/Header.H3"/>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/quizlet_edge_margin">
+        <com.quizlet.partskit.widgets.QButton
+            android:id="@+id/view_rateus_promo_positive"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/rateus_promo_initial_positive_text"
+            style="@style/QuizletTinyButton"/>
+        <com.quizlet.partskit.widgets.QButton
+            android:id="@+id/view_rateus_promo_negative"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/rateus_promo_initial_negative_text"
+            android:layout_marginStart="@dimen/quizlet_edge_margin"
+            style="@style/QuizletTinyButton"/>
+    </LinearLayout>
+</LinearLayout>

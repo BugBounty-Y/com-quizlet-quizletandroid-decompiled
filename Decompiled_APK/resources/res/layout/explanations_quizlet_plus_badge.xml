@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:paddingRight="@dimen/ref_spacing_small"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <com.quizlet.uicommon.ui.common.views.QuizletPlusBadge
+        android:layout_gravity="center"
+        android:id="@+id/quizletPlusBadge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+</FrameLayout>

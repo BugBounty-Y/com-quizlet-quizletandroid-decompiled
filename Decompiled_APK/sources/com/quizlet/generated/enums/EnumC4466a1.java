@@ -1,0 +1,249 @@
+package com.quizlet.generated.enums;
+
+import com.google.android.gms.internal.mlkit_vision_camera.AbstractC3328d;
+import org.jetbrains.annotations.NotNull;
+
+/* JADX WARN: Failed to restore enum class, 'enum' modifier and super class removed */
+/* JADX WARN: Unknown enum class pattern. Please report as an issue! */
+/* renamed from: com.quizlet.generated.enums.a1, reason: case insensitive filesystem */
+/* loaded from: classes3.dex */
+public final class EnumC4466a1 {
+    private static final /* synthetic */ kotlin.enums.a $ENTRIES;
+    private static final /* synthetic */ EnumC4466a1[] $VALUES;
+    public static final EnumC4466a1 BLENDED_RESULTS_ORDERED_SHELF_LIST;
+    public static final EnumC4466a1 CLICK_CLOSE_TERM_STUDY_SET_PREVIEW;
+    public static final EnumC4466a1 CLICK_CREATOR_USERNAME_TERM_STUDY_SET_PREVIEW;
+    public static final EnumC4466a1 CLICK_SEARCH_TAB;
+    public static final EnumC4466a1 CLICK_TERM_STUDY_SET_PREVIEW;
+    public static final EnumC4466a1 CLICK_TERM_STUDY_SET_PREVIEW_SET_TITLE;
+    public static final EnumC4466a1 CLICK_TERM_STUDY_SET_PREVIEW_STUDY_BUTTON;
+    public static final EnumC4466a1 CONTENT_TYPE_FILTER;
+    public static final EnumC4466a1 COURSE_FILTER;
+    public static final EnumC4466a1 CREATED_BY_FILTER;
+
+    @NotNull
+    public static final Z0 Companion;
+    public static final EnumC4466a1 EMBED_FLASHCARDS_ENGAGED;
+    public static final EnumC4466a1 EMPTY_RESULTS_STATE;
+    public static final EnumC4466a1 FILTER_BUTTON;
+    public static final EnumC4466a1 FILTER_CREATOR_ALL;
+    public static final EnumC4466a1 FILTER_CREATOR_STUDENT;
+    public static final EnumC4466a1 FILTER_CREATOR_TEACHER;
+    public static final EnumC4466a1 FILTER_CREATOR_VERIFIED;
+    public static final EnumC4466a1 FILTER_IMAGE_SETS_ONLY;
+    public static final EnumC4466a1 FILTER_PRICE_ALL;
+    public static final EnumC4466a1 FILTER_PRICE_FREE;
+    public static final EnumC4466a1 FILTER_PRICE_PREMIUM;
+    public static final EnumC4466a1 FILTER_TYPE_CLASS;
+    public static final EnumC4466a1 FILTER_TYPE_SETS;
+    public static final EnumC4466a1 FILTER_TYPE_STUDYGUIDES;
+    public static final EnumC4466a1 FILTER_TYPE_USERS;
+    public static final EnumC4466a1 HIT_ADD_NEW_COURSE;
+    public static final EnumC4466a1 HIT_ADD_YOUR_OWN_SCHOOL;
+    public static final EnumC4466a1 HIT_CLASS_RESULT;
+    public static final EnumC4466a1 HIT_CLICK;
+    public static final EnumC4466a1 HIT_COURSE_RESULT;
+    public static final EnumC4466a1 HIT_EXERCISE;
+    public static final EnumC4466a1 HIT_EXPLANATION_QUESTION_RESULT;
+    public static final EnumC4466a1 HIT_NOTE_RESULT;
+    public static final EnumC4466a1 HIT_PURCHASABLE_CONTENT_CHECKOUT;
+    public static final EnumC4466a1 HIT_QUESTION_BANK_RESULT;
+    public static final EnumC4466a1 HIT_QUIZLET_POWERED_FOLDER_RESULT;
+    public static final EnumC4466a1 HIT_RETURN;
+    public static final EnumC4466a1 HIT_SAVE_CLASS;
+    public static final EnumC4466a1 HIT_SAVE_CLASS_OR_FOLDER;
+    public static final EnumC4466a1 HIT_SELECT_COURSE;
+    public static final EnumC4466a1 HIT_SELECT_SCHOOL;
+    public static final EnumC4466a1 HIT_SET_IN_FOLDER;
+    public static final EnumC4466a1 HIT_SET_RESULT;
+    public static final EnumC4466a1 HIT_SHARE;
+    public static final EnumC4466a1 HIT_STUDY;
+    public static final EnumC4466a1 HIT_SUBJECT_FILTER;
+    public static final EnumC4466a1 HIT_TAKE_PRACTICE_TEST;
+    public static final EnumC4466a1 HIT_TERM_RESULT;
+    public static final EnumC4466a1 HIT_TEXTBOOK_RESULT;
+    public static final EnumC4466a1 HIT_USER_RESULT;
+    public static final EnumC4466a1 MISSPELLINGS_CORRECTED_QUERY_CLICK;
+    public static final EnumC4466a1 MISSPELLINGS_ORIGINAL_QUERY_CLICK;
+    public static final EnumC4466a1 MISSPELLINGS_QUERY_BELOW_THRESHOLD;
+    public static final EnumC4466a1 MISSPELLINGS_QUERY_IS_SPELLCHECKED;
+    public static final EnumC4466a1 MISSPELLINGS_QUERY_IS_SUGGESTED;
+    public static final EnumC4466a1 NUMBER_OF_TERMS_FILTER;
+    public static final EnumC4466a1 RESULTS_VIEWED;
+    public static final EnumC4466a1 SCHOOL_FILTER;
+    public static final EnumC4466a1 SEARCH_AGAIN;
+    public static final EnumC4466a1 SEARCH_SETS_BY_QUERY;
+    public static final EnumC4466a1 SEARCH_SETS_BY_SCROLLING;
+    public static final EnumC4466a1 SHOW_NO_RESULTS_RETURNED;
+    public static final EnumC4466a1 SORT_RECENT;
+    public static final EnumC4466a1 SORT_RELEVANT;
+    public static final EnumC4466a1 TERM_SCREEN_FAILED_LOAD;
+    public static final EnumC4466a1 TYPEAHEAD_CLICKED_SUGGESTED_RESULT;
+    public static final EnumC4466a1 TYPEAHEAD_CLICKED_VIEW_ALL_RESULTS;
+    public static final EnumC4466a1 TYPEAHEAD_FETCHED_SUGGESTIONS_NO_RESULTS;
+    public static final EnumC4466a1 TYPEAHEAD_FETCHED_SUGGESTIONS_WITH_RESULTS;
+
+    @NotNull
+    private final String value;
+
+    static {
+        EnumC4466a1 enumC4466a1 = new EnumC4466a1("BLENDED_RESULTS_ORDERED_SHELF_LIST", 0, "BLENDED_RESULTS_ORDERED_SHELF_LIST");
+        BLENDED_RESULTS_ORDERED_SHELF_LIST = enumC4466a1;
+        EnumC4466a1 enumC4466a12 = new EnumC4466a1("CLICK_CLOSE_TERM_STUDY_SET_PREVIEW", 1, "CLICK_CLOSE_TERM_STUDY_SET_PREVIEW");
+        CLICK_CLOSE_TERM_STUDY_SET_PREVIEW = enumC4466a12;
+        EnumC4466a1 enumC4466a13 = new EnumC4466a1("CLICK_CREATOR_USERNAME_TERM_STUDY_SET_PREVIEW", 2, "CLICK_CREATOR_USERNAME_TERM_STUDY_SET_PREVIEW");
+        CLICK_CREATOR_USERNAME_TERM_STUDY_SET_PREVIEW = enumC4466a13;
+        EnumC4466a1 enumC4466a14 = new EnumC4466a1("CLICK_SEARCH_TAB", 3, "CLICK_SEARCH_TAB");
+        CLICK_SEARCH_TAB = enumC4466a14;
+        EnumC4466a1 enumC4466a15 = new EnumC4466a1("CLICK_TERM_STUDY_SET_PREVIEW", 4, "CLICK_TERM_STUDY_SET_PREVIEW");
+        CLICK_TERM_STUDY_SET_PREVIEW = enumC4466a15;
+        EnumC4466a1 enumC4466a16 = new EnumC4466a1("CLICK_TERM_STUDY_SET_PREVIEW_SET_TITLE", 5, "CLICK_TERM_STUDY_SET_PREVIEW_SET_TITLE");
+        CLICK_TERM_STUDY_SET_PREVIEW_SET_TITLE = enumC4466a16;
+        EnumC4466a1 enumC4466a17 = new EnumC4466a1("CLICK_TERM_STUDY_SET_PREVIEW_STUDY_BUTTON", 6, "CLICK_TERM_STUDY_SET_PREVIEW_STUDY_BUTTON");
+        CLICK_TERM_STUDY_SET_PREVIEW_STUDY_BUTTON = enumC4466a17;
+        EnumC4466a1 enumC4466a18 = new EnumC4466a1("CONTENT_TYPE_FILTER", 7, "CONTENT_TYPE_FILTER");
+        CONTENT_TYPE_FILTER = enumC4466a18;
+        EnumC4466a1 enumC4466a19 = new EnumC4466a1("COURSE_FILTER", 8, "COURSE_FILTER");
+        COURSE_FILTER = enumC4466a19;
+        EnumC4466a1 enumC4466a110 = new EnumC4466a1("CREATED_BY_FILTER", 9, "CREATED_BY_FILTER");
+        CREATED_BY_FILTER = enumC4466a110;
+        EnumC4466a1 enumC4466a111 = new EnumC4466a1("EMBED_FLASHCARDS_ENGAGED", 10, "EMBED_FLASHCARDS_ENGAGED");
+        EMBED_FLASHCARDS_ENGAGED = enumC4466a111;
+        EnumC4466a1 enumC4466a112 = new EnumC4466a1("EMPTY_RESULTS_STATE", 11, "EMPTY_RESULTS_STATE");
+        EMPTY_RESULTS_STATE = enumC4466a112;
+        EnumC4466a1 enumC4466a113 = new EnumC4466a1("HIT_ADD_NEW_COURSE", 12, "HIT_ADD_NEW_COURSE");
+        HIT_ADD_NEW_COURSE = enumC4466a113;
+        EnumC4466a1 enumC4466a114 = new EnumC4466a1("HIT_ADD_YOUR_OWN_SCHOOL", 13, "HIT_ADD_YOUR_OWN_SCHOOL");
+        HIT_ADD_YOUR_OWN_SCHOOL = enumC4466a114;
+        EnumC4466a1 enumC4466a115 = new EnumC4466a1("HIT_CLASS_RESULT", 14, "HIT_CLASS_RESULT");
+        HIT_CLASS_RESULT = enumC4466a115;
+        EnumC4466a1 enumC4466a116 = new EnumC4466a1("HIT_CLICK", 15, "HIT_CLICK");
+        HIT_CLICK = enumC4466a116;
+        EnumC4466a1 enumC4466a117 = new EnumC4466a1("HIT_COURSE_RESULT", 16, "HIT_COURSE_RESULT");
+        HIT_COURSE_RESULT = enumC4466a117;
+        EnumC4466a1 enumC4466a118 = new EnumC4466a1("HIT_EXERCISE", 17, "HIT_EXERCISE");
+        HIT_EXERCISE = enumC4466a118;
+        EnumC4466a1 enumC4466a119 = new EnumC4466a1("HIT_EXPLANATION_QUESTION_RESULT", 18, "HIT_EXPLANATION_QUESTION_RESULT");
+        HIT_EXPLANATION_QUESTION_RESULT = enumC4466a119;
+        EnumC4466a1 enumC4466a120 = new EnumC4466a1("HIT_NOTE_RESULT", 19, "HIT_NOTE_RESULT");
+        HIT_NOTE_RESULT = enumC4466a120;
+        EnumC4466a1 enumC4466a121 = new EnumC4466a1("HIT_PURCHASABLE_CONTENT_CHECKOUT", 20, "HIT_PURCHASABLE_CONTENT_CHECKOUT");
+        HIT_PURCHASABLE_CONTENT_CHECKOUT = enumC4466a121;
+        EnumC4466a1 enumC4466a122 = new EnumC4466a1("HIT_QUESTION_BANK_RESULT", 21, "HIT_QUESTION_BANK_RESULT");
+        HIT_QUESTION_BANK_RESULT = enumC4466a122;
+        EnumC4466a1 enumC4466a123 = new EnumC4466a1("HIT_QUIZLET_POWERED_FOLDER_RESULT", 22, "HIT_QUIZLET_POWERED_FOLDER_RESULT");
+        HIT_QUIZLET_POWERED_FOLDER_RESULT = enumC4466a123;
+        EnumC4466a1 enumC4466a124 = new EnumC4466a1("HIT_RETURN", 23, "HIT_RETURN");
+        HIT_RETURN = enumC4466a124;
+        EnumC4466a1 enumC4466a125 = new EnumC4466a1("HIT_SAVE_CLASS", 24, "HIT_SAVE_CLASS");
+        HIT_SAVE_CLASS = enumC4466a125;
+        EnumC4466a1 enumC4466a126 = new EnumC4466a1("HIT_SAVE_CLASS_OR_FOLDER", 25, "HIT_SAVE_CLASS_OR_FOLDER");
+        HIT_SAVE_CLASS_OR_FOLDER = enumC4466a126;
+        EnumC4466a1 enumC4466a127 = new EnumC4466a1("HIT_SELECT_COURSE", 26, "HIT_SELECT_COURSE");
+        HIT_SELECT_COURSE = enumC4466a127;
+        EnumC4466a1 enumC4466a128 = new EnumC4466a1("HIT_SELECT_SCHOOL", 27, "HIT_SELECT_SCHOOL");
+        HIT_SELECT_SCHOOL = enumC4466a128;
+        EnumC4466a1 enumC4466a129 = new EnumC4466a1("HIT_SET_IN_FOLDER", 28, "HIT_SET_IN_FOLDER");
+        HIT_SET_IN_FOLDER = enumC4466a129;
+        EnumC4466a1 enumC4466a130 = new EnumC4466a1("HIT_SET_RESULT", 29, "HIT_SET_RESULT");
+        HIT_SET_RESULT = enumC4466a130;
+        EnumC4466a1 enumC4466a131 = new EnumC4466a1("HIT_SHARE", 30, "HIT_SHARE");
+        HIT_SHARE = enumC4466a131;
+        EnumC4466a1 enumC4466a132 = new EnumC4466a1("HIT_STUDY", 31, "HIT_STUDY");
+        HIT_STUDY = enumC4466a132;
+        EnumC4466a1 enumC4466a133 = new EnumC4466a1("HIT_SUBJECT_FILTER", 32, "HIT_SUBJECT_FILTER");
+        HIT_SUBJECT_FILTER = enumC4466a133;
+        EnumC4466a1 enumC4466a134 = new EnumC4466a1("HIT_TAKE_PRACTICE_TEST", 33, "HIT_TAKE_PRACTICE_TEST");
+        HIT_TAKE_PRACTICE_TEST = enumC4466a134;
+        EnumC4466a1 enumC4466a135 = new EnumC4466a1("HIT_TERM_RESULT", 34, "HIT_TERM_RESULT");
+        HIT_TERM_RESULT = enumC4466a135;
+        EnumC4466a1 enumC4466a136 = new EnumC4466a1("HIT_TEXTBOOK_RESULT", 35, "HIT_TEXTBOOK_RESULT");
+        HIT_TEXTBOOK_RESULT = enumC4466a136;
+        EnumC4466a1 enumC4466a137 = new EnumC4466a1("HIT_USER_RESULT", 36, "HIT_USER_RESULT");
+        HIT_USER_RESULT = enumC4466a137;
+        EnumC4466a1 enumC4466a138 = new EnumC4466a1("FILTER_BUTTON", 37, "FILTER_BUTTON");
+        FILTER_BUTTON = enumC4466a138;
+        EnumC4466a1 enumC4466a139 = new EnumC4466a1("FILTER_CREATOR_ALL", 38, "FILTER_CREATOR_ALL");
+        FILTER_CREATOR_ALL = enumC4466a139;
+        EnumC4466a1 enumC4466a140 = new EnumC4466a1("FILTER_CREATOR_STUDENT", 39, "FILTER_CREATOR_STUDENT");
+        FILTER_CREATOR_STUDENT = enumC4466a140;
+        EnumC4466a1 enumC4466a141 = new EnumC4466a1("FILTER_CREATOR_TEACHER", 40, "FILTER_CREATOR_TEACHER");
+        FILTER_CREATOR_TEACHER = enumC4466a141;
+        EnumC4466a1 enumC4466a142 = new EnumC4466a1("FILTER_CREATOR_VERIFIED", 41, "FILTER_CREATOR_VERIFIED");
+        FILTER_CREATOR_VERIFIED = enumC4466a142;
+        EnumC4466a1 enumC4466a143 = new EnumC4466a1("FILTER_IMAGE_SETS_ONLY", 42, "FILTER_IMAGE_SETS_ONLY");
+        FILTER_IMAGE_SETS_ONLY = enumC4466a143;
+        EnumC4466a1 enumC4466a144 = new EnumC4466a1("FILTER_PRICE_ALL", 43, "FILTER_PRICE_ALL");
+        FILTER_PRICE_ALL = enumC4466a144;
+        EnumC4466a1 enumC4466a145 = new EnumC4466a1("FILTER_PRICE_FREE", 44, "FILTER_PRICE_FREE");
+        FILTER_PRICE_FREE = enumC4466a145;
+        EnumC4466a1 enumC4466a146 = new EnumC4466a1("FILTER_PRICE_PREMIUM", 45, "FILTER_PRICE_PREMIUM");
+        FILTER_PRICE_PREMIUM = enumC4466a146;
+        EnumC4466a1 enumC4466a147 = new EnumC4466a1("FILTER_TYPE_SETS", 46, "FILTER_TYPE_SETS");
+        FILTER_TYPE_SETS = enumC4466a147;
+        EnumC4466a1 enumC4466a148 = new EnumC4466a1("FILTER_TYPE_STUDYGUIDES", 47, "FILTER_TYPE_STUDYGUIDES");
+        FILTER_TYPE_STUDYGUIDES = enumC4466a148;
+        EnumC4466a1 enumC4466a149 = new EnumC4466a1("FILTER_TYPE_USERS", 48, "FILTER_TYPE_USERS");
+        FILTER_TYPE_USERS = enumC4466a149;
+        EnumC4466a1 enumC4466a150 = new EnumC4466a1("FILTER_TYPE_CLASS", 49, "FILTER_TYPE_CLASS");
+        FILTER_TYPE_CLASS = enumC4466a150;
+        EnumC4466a1 enumC4466a151 = new EnumC4466a1("MISSPELLINGS_CORRECTED_QUERY_CLICK", 50, "MISSPELLINGS_CORRECTED_QUERY_CLICK");
+        MISSPELLINGS_CORRECTED_QUERY_CLICK = enumC4466a151;
+        EnumC4466a1 enumC4466a152 = new EnumC4466a1("MISSPELLINGS_ORIGINAL_QUERY_CLICK", 51, "MISSPELLINGS_ORIGINAL_QUERY_CLICK");
+        MISSPELLINGS_ORIGINAL_QUERY_CLICK = enumC4466a152;
+        EnumC4466a1 enumC4466a153 = new EnumC4466a1("MISSPELLINGS_QUERY_IS_SPELLCHECKED", 52, "MISSPELLINGS_QUERY_IS_SPELLCHECKED");
+        MISSPELLINGS_QUERY_IS_SPELLCHECKED = enumC4466a153;
+        EnumC4466a1 enumC4466a154 = new EnumC4466a1("MISSPELLINGS_QUERY_BELOW_THRESHOLD", 53, "MISSPELLINGS_QUERY_BELOW_THRESHOLD");
+        MISSPELLINGS_QUERY_BELOW_THRESHOLD = enumC4466a154;
+        EnumC4466a1 enumC4466a155 = new EnumC4466a1("MISSPELLINGS_QUERY_IS_SUGGESTED", 54, "MISSPELLINGS_QUERY_IS_SUGGESTED");
+        MISSPELLINGS_QUERY_IS_SUGGESTED = enumC4466a155;
+        EnumC4466a1 enumC4466a156 = new EnumC4466a1("NUMBER_OF_TERMS_FILTER", 55, "NUMBER_OF_TERMS_FILTER");
+        NUMBER_OF_TERMS_FILTER = enumC4466a156;
+        EnumC4466a1 enumC4466a157 = new EnumC4466a1("RESULTS_VIEWED", 56, "RESULTS_VIEWED");
+        RESULTS_VIEWED = enumC4466a157;
+        EnumC4466a1 enumC4466a158 = new EnumC4466a1("SCHOOL_FILTER", 57, "SCHOOL_FILTER");
+        SCHOOL_FILTER = enumC4466a158;
+        EnumC4466a1 enumC4466a159 = new EnumC4466a1("SEARCH_AGAIN", 58, "SEARCH_AGAIN");
+        SEARCH_AGAIN = enumC4466a159;
+        EnumC4466a1 enumC4466a160 = new EnumC4466a1("SEARCH_SETS_BY_QUERY", 59, "SEARCH_SETS_BY_QUERY");
+        SEARCH_SETS_BY_QUERY = enumC4466a160;
+        EnumC4466a1 enumC4466a161 = new EnumC4466a1("SEARCH_SETS_BY_SCROLLING", 60, "SEARCH_SETS_BY_SCROLLING");
+        SEARCH_SETS_BY_SCROLLING = enumC4466a161;
+        EnumC4466a1 enumC4466a162 = new EnumC4466a1("SHOW_NO_RESULTS_RETURNED", 61, "SHOW_NO_RESULTS_RETURNED");
+        SHOW_NO_RESULTS_RETURNED = enumC4466a162;
+        EnumC4466a1 enumC4466a163 = new EnumC4466a1("SORT_RECENT", 62, "SORT_RECENT");
+        SORT_RECENT = enumC4466a163;
+        EnumC4466a1 enumC4466a164 = new EnumC4466a1("SORT_RELEVANT", 63, "SORT_RELEVANT");
+        SORT_RELEVANT = enumC4466a164;
+        EnumC4466a1 enumC4466a165 = new EnumC4466a1("TERM_SCREEN_FAILED_LOAD", 64, "TERM_SCREEN_FAILED_LOAD");
+        TERM_SCREEN_FAILED_LOAD = enumC4466a165;
+        EnumC4466a1 enumC4466a166 = new EnumC4466a1("TYPEAHEAD_CLICKED_VIEW_ALL_RESULTS", 65, "CLICK_AUTOSUGGESTIONS_VIEW_ALL_RESULTS");
+        TYPEAHEAD_CLICKED_VIEW_ALL_RESULTS = enumC4466a166;
+        EnumC4466a1 enumC4466a167 = new EnumC4466a1("TYPEAHEAD_CLICKED_SUGGESTED_RESULT", 66, "CLICKED_AUTOSUGGESTED_RESULT");
+        TYPEAHEAD_CLICKED_SUGGESTED_RESULT = enumC4466a167;
+        EnumC4466a1 enumC4466a168 = new EnumC4466a1("TYPEAHEAD_FETCHED_SUGGESTIONS_WITH_RESULTS", 67, "FETCHED_AUTOSUGGESTIONS_WITH_RESULTS");
+        TYPEAHEAD_FETCHED_SUGGESTIONS_WITH_RESULTS = enumC4466a168;
+        EnumC4466a1 enumC4466a169 = new EnumC4466a1("TYPEAHEAD_FETCHED_SUGGESTIONS_NO_RESULTS", 68, "FETCHED_AUTOSUGGESTIONS_NO_RESULTS");
+        TYPEAHEAD_FETCHED_SUGGESTIONS_NO_RESULTS = enumC4466a169;
+        EnumC4466a1[] enumC4466a1Arr = {enumC4466a1, enumC4466a12, enumC4466a13, enumC4466a14, enumC4466a15, enumC4466a16, enumC4466a17, enumC4466a18, enumC4466a19, enumC4466a110, enumC4466a111, enumC4466a112, enumC4466a113, enumC4466a114, enumC4466a115, enumC4466a116, enumC4466a117, enumC4466a118, enumC4466a119, enumC4466a120, enumC4466a121, enumC4466a122, enumC4466a123, enumC4466a124, enumC4466a125, enumC4466a126, enumC4466a127, enumC4466a128, enumC4466a129, enumC4466a130, enumC4466a131, enumC4466a132, enumC4466a133, enumC4466a134, enumC4466a135, enumC4466a136, enumC4466a137, enumC4466a138, enumC4466a139, enumC4466a140, enumC4466a141, enumC4466a142, enumC4466a143, enumC4466a144, enumC4466a145, enumC4466a146, enumC4466a147, enumC4466a148, enumC4466a149, enumC4466a150, enumC4466a151, enumC4466a152, enumC4466a153, enumC4466a154, enumC4466a155, enumC4466a156, enumC4466a157, enumC4466a158, enumC4466a159, enumC4466a160, enumC4466a161, enumC4466a162, enumC4466a163, enumC4466a164, enumC4466a165, enumC4466a166, enumC4466a167, enumC4466a168, enumC4466a169};
+        $VALUES = enumC4466a1Arr;
+        $ENTRIES = AbstractC3328d.f(enumC4466a1Arr);
+        Companion = new Z0();
+    }
+
+    public EnumC4466a1(String str, int i, String str2) {
+        this.value = str2;
+    }
+
+    public static EnumC4466a1 valueOf(String str) {
+        return (EnumC4466a1) Enum.valueOf(EnumC4466a1.class, str);
+    }
+
+    public static EnumC4466a1[] values() {
+        return (EnumC4466a1[]) $VALUES.clone();
+    }
+
+    public final String a() {
+        return this.value;
+    }
+}

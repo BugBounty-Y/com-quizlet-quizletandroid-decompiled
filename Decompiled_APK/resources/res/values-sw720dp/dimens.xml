@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="arc_margin">40dp</dimen>
+    <dimen name="spacing_medium_xlarge_xxlarge">@dimen/ref_spacing_xxlarge</dimen>
+    <dimen name="study_mode_button_min_height">68dp</dimen>
+</resources>

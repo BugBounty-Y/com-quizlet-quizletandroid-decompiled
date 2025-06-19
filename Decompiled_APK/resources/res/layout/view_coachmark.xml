@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="@dimen/ref_spacing_small"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <com.quizlet.partskit.widgets.QTextView
+        android:textColor="?attr/AssemblyPrimaryActionText"
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        style="@style/Header.H5"/>
+    <com.quizlet.partskit.widgets.QTextView
+        android:textColor="?attr/AssemblyPrimaryActionText"
+        android:id="@+id/description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/ref_spacing_small"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/title"
+        style="@style/Body.B4"/>
+    <com.quizlet.partskit.widgets.QTextView
+        android:textColor="?attr/AssemblyPrimaryActionText"
+        android:id="@+id/dismissButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/ref_spacing_small"
+        android:text="@string/got_it"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/description"
+        style="@style/SubHeader.S4"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

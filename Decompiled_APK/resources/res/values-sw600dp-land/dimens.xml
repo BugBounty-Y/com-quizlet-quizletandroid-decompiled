@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="native_ad_tablet_text_margin">@dimen/ref_spacing_medium</dimen>
+    <dimen name="native_ad_tablet_top_margin">36dp</dimen>
+    <dimen name="outstream_video_ad_tablet_top_margin">70dp</dimen>
+</resources>

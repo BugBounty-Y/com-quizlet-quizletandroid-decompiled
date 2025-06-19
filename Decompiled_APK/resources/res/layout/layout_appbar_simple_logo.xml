@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.appbar.AppBarLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/appbar"
+    android:background="?attr/AssemblyGlobalHeaderBackground"
+    android:focusableInTouchMode="true"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        app:layout_scrollFlags="enterAlways|scroll"
+        style="@style/QuizletToolbar">
+        <ImageView
+            android:id="@+id/quizlet_logo"
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:src="@drawable/logo_quizlet"
+            android:adjustViewBounds="true"
+            android:contentDescription="@string/app_name"
+            android:layout_marginStart="@dimen/ref_spacing_small"
+            app:tint="?attr/AssemblyRebrandPrimaryLogoColor"/>
+        <ImageView
+            android:id="@+id/plus_logo"
+            android:visibility="gone"
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:src="@drawable/logo_plus"
+            android:adjustViewBounds="true"
+            android:contentDescription="@string/plus"
+            android:layout_marginStart="4dp"/>
+    </androidx.appcompat.widget.Toolbar>
+</com.google.android.material.appbar.AppBarLayout>

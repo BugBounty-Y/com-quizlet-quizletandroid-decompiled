@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:icon="@drawable/ic_sys_more_vertical"
+        android:enabled="true"
+        android:id="@+id/menu_more"
+        android:visible="true"
+        android:title="@string/more_options_menu_item"
+        app:iconTint="?attr/AssemblyIconColor"
+        app:showAsAction="always"/>
+</menu>

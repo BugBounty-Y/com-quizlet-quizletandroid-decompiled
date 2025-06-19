@@ -1,0 +1,96 @@
+package com.quizlet.shared.models;
+
+import androidx.camera.camera2.internal.p0;
+import com.google.android.gms.internal.mlkit_vision_camera.Z2;
+import com.quizlet.remote.model.union.folderwithcreator.b;
+import com.quizlet.shared.models.bookmarks.Bookmark;
+import com.quizlet.shared.models.bookmarks.Bookmarks;
+import com.quizlet.shared.models.explanations.ExplanationQuestion;
+import com.quizlet.shared.models.explanations.Textbook;
+import com.quizlet.shared.models.explanations.TextbookExercise;
+import com.quizlet.shared.models.folders.BaseFolders;
+import com.quizlet.shared.models.folders.DeletedFolder;
+import com.quizlet.shared.models.folders.DeletedFolders;
+import com.quizlet.shared.models.folders.Folder;
+import com.quizlet.shared.models.folders.Folders;
+import com.quizlet.shared.models.folders.ListsOfFolders;
+import com.quizlet.shared.models.folderstudymaterials.FolderStudyMaterial$ExplanationQuestionMaterial;
+import com.quizlet.shared.models.folderstudymaterials.FolderStudyMaterial$FolderMaterial;
+import com.quizlet.shared.models.folderstudymaterials.FolderStudyMaterial$NoteMaterial;
+import com.quizlet.shared.models.folderstudymaterials.FolderStudyMaterial$SetMaterial;
+import com.quizlet.shared.models.folderstudymaterials.FolderStudyMaterial$TextbookExerciseMaterial;
+import com.quizlet.shared.models.folderstudymaterials.FolderStudyMaterial$TextbookMaterial;
+import com.quizlet.shared.models.folderstudymaterials.FolderStudyMaterials;
+import com.quizlet.shared.models.notes.EssayPromptItem;
+import com.quizlet.shared.models.notes.FlashcardItem;
+import com.quizlet.shared.models.notes.FullStudyNotesInfo;
+import com.quizlet.shared.models.notes.NewStudyNotesInfo;
+import com.quizlet.shared.models.notes.StudyNoteArtifactInfo$EssayPrompts;
+import com.quizlet.shared.models.notes.StudyNoteArtifactInfo$Flashcards;
+import com.quizlet.shared.models.notes.StudyNoteArtifactInfo$OutlineMarkdown;
+import com.quizlet.shared.models.notes.StudyNoteArtifactInfo$ReviewSheet;
+import com.quizlet.shared.models.notes.StudyNoteArtifactInfo$Title;
+import com.quizlet.shared.models.notes.c;
+import com.quizlet.shared.models.studyset.StudySet;
+import com.quizlet.shared.models.user.User;
+import kotlin.jvm.internal.C4950i;
+import kotlin.jvm.internal.K;
+import kotlinx.serialization.json.q;
+import serialization.e;
+
+/* loaded from: classes3.dex */
+public abstract class a {
+    public static final q a;
+
+    static {
+        p0 p0Var = new p0();
+        b bVar = new b(K.a(e.class));
+        C4950i c4950iA = K.a(Folder.class);
+        Folder.Companion companion = Folder.Companion;
+        bVar.c(c4950iA, companion.serializer());
+        C4950i c4950iA2 = K.a(DeletedFolder.class);
+        DeletedFolder.Companion companion2 = DeletedFolder.Companion;
+        bVar.c(c4950iA2, companion2.serializer());
+        bVar.c(K.a(BaseFolders.class), BaseFolders.Companion.serializer());
+        bVar.c(K.a(Folders.class), Folders.Companion.serializer());
+        bVar.c(K.a(DeletedFolders.class), DeletedFolders.Companion.serializer());
+        bVar.c(K.a(ListsOfFolders.class), ListsOfFolders.Companion.serializer());
+        bVar.c(K.a(Bookmark.class), Bookmark.Companion.serializer());
+        bVar.c(K.a(Bookmarks.class), Bookmarks.Companion.serializer());
+        bVar.c(K.a(User.class), User.Companion.serializer());
+        bVar.c(K.a(FolderStudyMaterials.class), FolderStudyMaterials.Companion.serializer());
+        bVar.c(K.a(StudySet.class), StudySet.Companion.serializer());
+        bVar.c(K.a(Textbook.class), Textbook.Companion.serializer());
+        bVar.c(K.a(TextbookExercise.class), TextbookExercise.Companion.serializer());
+        bVar.c(K.a(ExplanationQuestion.class), ExplanationQuestion.Companion.serializer());
+        bVar.c(K.a(ExplanationQuestion.Prompt.class), ExplanationQuestion.Prompt.Companion.serializer());
+        bVar.c(K.a(ExplanationQuestion.Prompt.Image.class), ExplanationQuestion.Prompt.Image.Companion.serializer());
+        bVar.c(K.a(EssayPromptItem.class), EssayPromptItem.Companion.serializer());
+        bVar.c(K.a(FlashcardItem.class), FlashcardItem.Companion.serializer());
+        bVar.b(p0Var);
+        b bVar2 = new b(K.a(com.quizlet.shared.models.folders.b.class));
+        bVar2.c(K.a(Folder.class), companion.serializer());
+        bVar2.c(K.a(DeletedFolder.class), companion2.serializer());
+        bVar2.b(p0Var);
+        b bVar3 = new b(K.a(com.quizlet.shared.models.folderstudymaterials.a.class));
+        bVar3.c(K.a(FolderStudyMaterial$SetMaterial.class), FolderStudyMaterial$SetMaterial.Companion.serializer());
+        bVar3.c(K.a(FolderStudyMaterial$FolderMaterial.class), FolderStudyMaterial$FolderMaterial.Companion.serializer());
+        bVar3.c(K.a(FolderStudyMaterial$TextbookMaterial.class), FolderStudyMaterial$TextbookMaterial.Companion.serializer());
+        bVar3.c(K.a(FolderStudyMaterial$TextbookExerciseMaterial.class), FolderStudyMaterial$TextbookExerciseMaterial.Companion.serializer());
+        bVar3.c(K.a(FolderStudyMaterial$ExplanationQuestionMaterial.class), FolderStudyMaterial$ExplanationQuestionMaterial.Companion.serializer());
+        bVar3.c(K.a(FolderStudyMaterial$NoteMaterial.class), FolderStudyMaterial$NoteMaterial.Companion.serializer());
+        bVar3.b(p0Var);
+        b bVar4 = new b(K.a(com.quizlet.shared.models.notes.b.class));
+        bVar4.c(K.a(StudyNoteArtifactInfo$Title.class), StudyNoteArtifactInfo$Title.Companion.serializer());
+        bVar4.c(K.a(StudyNoteArtifactInfo$OutlineMarkdown.class), StudyNoteArtifactInfo$OutlineMarkdown.Companion.serializer());
+        bVar4.c(K.a(StudyNoteArtifactInfo$ReviewSheet.class), StudyNoteArtifactInfo$ReviewSheet.Companion.serializer());
+        bVar4.c(K.a(StudyNoteArtifactInfo$EssayPrompts.class), StudyNoteArtifactInfo$EssayPrompts.Companion.serializer());
+        bVar4.c(K.a(StudyNoteArtifactInfo$Flashcards.class), StudyNoteArtifactInfo$Flashcards.Companion.serializer());
+        bVar4.b(p0Var);
+        b bVar5 = new b(K.a(c.class));
+        bVar5.c(K.a(NewStudyNotesInfo.class), NewStudyNotesInfo.Companion.serializer());
+        bVar5.c(K.a(FullStudyNotesInfo.class), FullStudyNotesInfo.Companion.serializer());
+        bVar5.b(p0Var);
+        a = Z2.b(p0Var.g());
+    }
+}

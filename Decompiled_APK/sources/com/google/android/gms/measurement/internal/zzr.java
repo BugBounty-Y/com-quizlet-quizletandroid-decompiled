@@ -1,0 +1,180 @@
+package com.google.android.gms.measurement.internal;
+
+import android.os.Parcel;
+import android.os.Parcelable;
+import android.text.TextUtils;
+import com.google.android.gms.common.internal.safeparcel.AbstractSafeParcelable;
+import com.google.android.gms.internal.mlkit_vision_common.AbstractC3489l3;
+import java.util.ArrayList;
+import java.util.List;
+
+/* loaded from: classes2.dex */
+public final class zzr extends AbstractSafeParcelable {
+    public static final Parcelable.Creator<zzr> CREATOR = new com.google.android.gms.fido.fido2.api.common.i(18);
+    public final String A;
+    public final int B;
+    public final long C;
+    public final String D;
+    public final String E;
+    public final long F;
+    public final int G;
+    public final String a;
+    public final String b;
+    public final String c;
+    public final String d;
+    public final long e;
+    public final long f;
+    public final String g;
+    public final boolean h;
+    public final boolean i;
+    public final long j;
+    public final String k;
+    public final long l;
+    public final int m;
+    public final boolean n;
+    public final boolean o;
+    public final String p;
+    public final Boolean q;
+    public final long r;
+    public final List s;
+    public final String t;
+    public final String u;
+    public final String v;
+    public final String w;
+    public final boolean x;
+    public final long y;
+    public final int z;
+
+    public zzr(String str, String str2, String str3, long j, String str4, long j2, long j3, String str5, boolean z, boolean z2, String str6, long j4, int i, boolean z3, boolean z4, String str7, Boolean bool, long j5, List list, String str8, String str9, String str10, String str11, boolean z5, long j6, int i2, String str12, int i3, long j7, String str13, String str14, long j8, int i4) {
+        com.google.android.gms.common.internal.u.e(str);
+        this.a = str;
+        this.b = true == TextUtils.isEmpty(str2) ? null : str2;
+        this.c = str3;
+        this.j = j;
+        this.d = str4;
+        this.e = j2;
+        this.f = j3;
+        this.g = str5;
+        this.h = z;
+        this.i = z2;
+        this.k = str6;
+        this.l = j4;
+        this.m = i;
+        this.n = z3;
+        this.o = z4;
+        this.p = str7;
+        this.q = bool;
+        this.r = j5;
+        this.s = list;
+        this.t = str8;
+        this.u = str9;
+        this.v = str10;
+        this.w = str11;
+        this.x = z5;
+        this.y = j6;
+        this.z = i2;
+        this.A = str12;
+        this.B = i3;
+        this.C = j7;
+        this.D = str13;
+        this.E = str14;
+        this.F = j8;
+        this.G = i4;
+    }
+
+    @Override // android.os.Parcelable
+    public final void writeToParcel(Parcel parcel, int i) {
+        int iN = AbstractC3489l3.n(20293, parcel);
+        AbstractC3489l3.h(parcel, 2, this.a);
+        AbstractC3489l3.h(parcel, 3, this.b);
+        AbstractC3489l3.h(parcel, 4, this.c);
+        AbstractC3489l3.h(parcel, 5, this.d);
+        AbstractC3489l3.m(parcel, 6, 8);
+        parcel.writeLong(this.e);
+        AbstractC3489l3.m(parcel, 7, 8);
+        parcel.writeLong(this.f);
+        AbstractC3489l3.h(parcel, 8, this.g);
+        AbstractC3489l3.m(parcel, 9, 4);
+        parcel.writeInt(this.h ? 1 : 0);
+        AbstractC3489l3.m(parcel, 10, 4);
+        parcel.writeInt(this.i ? 1 : 0);
+        AbstractC3489l3.m(parcel, 11, 8);
+        parcel.writeLong(this.j);
+        AbstractC3489l3.h(parcel, 12, this.k);
+        AbstractC3489l3.m(parcel, 14, 8);
+        parcel.writeLong(this.l);
+        AbstractC3489l3.m(parcel, 15, 4);
+        parcel.writeInt(this.m);
+        AbstractC3489l3.m(parcel, 16, 4);
+        parcel.writeInt(this.n ? 1 : 0);
+        AbstractC3489l3.m(parcel, 18, 4);
+        parcel.writeInt(this.o ? 1 : 0);
+        AbstractC3489l3.h(parcel, 19, this.p);
+        Boolean bool = this.q;
+        if (bool != null) {
+            AbstractC3489l3.m(parcel, 21, 4);
+            parcel.writeInt(bool.booleanValue() ? 1 : 0);
+        }
+        AbstractC3489l3.m(parcel, 22, 8);
+        parcel.writeLong(this.r);
+        AbstractC3489l3.j(parcel, 23, this.s);
+        AbstractC3489l3.h(parcel, 24, this.t);
+        AbstractC3489l3.h(parcel, 25, this.u);
+        AbstractC3489l3.h(parcel, 26, this.v);
+        AbstractC3489l3.h(parcel, 27, this.w);
+        AbstractC3489l3.m(parcel, 28, 4);
+        parcel.writeInt(this.x ? 1 : 0);
+        AbstractC3489l3.m(parcel, 29, 8);
+        parcel.writeLong(this.y);
+        AbstractC3489l3.m(parcel, 30, 4);
+        parcel.writeInt(this.z);
+        AbstractC3489l3.h(parcel, 31, this.A);
+        AbstractC3489l3.m(parcel, 32, 4);
+        parcel.writeInt(this.B);
+        AbstractC3489l3.m(parcel, 34, 8);
+        parcel.writeLong(this.C);
+        AbstractC3489l3.h(parcel, 35, this.D);
+        AbstractC3489l3.h(parcel, 36, this.E);
+        AbstractC3489l3.m(parcel, 37, 8);
+        parcel.writeLong(this.F);
+        AbstractC3489l3.m(parcel, 38, 4);
+        parcel.writeInt(this.G);
+        AbstractC3489l3.o(iN, parcel);
+    }
+
+    public zzr(String str, String str2, String str3, String str4, long j, long j2, String str5, boolean z, boolean z2, long j3, String str6, long j4, int i, boolean z3, boolean z4, String str7, Boolean bool, long j5, ArrayList arrayList, String str8, String str9, String str10, String str11, boolean z5, long j6, int i2, String str12, int i3, long j7, String str13, String str14, long j8, int i4) {
+        this.a = str;
+        this.b = str2;
+        this.c = str3;
+        this.j = j3;
+        this.d = str4;
+        this.e = j;
+        this.f = j2;
+        this.g = str5;
+        this.h = z;
+        this.i = z2;
+        this.k = str6;
+        this.l = j4;
+        this.m = i;
+        this.n = z3;
+        this.o = z4;
+        this.p = str7;
+        this.q = bool;
+        this.r = j5;
+        this.s = arrayList;
+        this.t = str8;
+        this.u = str9;
+        this.v = str10;
+        this.w = str11;
+        this.x = z5;
+        this.y = j6;
+        this.z = i2;
+        this.A = str12;
+        this.B = i3;
+        this.C = j7;
+        this.D = str13;
+        this.E = str14;
+        this.F = j8;
+        this.G = i4;
+    }
+}

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@android:color/white"
+    android:padding="16dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <Button
+        android:textColor="@android:color/white"
+        android:id="@+id/pob_skip_alert_resume_btn"
+        android:background="@android:color/holo_blue_light"
+        android:layout_below="@+id/pob_skip_alert_msg_txt"
+        android:layout_alignParentEnd="true"
+        style="@style/pob_skip_button"/>
+    <Button
+        android:textColor="@android:color/holo_blue_light"
+        android:id="@+id/pob_skip_alert_close_btn"
+        android:background="@android:color/background_light"
+        android:layout_below="@+id/pob_skip_alert_msg_txt"
+        android:layout_toStartOf="@+id/pob_skip_alert_resume_btn"
+        style="@style/pob_skip_button"/>
+    <TextView
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="@android:color/black"
+        android:id="@+id/pob_skip_alert_title_txt"
+        android:maxLines="2"
+        style="@style/pob_skip_text_view"/>
+    <TextView
+        android:textSize="16sp"
+        android:textColor="@android:color/black"
+        android:id="@+id/pob_skip_alert_msg_txt"
+        android:layout_margin="5dp"
+        android:maxLines="3"
+        android:layout_below="@+id/pob_skip_alert_title_txt"
+        style="@style/pob_skip_text_view"/>
+</RelativeLayout>

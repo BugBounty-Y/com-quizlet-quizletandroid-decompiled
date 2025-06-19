@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:icon="@drawable/ic_sys_plus"
+        android:enabled="true"
+        android:id="@+id/menu_nav2_create_new_model"
+        android:visible="true"
+        android:title="@string/nav2_menu_add"
+        app:iconTint="?attr/AssemblyIconColor"
+        app:showAsAction="always"/>
+</menu>

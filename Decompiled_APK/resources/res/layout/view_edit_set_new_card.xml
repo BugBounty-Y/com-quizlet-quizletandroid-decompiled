@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@null"
+    android:clipChildren="false"
+    android:clipToPadding="false"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="@dimen/quizlet_edge_margin_half"
+    android:layout_marginStart="@dimen/quizlet_edge_margin"
+    android:layout_marginEnd="@dimen/quizlet_edge_margin">
+    <FrameLayout
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:background="?attr/SysColorCard"
+        android:paddingTop="@dimen/quizlet_edge_margin_double"
+        android:paddingBottom="@dimen/quizlet_edge_margin_double"
+        android:clipChildren="false"
+        android:clipToPadding="false"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:elevation="@dimen/card_elevation_inactive">
+        <com.quizlet.partskit.widgets.icon.IconFontTextView
+            android:textSize="@dimen/quizlet_icon_font_size"
+            android:textColor="?attr/textColorInverse"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:id="@+id/edit_set_new_card_button"
+            android:background="@drawable/circle_accent"
+            android:layout_width="@dimen/quizlet_min_tap_target_size"
+            android:layout_height="@dimen/quizlet_min_tap_target_size"
+            android:contentDescription="@string/icon_label_add_term"
+            android:elevation="@dimen/card_elevation_inactive"
+            android:stateListAnimator="@drawable/raise"
+            app:iconName="plus"/>
+    </FrameLayout>
+</FrameLayout>

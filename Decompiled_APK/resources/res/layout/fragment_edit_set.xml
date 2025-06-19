@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/edit_set_term_list"
+        android:clipChildren="false"
+        android:clipToPadding="false"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="0dp"
+        android:layout_marginBottom="0dp"
+        android:dividerHeight="0dp"
+        android:layout_above="@+id/rt_toolbar"
+        android:layout_marginStart="0dp"
+        android:layout_marginEnd="0dp"
+        app:layout_behavior="com.quizlet.quizletandroid.setcreation.managers.RecyclerViewBehavior"/>
+    <com.quizlet.uicommon.ui.common.views.SimpleGradientView
+        android:id="@+id/bottom_fading_edge"
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:layout_above="@+id/rt_toolbar"
+        app:endColor="?attr/toolbarGradientBackground"
+        app:gradientOrientation="vertical"
+        app:startColor="@color/transparent"/>
+    <com.quizlet.richtext.ui.toolbar.QRichTextToolbar
+        android:id="@+id/rt_toolbar"
+        android:background="?attr/SysColorCard"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_alignParentBottom="true"/>
+</RelativeLayout>

@@ -1,0 +1,228 @@
+package com.google.android.gms.internal.mlkit_vision_barcode;
+
+/* loaded from: classes2.dex */
+public final class N7 implements com.google.android.datatransport.e {
+    public static N7 b;
+    public static final N7 c = new N7(1);
+    public final /* synthetic */ int a;
+
+    public /* synthetic */ N7(int i) {
+        this.a = i;
+    }
+
+    public static synchronized void b() {
+        if (b == null) {
+            b = new N7(0);
+        }
+    }
+
+    public void a(com.google.firebase.encoders.config.a aVar) {
+        aVar.g(C3306y5.class, C3295x2.a);
+        aVar.g(C3198l7.class, C3231p4.a);
+        aVar.g(AbstractC3314z5.class, C3303y2.a);
+        aVar.g(C5.class, A2.a);
+        aVar.g(A5.class, C3311z2.a);
+        aVar.g(B5.class, B2.a);
+        aVar.g(S4.class, R1.a);
+        aVar.g(R4.class, Q1.a);
+        aVar.g(C3196l5.class, C3202m2.a);
+        aVar.g(Z6.class, Z3.a);
+        aVar.g(Q4.class, P1.a);
+        aVar.g(P4.class, O1.a);
+        aVar.g(AbstractC3188k6.class, C3176j3.a);
+        aVar.g(androidx.glance.appwidget.protobuf.Z.class, C3139f2.a);
+        aVar.g(C3160h5.class, C3166i2.a);
+        aVar.g(AbstractC3133e5.class, C3130e2.a);
+        aVar.g(AbstractC3197l6.class, C3185k3.a);
+        aVar.g(W6.class, W3.a);
+        aVar.g(X6.class, X3.a);
+        aVar.g(androidx.datastore.preferences.protobuf.h0.class, V3.a);
+        aVar.g(I5.class, H2.a);
+        aVar.g(E7.class, C3302y1.a);
+        aVar.g(J5.class, I2.a);
+        aVar.g(AbstractC3267t6.class, C3256s3.a);
+        aVar.g(AbstractC3291w6.class, C3280v3.a);
+        aVar.g(AbstractC3283v6.class, C3272u3.a);
+        aVar.g(AbstractC3275u6.class, C3264t3.a);
+        aVar.g(F6.class, E3.a);
+        aVar.g(G6.class, F3.a);
+        aVar.g(I6.class, H3.a);
+        aVar.g(H6.class, G3.a);
+        aVar.g(F5.class, G2.a);
+        aVar.g(J6.class, I3.a);
+        aVar.g(K6.class, J3.a);
+        aVar.g(L6.class, K3.a);
+        aVar.g(M6.class, L3.a);
+        aVar.g(Q6.class, O3.a);
+        aVar.g(P6.class, P3.a);
+        aVar.g(E6.class, A3.a);
+        aVar.g(AbstractC3232p5.class, C3246r2.a);
+        aVar.g(C6.class, C3.a);
+        aVar.g(B6.class, B3.a);
+        aVar.g(D6.class, D3.a);
+        aVar.g(Y6.class, Y3.a);
+        aVar.g(AbstractC3251r7.class, C3281v4.a);
+        aVar.g(E4.class, D1.a);
+        aVar.g(C4.class, B1.a);
+        aVar.g(B4.class, A1.a);
+        aVar.g(D4.class, C1.a);
+        aVar.g(G4.class, F1.a);
+        aVar.g(F4.class, E1.a);
+        aVar.g(H4.class, G1.a);
+        aVar.g(I4.class, H1.a);
+        aVar.g(J4.class, I1.a);
+        aVar.g(K4.class, J1.a);
+        aVar.g(L4.class, K1.a);
+        aVar.g(E0.class, C3270u1.a);
+        aVar.g(G0.class, C3286w1.a);
+        aVar.g(F0.class, C3278v1.a);
+        aVar.g(AbstractC3214n5.class, C3229p2.a);
+        aVar.g(T4.class, S1.a);
+        aVar.g(T.class, I0.a);
+        aVar.g(S.class, J0.a);
+        aVar.g(C3115c5.class, C3112c2.a);
+        aVar.g(V.class, K0.a);
+        aVar.g(U.class, L0.a);
+        aVar.g(AbstractC3155h0.class, W0.a);
+        aVar.g(AbstractC3146g0.class, X0.a);
+        aVar.g(X.class, M0.a);
+        aVar.g(W.class, N0.a);
+        aVar.g(AbstractC3209n0.class, C3111c1.a);
+        aVar.g(AbstractC3200m0.class, C3120d1.a);
+        aVar.g(AbstractC3244r0.class, C3147g1.a);
+        aVar.g(AbstractC3236q0.class, C3156h1.a);
+        aVar.g(D0.class, C3254s1.a);
+        aVar.g(C0.class, C3262t1.a);
+        aVar.g(AbstractC3261t0.class, C3165i1.a);
+        aVar.g(AbstractC3253s0.class, C3174j1.a);
+        aVar.g(AbstractC3277v0.class, C3183k1.a);
+        aVar.g(AbstractC3269u0.class, C3192l1.a);
+        aVar.g(y7.class, C3114c4.a);
+        aVar.g(s7.class, T1.a);
+        aVar.g(w7.class, F2.a);
+        aVar.g(v7.class, E2.a);
+        aVar.g(t7.class, C3148g2.a);
+        aVar.g(x7.class, C3105b4.a);
+        aVar.g(io.reactivex.rxjava3.exceptions.a.class, C3096a4.a);
+        aVar.g(z7.class, C3123d4.a);
+        aVar.g(u7.class, C3211n2.a);
+        aVar.g(C7.class, C3297x4.a);
+        aVar.g(B7.class, C3305y4.a);
+        aVar.g(A7.class, C3289w4.a);
+        aVar.g(AbstractC3108b7.class, C3141f4.a);
+        aVar.g(AbstractC3205m5.class, C3220o2.a);
+        aVar.g(AbstractC3241q5.class, C3255s2.a);
+        aVar.g(A4.class, C3310z1.a);
+        aVar.g(AbstractC3169i5.class, C3175j2.a);
+        aVar.g(AbstractC3223o5.class, C3238q2.a);
+        aVar.g(AbstractC3124d5.class, C3121d2.a);
+        aVar.g(V4.class, V1.a);
+        aVar.g(W4.class, W1.a);
+        aVar.g(U4.class, U1.a);
+        aVar.g(X4.class, X1.a);
+        aVar.g(E5.class, D2.a);
+        aVar.g(D5.class, C2.a);
+        aVar.g(Q.class, H0.a);
+        aVar.g(AbstractC3225o7.class, C3257s4.a);
+        aVar.g(AbstractC3243q7.class, C3273u4.a);
+        aVar.g(AbstractC3234p7.class, C3265t4.a);
+        aVar.g(AbstractC3313z4.class, C3294x1.a);
+        aVar.g(O4.class, N1.a);
+        aVar.g(N4.class, M1.a);
+        aVar.g(M4.class, L1.a);
+        aVar.g(AbstractC3161h6.class, C3149g3.a);
+        aVar.g(AbstractC3179j6.class, C3167i3.a);
+        aVar.g(AbstractC3170i6.class, C3158h3.a);
+        aVar.g(AbstractC3137f0.class, U0.a);
+        aVar.g(AbstractC3128e0.class, V0.a);
+        aVar.g(AbstractC3206m6.class, C3194l3.a);
+        aVar.g(AbstractC3233p6.class, C3221o3.a);
+        aVar.g(AbstractC3215n6.class, C3203m3.a);
+        aVar.g(AbstractC3224o6.class, C3212n3.a);
+        aVar.g(AbstractC3173j0.class, Y0.a);
+        aVar.g(AbstractC3164i0.class, Z0.a);
+        aVar.g(AbstractC3153g7.class, C3186k4.a);
+        aVar.g(AbstractC3144f7.class, C3177j4.a);
+        aVar.g(AbstractC3207m7.class, C3240q4.a);
+        aVar.g(AbstractC3216n7.class, C3248r4.a);
+        aVar.g(AbstractC3299x6.class, C3288w3.a);
+        aVar.g(A6.class, C3312z3.a);
+        aVar.g(AbstractC3307y6.class, C3296x3.a);
+        aVar.g(AbstractC3315z6.class, C3304y3.a);
+        aVar.g(AbstractC3187k5.class, C3193l2.a);
+        aVar.g(AbstractC3227p0.class, C3129e1.a);
+        aVar.g(AbstractC3218o0.class, C3138f1.a);
+        aVar.g(AbstractC3178j5.class, C3184k2.a);
+        aVar.g(AbstractC3142f5.class, C3157h2.a);
+        aVar.g(AbstractC3242q6.class, C3230p3.a);
+        aVar.g(AbstractC3259s6.class, C3247r3.a);
+        aVar.g(AbstractC3250r6.class, C3239q3.a);
+        aVar.g(AbstractC3191l0.class, C3093a1.a);
+        aVar.g(AbstractC3182k0.class, C3102b1.a);
+        aVar.g(X5.class, W2.a);
+        aVar.g(Y5.class, X2.a);
+        aVar.g(Z5.class, Y2.a);
+        aVar.g(AbstractC3101b0.class, Q0.a);
+        aVar.g(AbstractC3092a0.class, R0.a);
+        aVar.g(U5.class, T2.a);
+        aVar.g(V5.class, U2.a);
+        aVar.g(W5.class, V2.a);
+        aVar.g(Z.class, O0.a);
+        aVar.g(Y.class, P0.a);
+        aVar.g(AbstractC3098a6.class, Z2.a);
+        aVar.g(AbstractC3107b6.class, C3095a3.a);
+        aVar.g(AbstractC3116c6.class, C3104b3.a);
+        aVar.g(AbstractC3125d6.class, C3113c3.a);
+        aVar.g(AbstractC3119d0.class, S0.a);
+        aVar.g(AbstractC3110c0.class, T0.a);
+        aVar.g(AbstractC3126d7.class, C3150g4.a);
+        aVar.g(AbstractC3117c7.class, C3159h4.a);
+        aVar.g(AbstractC3249r5.class, C3263t2.a);
+        aVar.g(AbstractC3266t5.class, C3279v2.a);
+        aVar.g(AbstractC3258s5.class, C3271u2.a);
+        aVar.g(AbstractC3274u5.class, C3287w2.a);
+        aVar.g(R6.class, Q3.a);
+        aVar.g(S6.class, R3.a);
+        aVar.g(AbstractC3309z0.class, C3219o1.a);
+        aVar.g(AbstractC3301y0.class, C3228p1.a);
+        aVar.g(AbstractC3162h7.class, C3195l4.a);
+        aVar.g(N6.class, M3.a);
+        aVar.g(O6.class, N3.a);
+        aVar.g(AbstractC3293x0.class, C3201m1.a);
+        aVar.g(AbstractC3285w0.class, C3210n1.a);
+        aVar.g(AbstractC3135e7.class, C3168i4.a);
+        aVar.g(T5.class, K2.a);
+        aVar.g(S5.class, S2.a);
+        aVar.g(P5.class, P2.a);
+        aVar.g(O5.class, O2.a);
+        aVar.g(Q5.class, Q2.a);
+        aVar.g(R5.class, R2.a);
+        aVar.g(N5.class, N2.a);
+        aVar.g(K5.class, J2.a);
+        aVar.g(M5.class, M2.a);
+        aVar.g(L5.class, L2.a);
+        aVar.g(AbstractC3143f6.class, C3131e3.a);
+        aVar.g(AbstractC3097a5.class, C3094a2.a);
+        aVar.g(AbstractC3134e6.class, C3122d3.a);
+        aVar.g(AbstractC3152g6.class, C3140f3.a);
+        aVar.g(Z4.class, Z1.a);
+        aVar.g(AbstractC3106b5.class, C3103b2.a);
+        aVar.g(AbstractC3099a7.class, C3132e4.a);
+        aVar.g(T6.class, S3.a);
+        aVar.g(AbstractC3189k7.class, C3222o4.a);
+        aVar.g(V6.class, U3.a);
+        aVar.g(U6.class, T3.a);
+        aVar.g(AbstractC3171i7.class, C3204m4.a);
+        aVar.g(B0.class, C3237q1.a);
+        aVar.g(A0.class, C3245r1.a);
+        aVar.g(AbstractC3180j7.class, C3213n4.a);
+        aVar.g(Y4.class, Y1.a);
+    }
+
+    @Override // com.google.android.datatransport.e
+    public Object apply(Object obj) {
+        switch (this.a) {
+        }
+        return (byte[]) obj;
+    }
+}

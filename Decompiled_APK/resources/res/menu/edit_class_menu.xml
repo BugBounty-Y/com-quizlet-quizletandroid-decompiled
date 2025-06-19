@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:icon="@drawable/ic_sys_check"
+        android:enabled="true"
+        android:id="@+id/menu_class_complete"
+        android:visible="true"
+        android:title="@string/done"
+        app:iconTint="?attr/AssemblyIconColor"
+        app:showAsAction="always"/>
+</menu>

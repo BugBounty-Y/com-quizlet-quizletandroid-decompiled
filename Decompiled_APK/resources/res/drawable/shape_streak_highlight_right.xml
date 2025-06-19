@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:right="@dimen/achievements_calendar_day_margin">
+        <shape android:shape="rectangle">
+            <solid android:color="?attr/StreakCalendarHighlight"/>
+            <size
+                android:height="32dp"
+                android:width="32dp"/>
+            <corners
+                android:topRightRadius="20dp"
+                android:bottomRightRadius="20dp"/>
+        </shape>
+    </item>
+</layer-list>

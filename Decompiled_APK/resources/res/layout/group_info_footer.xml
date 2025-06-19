@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="@dimen/quizlet_edge_margin"
+    android:layout_marginRight="@dimen/quizlet_edge_margin">
+    <com.quizlet.partskit.widgets.QButton
+        android:layout_gravity="center"
+        android:id="@+id/join_drop_class"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/join_class"/>
+</LinearLayout>

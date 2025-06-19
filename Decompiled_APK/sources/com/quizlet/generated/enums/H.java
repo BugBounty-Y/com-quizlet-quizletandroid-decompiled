@@ -1,0 +1,301 @@
+package com.quizlet.generated.enums;
+
+import com.comscore.streaming.AdvertisementType;
+import com.comscore.streaming.ContentType;
+import com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView;
+import com.google.android.gms.dynamite.descriptors.com.google.android.gms.measurement.dynamite.ModuleDescriptor;
+import com.google.android.gms.internal.mlkit_vision_camera.AbstractC3328d;
+import com.onetrust.otpublishers.headless.Public.OTCCPAGeolocationConstants;
+import com.onetrust.otpublishers.headless.Public.OTUIDisplayReason.OTUIDisplayReasonCode;
+import org.jetbrains.annotations.NotNull;
+
+/* JADX WARN: Failed to restore enum class, 'enum' modifier and super class removed */
+/* JADX WARN: Unknown enum class pattern. Please report as an issue! */
+/* loaded from: classes3.dex */
+public final class H {
+    private static final /* synthetic */ kotlin.enums.a $ENTRIES;
+    private static final /* synthetic */ H[] $VALUES;
+
+    @NotNull
+    public static final G Companion;
+
+    @NotNull
+    private final String value;
+    public static final H AFGHANISTAN = new H("AFGHANISTAN", 0, "af");
+    public static final H ALAND_ISLANDS = new H("ALAND_ISLANDS", 1, "ax");
+    public static final H ALBANIA = new H("ALBANIA", 2, "al");
+    public static final H ALGERIA = new H("ALGERIA", 3, "dz");
+    public static final H AMERICAN_SAMOA = new H("AMERICAN_SAMOA", 4, "as");
+    public static final H ANDORRA = new H("ANDORRA", 5, "ad");
+    public static final H ANGOLA = new H("ANGOLA", 6, "ao");
+    public static final H ANGUILLA = new H("ANGUILLA", 7, "ai");
+    public static final H ANTARCTICA = new H("ANTARCTICA", 8, "aq");
+    public static final H ANTIGUA_AND_BARBUDA = new H("ANTIGUA_AND_BARBUDA", 9, "ag");
+    public static final H ARGENTINA = new H("ARGENTINA", 10, "ar");
+    public static final H ARMENIA = new H("ARMENIA", 11, "am");
+    public static final H ARUBA = new H("ARUBA", 12, "aw");
+    public static final H AUSTRALIA = new H("AUSTRALIA", 13, "au");
+    public static final H AUSTRIA = new H("AUSTRIA", 14, "at");
+    public static final H AZERBAIJAN = new H("AZERBAIJAN", 15, "az");
+    public static final H BAHAMAS = new H("BAHAMAS", 16, "bs");
+    public static final H BAHRAIN = new H("BAHRAIN", 17, "bh");
+    public static final H BANGLADESH = new H("BANGLADESH", 18, "bd");
+    public static final H BARBADOS = new H("BARBADOS", 19, "bb");
+    public static final H BELARUS = new H("BELARUS", 20, "by");
+    public static final H BELGIUM = new H("BELGIUM", 21, "be");
+    public static final H BELIZE = new H("BELIZE", 22, "bz");
+    public static final H BENIN = new H("BENIN", 23, "bj");
+    public static final H BERMUDA = new H("BERMUDA", 24, "bm");
+    public static final H BHUTAN = new H("BHUTAN", 25, "bt");
+    public static final H BOLIVIA = new H("BOLIVIA", 26, "bo");
+    public static final H BONAIRE_SINT_EUSTATIUS_AND_SABA = new H("BONAIRE_SINT_EUSTATIUS_AND_SABA", 27, "bq");
+    public static final H BOSNIA_AND_HERZEGOVINA = new H("BOSNIA_AND_HERZEGOVINA", 28, "ba");
+    public static final H BOTSWANA = new H("BOTSWANA", 29, "bw");
+    public static final H BOUVET_ISLAND = new H("BOUVET_ISLAND", 30, "bv");
+    public static final H BRAZIL = new H("BRAZIL", 31, "br");
+    public static final H BRITISH_INDIAN_OCEAN_TERRITORY = new H("BRITISH_INDIAN_OCEAN_TERRITORY", 32, "io");
+    public static final H BRITISH_VIRGIN_ISLANDS = new H("BRITISH_VIRGIN_ISLANDS", 33, "vg");
+    public static final H BRUNEI = new H("BRUNEI", 34, "bn");
+    public static final H BULGARIA = new H("BULGARIA", 35, "bg");
+    public static final H BURKINA_FASO = new H("BURKINA_FASO", 36, "bf");
+    public static final H BURUNDI = new H("BURUNDI", 37, "bi");
+    public static final H CABO_VERDE = new H("CABO_VERDE", 38, "cv");
+    public static final H CAMBODIA = new H("CAMBODIA", 39, "kh");
+    public static final H CAMEROON = new H("CAMEROON", 40, "cm");
+    public static final H CANADA = new H("CANADA", 41, OTCCPAGeolocationConstants.CA);
+    public static final H CAYMAN_ISLANDS = new H("CAYMAN_ISLANDS", 42, "ky");
+    public static final H CENTRAL_AFRICAN_REPUBLIC = new H("CENTRAL_AFRICAN_REPUBLIC", 43, "cf");
+    public static final H CHAD = new H("CHAD", 44, "td");
+    public static final H CHILE = new H("CHILE", 45, "cl");
+    public static final H CHINA = new H("CHINA", 46, "cn");
+    public static final H CHRISTMAS_ISLAND = new H("CHRISTMAS_ISLAND", 47, "cx");
+    public static final H COCOS_ISLANDS = new H("COCOS_ISLANDS", 48, "cc");
+    public static final H COLOMBIA = new H("COLOMBIA", 49, "co");
+    public static final H COMOROS = new H("COMOROS", 50, "km");
+    public static final H CONGO = new H("CONGO", 51, "cg");
+    public static final H COOK_ISLANDS = new H("COOK_ISLANDS", 52, "ck");
+    public static final H COSTA_RICA = new H("COSTA_RICA", 53, "cr");
+    public static final H COTE_DIVOIRE = new H("COTE_DIVOIRE", 54, "ci");
+    public static final H CROATIA = new H("CROATIA", 55, "hr");
+    public static final H CUBA = new H("CUBA", 56, "cu");
+    public static final H CURACAO = new H("CURACAO", 57, "cw");
+    public static final H CYPRUS = new H("CYPRUS", 58, "cy");
+    public static final H CZECHIA = new H("CZECHIA", 59, "cz");
+    public static final H DEMOCRATIC_REPUBLIC_CONGO = new H("DEMOCRATIC_REPUBLIC_CONGO", 60, "cd");
+    public static final H DENMARK = new H("DENMARK", 61, "dk");
+    public static final H DJIBOUTI = new H("DJIBOUTI", 62, "dj");
+    public static final H DOMINICA = new H("DOMINICA", 63, "dm");
+    public static final H DOMINICAN_REPUBLIC = new H("DOMINICAN_REPUBLIC", 64, "do");
+    public static final H ECUADOR = new H("ECUADOR", 65, "ec");
+    public static final H EGYPT = new H("EGYPT", 66, "eg");
+    public static final H EL_SALVADOR = new H("EL_SALVADOR", 67, "sv");
+    public static final H EQUATORIAL_GUINEA = new H("EQUATORIAL_GUINEA", 68, "gq");
+    public static final H ERITREA = new H("ERITREA", 69, "er");
+    public static final H ESTONIA = new H("ESTONIA", 70, "ee");
+    public static final H ESWATINI = new H("ESWATINI", 71, "sz");
+    public static final H ETHIOPIA = new H("ETHIOPIA", 72, "et");
+    public static final H FALKLAND_ISLANDS = new H("FALKLAND_ISLANDS", 73, "fk");
+    public static final H FAROE_ISLANDS = new H("FAROE_ISLANDS", 74, "fo");
+    public static final H FIJI = new H("FIJI", 75, "fj");
+    public static final H FINLAND = new H("FINLAND", 76, "fi");
+    public static final H FRANCE = new H("FRANCE", 77, "fr");
+    public static final H FRENCH_GUIANA = new H("FRENCH_GUIANA", 78, "gf");
+    public static final H FRENCH_POLYNESIA = new H("FRENCH_POLYNESIA", 79, "pf");
+    public static final H FRENCH_SOUTHERN_TERRITORIES = new H("FRENCH_SOUTHERN_TERRITORIES", 80, "tf");
+    public static final H GABON = new H("GABON", 81, "ga");
+    public static final H GAMBIA = new H("GAMBIA", 82, "gm");
+    public static final H GEORGIA = new H("GEORGIA", 83, "ge");
+    public static final H GERMANY = new H("GERMANY", 84, "de");
+    public static final H GHANA = new H("GHANA", 85, "gh");
+    public static final H GIBRALTAR = new H("GIBRALTAR", 86, "gi");
+    public static final H GREAT_BRITAIN = new H("GREAT_BRITAIN", 87, "gb");
+    public static final H GREECE = new H("GREECE", 88, "gr");
+    public static final H GREENLAND = new H("GREENLAND", 89, "gl");
+    public static final H GRENADA = new H("GRENADA", 90, "gd");
+    public static final H GUADELOUPE = new H("GUADELOUPE", 91, "gp");
+    public static final H GUAM = new H("GUAM", 92, "gu");
+    public static final H GUATEMALA = new H("GUATEMALA", 93, "gt");
+    public static final H GUERNSEY = new H("GUERNSEY", 94, "gg");
+    public static final H GUINEA = new H("GUINEA", 95, "gn");
+    public static final H GUINEA_BISSAU = new H("GUINEA_BISSAU", 96, "gw");
+    public static final H GUYANA = new H("GUYANA", 97, "gy");
+    public static final H HAITI = new H("HAITI", 98, "ht");
+    public static final H HEARD_ISLAND_AND_MCDONALD_ISLANDS = new H("HEARD_ISLAND_AND_MCDONALD_ISLANDS", 99, "hm");
+    public static final H HOLY_SEE = new H("HOLY_SEE", 100, "va");
+    public static final H HONDURAS = new H("HONDURAS", 101, "hn");
+    public static final H HONG_KONG = new H("HONG_KONG", 102, "hk");
+    public static final H HUNGARY = new H("HUNGARY", 103, "hu");
+    public static final H ICELAND = new H("ICELAND", 104, "is");
+    public static final H INDIA = new H("INDIA", OTUIDisplayReasonCode.UIShownCode.BANNER_SHOWN_CONSENT_EXPIRED, "in");
+    public static final H INDONESIA = new H("INDONESIA", OTUIDisplayReasonCode.UIShownCode.BANNER_SHOWN_SERVICE_SPECIFIC_OFF, "id");
+    public static final H IRAN = new H("IRAN", OTUIDisplayReasonCode.UIShownCode.BANNER_SHOWN_SYNC_FAILED, "ir");
+    public static final H IRAQ = new H("IRAQ", OTUIDisplayReasonCode.UIShownCode.BANNER_SHOWN_BACKWARD_COMPATIBILITY, "iq");
+    public static final H IRELAND = new H("IRELAND", OTUIDisplayReasonCode.UIShownCode.BANNER_SHOWN_MOVED_REGION, "ie");
+    public static final H ISLE_OF_MAN = new H("ISLE_OF_MAN", OTUIDisplayReasonCode.UIShownCode.BANNER_SHOWN_SHOW_BANNER_CALLED, "im");
+    public static final H ISRAEL = new H("ISRAEL", 111, "il");
+    public static final H ITALY = new H("ITALY", ContentType.LONG_FORM_ON_DEMAND, "it");
+    public static final H JAMAICA = new H("JAMAICA", ContentType.LIVE, "jm");
+    public static final H JAPAN = new H("JAPAN", 114, "jp");
+    public static final H JERSEY = new H("JERSEY", 115, "je");
+    public static final H JORDAN = new H("JORDAN", 116, "jo");
+    public static final H KAZAKHSTAN = new H("KAZAKHSTAN", 117, "kz");
+    public static final H KENYA = new H("KENYA", 118, "ke");
+    public static final H KIRIBATI = new H("KIRIBATI", 119, "ki");
+    public static final H KOSOVO = new H("KOSOVO", 120, "xk");
+    public static final H KUWAIT = new H("KUWAIT", ContentType.USER_GENERATED_SHORT_FORM_ON_DEMAND, "kw");
+    public static final H KYRGYZSTAN = new H("KYRGYZSTAN", ContentType.USER_GENERATED_LONG_FORM_ON_DEMAND, "kg");
+    public static final H LAOS = new H("LAOS", ContentType.USER_GENERATED_LIVE, "la");
+    public static final H LATVIA = new H("LATVIA", 124, "lv");
+    public static final H LEBANON = new H("LEBANON", 125, "lb");
+    public static final H LESOTHO = new H("LESOTHO", 126, "ls");
+    public static final H LIBERIA = new H("LIBERIA", 127, "lr");
+    public static final H LIBYA = new H("LIBYA", 128, "ly");
+    public static final H LIECHTENSTEIN = new H("LIECHTENSTEIN", 129, "li");
+    public static final H LITHUANIA = new H("LITHUANIA", 130, "lt");
+    public static final H LUXEMBOURG = new H("LUXEMBOURG", 131, "lu");
+    public static final H MACAO = new H("MACAO", 132, "mo");
+    public static final H MADAGASCAR = new H("MADAGASCAR", 133, "mg");
+    public static final H MALAWI = new H("MALAWI", 134, "mw");
+    public static final H MALAYSIA = new H("MALAYSIA", 135, "my");
+    public static final H MALDIVES = new H("MALDIVES", 136, "mv");
+    public static final H MALI = new H("MALI", 137, "ml");
+    public static final H MALTA = new H("MALTA", 138, "mt");
+    public static final H MARSHALL_ISLANDS = new H("MARSHALL_ISLANDS", 139, "mh");
+    public static final H MARTINIQUE = new H("MARTINIQUE", 140, "mq");
+    public static final H MAURITANIA = new H("MAURITANIA", ModuleDescriptor.MODULE_VERSION, "mr");
+    public static final H MAURITIUS = new H("MAURITIUS", 142, "mu");
+    public static final H MAYOTTE = new H("MAYOTTE", 143, "yt");
+    public static final H MEXICO = new H("MEXICO", 144, "mx");
+    public static final H MICRONESIA = new H("MICRONESIA", 145, "fm");
+    public static final H MOLDOVA = new H("MOLDOVA", 146, "md");
+    public static final H MONACO = new H("MONACO", 147, "mc");
+    public static final H MONGOLIA = new H("MONGOLIA", 148, "mn");
+    public static final H MONTENEGRO = new H("MONTENEGRO", 149, "me");
+    public static final H MONTSERRAT = new H("MONTSERRAT", 150, "ms");
+    public static final H MOROCCO = new H("MOROCCO", 151, "ma");
+    public static final H MOZAMBIQUE = new H("MOZAMBIQUE", 152, "mz");
+    public static final H MYANMAR = new H("MYANMAR", 153, "mm");
+    public static final H NAMIBIA = new H("NAMIBIA", 154, "na");
+    public static final H NAURU = new H("NAURU", 155, "nr");
+    public static final H NEPAL = new H("NEPAL", 156, "np");
+    public static final H NETHERLANDS = new H("NETHERLANDS", 157, "nl");
+    public static final H NEW_CALEDONIA = new H("NEW_CALEDONIA", 158, "nc");
+    public static final H NEW_ZEALAND = new H("NEW_ZEALAND", 159, "nz");
+    public static final H NICARAGUA = new H("NICARAGUA", 160, "ni");
+    public static final H NIGER = new H("NIGER", 161, "ne");
+    public static final H NIGERIA = new H("NIGERIA", 162, "ng");
+    public static final H NIUE = new H("NIUE", 163, "nu");
+    public static final H NORFOLK_ISLAND = new H("NORFOLK_ISLAND", 164, "nf");
+    public static final H NORTH_KOREA = new H("NORTH_KOREA", 165, "kp");
+    public static final H NORTH_MACEDONIA = new H("NORTH_MACEDONIA", 166, "mk");
+    public static final H NORTHERN_MARIANA_ISLANDS = new H("NORTHERN_MARIANA_ISLANDS", 167, "mp");
+    public static final H NORWAY = new H("NORWAY", 168, "no");
+    public static final H OMAN = new H("OMAN", 169, "om");
+    public static final H PAKISTAN = new H("PAKISTAN", 170, "pk");
+    public static final H PALAU = new H("PALAU", 171, "pw");
+    public static final H PALESTINE = new H("PALESTINE", 172, "ps");
+    public static final H PANAMA = new H("PANAMA", 173, "pa");
+    public static final H PAPUA_NEW_GUINEA = new H("PAPUA_NEW_GUINEA", 174, "pg");
+    public static final H PARAGUAY = new H("PARAGUAY", 175, "py");
+    public static final H PERU = new H("PERU", 176, "pe");
+    public static final H PHILIPPINES = new H("PHILIPPINES", 177, "ph");
+    public static final H PITCAIRN = new H("PITCAIRN", 178, "pn");
+    public static final H POLAND = new H("POLAND", 179, "pl");
+    public static final H PORTUGAL = new H("PORTUGAL", SubsamplingScaleImageView.ORIENTATION_180, "pt");
+    public static final H PUERTO_RICO = new H("PUERTO_RICO", 181, "pr");
+    public static final H QATAR = new H("QATAR", 182, "qa");
+    public static final H REUNION = new H("REUNION", 183, "re");
+    public static final H ROMANIA = new H("ROMANIA", 184, "ro");
+    public static final H RUSSIA = new H("RUSSIA", 185, "ru");
+    public static final H RWANDA = new H("RWANDA", 186, "rw");
+    public static final H SAINT_BARTHELEMY = new H("SAINT_BARTHELEMY", 187, "bl");
+    public static final H SAINT_HELENA = new H("SAINT_HELENA", 188, "sh");
+    public static final H SAINT_KITTS_AND_NEVIS = new H("SAINT_KITTS_AND_NEVIS", 189, "kn");
+    public static final H SAINT_LUCIA = new H("SAINT_LUCIA", 190, "lc");
+    public static final H SAINT_MARTIN = new H("SAINT_MARTIN", 191, "mf");
+    public static final H SAINT_PIERRE_AND_MIQUELON = new H("SAINT_PIERRE_AND_MIQUELON", 192, "pm");
+    public static final H SAINT_VINCENT_AND_THE_GRENADINES = new H("SAINT_VINCENT_AND_THE_GRENADINES", 193, "vc");
+    public static final H SAMOA = new H("SAMOA", 194, "ws");
+    public static final H SAN_MARINO = new H("SAN_MARINO", 195, "sm");
+    public static final H SAO_TOME_AND_PRINCIPE = new H("SAO_TOME_AND_PRINCIPE", 196, "st");
+    public static final H SAUDI_ARABIA = new H("SAUDI_ARABIA", 197, "sa");
+    public static final H SENEGAL = new H("SENEGAL", 198, "sn");
+    public static final H SERBIA = new H("SERBIA", ContentType.BUMPER, "rs");
+    public static final H SEYCHELLES = new H("SEYCHELLES", 200, "sc");
+    public static final H SIERRA_LEONE = new H("SIERRA_LEONE", 201, "sl");
+    public static final H SINGAPORE = new H("SINGAPORE", 202, "sg");
+    public static final H SINT_MAARTEN = new H("SINT_MAARTEN", 203, "sx");
+    public static final H SLOVAKIA = new H("SLOVAKIA", 204, "sk");
+    public static final H SLOVENIA = new H("SLOVENIA", 205, "si");
+    public static final H SOLOMON_ISLANDS = new H("SOLOMON_ISLANDS", OTUIDisplayReasonCode.UIShownCode.PC_SHOWN_SERVICE_SPECIFIC_OFF, "sb");
+    public static final H SOMALIA = new H("SOMALIA", OTUIDisplayReasonCode.UIShownCode.PC_SHOWN_SYNC_FAILED, "so");
+    public static final H SOUTH_AFRICA = new H("SOUTH_AFRICA", OTUIDisplayReasonCode.UIShownCode.PC_SHOWN_BACKWARD_COMPATIBILITY, "za");
+    public static final H SOUTH_GEORGIA = new H("SOUTH_GEORGIA", OTUIDisplayReasonCode.UIShownCode.PC_SHOWN_MOVED_REGION, "gs");
+    public static final H SOUTH_KOREA = new H("SOUTH_KOREA", OTUIDisplayReasonCode.UIShownCode.PC_SHOWN_SHOW_PC_CALLED, "kr");
+    public static final H SOUTH_SUDAN = new H("SOUTH_SUDAN", 211, "ss");
+    public static final H SPAIN = new H("SPAIN", AdvertisementType.ON_DEMAND_MID_ROLL, "es");
+    public static final H SRI_LANKA = new H("SRI_LANKA", AdvertisementType.ON_DEMAND_POST_ROLL, "lk");
+    public static final H SUDAN = new H("SUDAN", 214, "sd");
+    public static final H SURINAME = new H("SURINAME", 215, "sr");
+    public static final H SVALBARD_AND_JAN_MAYEN = new H("SVALBARD_AND_JAN_MAYEN", 216, "sj");
+    public static final H SWEDEN = new H("SWEDEN", com.google.android.gms.dynamite.descriptors.com.google.android.gms.tagmanager.ModuleDescriptor.MODULE_VERSION, "se");
+    public static final H SWITZERLAND = new H("SWITZERLAND", 218, "ch");
+    public static final H SYRIA = new H("SYRIA", 219, "sy");
+    public static final H TAIWAN = new H("TAIWAN", 220, "tw");
+    public static final H TAJIKISTAN = new H("TAJIKISTAN", AdvertisementType.LIVE, "tj");
+    public static final H TANZANIA = new H("TANZANIA", 222, "tz");
+    public static final H THAILAND = new H("THAILAND", 223, "th");
+    public static final H TIMOR_LESTE = new H("TIMOR_LESTE", 224, "tl");
+    public static final H TOGO = new H("TOGO", 225, "tg");
+    public static final H TOKELAU = new H("TOKELAU", 226, "tk");
+    public static final H TONGA = new H("TONGA", 227, "to");
+    public static final H TRINIDAD_AND_TOBAGO = new H("TRINIDAD_AND_TOBAGO", 228, "tt");
+    public static final H TUNISIA = new H("TUNISIA", 229, "tn");
+    public static final H TURKEY = new H("TURKEY", 230, "tr");
+    public static final H TURKMENISTAN = new H("TURKMENISTAN", AdvertisementType.BRANDED_ON_DEMAND_PRE_ROLL, "tm");
+    public static final H TURKS_AND_CAICOS_ISLANDS = new H("TURKS_AND_CAICOS_ISLANDS", AdvertisementType.BRANDED_ON_DEMAND_MID_ROLL, "tc");
+    public static final H TUVALU = new H("TUVALU", AdvertisementType.BRANDED_ON_DEMAND_POST_ROLL, "tv");
+    public static final H UGANDA = new H("UGANDA", AdvertisementType.BRANDED_AS_CONTENT, "ug");
+    public static final H UKRAINE = new H("UKRAINE", AdvertisementType.BRANDED_DURING_LIVE, "ua");
+    public static final H UNITED_ARAB_EMIRATES = new H("UNITED_ARAB_EMIRATES", 236, "ae");
+    public static final H UNITED_STATES = new H("UNITED_STATES", 237, OTCCPAGeolocationConstants.US);
+    public static final H UNITED_STATES_MINOR_OUTLYING_ISLANDS = new H("UNITED_STATES_MINOR_OUTLYING_ISLANDS", 238, "um");
+    public static final H UNITED_STATES_VIRGIN_ISLANDS = new H("UNITED_STATES_VIRGIN_ISLANDS", 239, "vi");
+    public static final H URUGUAY = new H("URUGUAY", 240, "uy");
+    public static final H UZBEKISTAN = new H("UZBEKISTAN", 241, "uz");
+    public static final H VANUATU = new H("VANUATU", 242, "vu");
+    public static final H VENEZUELA = new H("VENEZUELA", 243, "ve");
+    public static final H VIETNAM = new H("VIETNAM", 244, "vn");
+    public static final H WALLIS_AND_FUTUNA = new H("WALLIS_AND_FUTUNA", 245, "wf");
+    public static final H WESTERN_SAHARA = new H("WESTERN_SAHARA", 246, "eh");
+    public static final H YEMEN = new H("YEMEN", 247, "ye");
+    public static final H ZAMBIA = new H("ZAMBIA", 248, "zm");
+    public static final H ZIMBABWE = new H("ZIMBABWE", 249, "zw");
+
+    static {
+        H[] hArrA = a();
+        $VALUES = hArrA;
+        $ENTRIES = AbstractC3328d.f(hArrA);
+        Companion = new G();
+    }
+
+    public H(String str, int i, String str2) {
+        this.value = str2;
+    }
+
+    public static final /* synthetic */ H[] a() {
+        return new H[]{AFGHANISTAN, ALAND_ISLANDS, ALBANIA, ALGERIA, AMERICAN_SAMOA, ANDORRA, ANGOLA, ANGUILLA, ANTARCTICA, ANTIGUA_AND_BARBUDA, ARGENTINA, ARMENIA, ARUBA, AUSTRALIA, AUSTRIA, AZERBAIJAN, BAHAMAS, BAHRAIN, BANGLADESH, BARBADOS, BELARUS, BELGIUM, BELIZE, BENIN, BERMUDA, BHUTAN, BOLIVIA, BONAIRE_SINT_EUSTATIUS_AND_SABA, BOSNIA_AND_HERZEGOVINA, BOTSWANA, BOUVET_ISLAND, BRAZIL, BRITISH_INDIAN_OCEAN_TERRITORY, BRITISH_VIRGIN_ISLANDS, BRUNEI, BULGARIA, BURKINA_FASO, BURUNDI, CABO_VERDE, CAMBODIA, CAMEROON, CANADA, CAYMAN_ISLANDS, CENTRAL_AFRICAN_REPUBLIC, CHAD, CHILE, CHINA, CHRISTMAS_ISLAND, COCOS_ISLANDS, COLOMBIA, COMOROS, CONGO, COOK_ISLANDS, COSTA_RICA, COTE_DIVOIRE, CROATIA, CUBA, CURACAO, CYPRUS, CZECHIA, DEMOCRATIC_REPUBLIC_CONGO, DENMARK, DJIBOUTI, DOMINICA, DOMINICAN_REPUBLIC, ECUADOR, EGYPT, EL_SALVADOR, EQUATORIAL_GUINEA, ERITREA, ESTONIA, ESWATINI, ETHIOPIA, FALKLAND_ISLANDS, FAROE_ISLANDS, FIJI, FINLAND, FRANCE, FRENCH_GUIANA, FRENCH_POLYNESIA, FRENCH_SOUTHERN_TERRITORIES, GABON, GAMBIA, GEORGIA, GERMANY, GHANA, GIBRALTAR, GREAT_BRITAIN, GREECE, GREENLAND, GRENADA, GUADELOUPE, GUAM, GUATEMALA, GUERNSEY, GUINEA, GUINEA_BISSAU, GUYANA, HAITI, HEARD_ISLAND_AND_MCDONALD_ISLANDS, HOLY_SEE, HONDURAS, HONG_KONG, HUNGARY, ICELAND, INDIA, INDONESIA, IRAN, IRAQ, IRELAND, ISLE_OF_MAN, ISRAEL, ITALY, JAMAICA, JAPAN, JERSEY, JORDAN, KAZAKHSTAN, KENYA, KIRIBATI, KOSOVO, KUWAIT, KYRGYZSTAN, LAOS, LATVIA, LEBANON, LESOTHO, LIBERIA, LIBYA, LIECHTENSTEIN, LITHUANIA, LUXEMBOURG, MACAO, MADAGASCAR, MALAWI, MALAYSIA, MALDIVES, MALI, MALTA, MARSHALL_ISLANDS, MARTINIQUE, MAURITANIA, MAURITIUS, MAYOTTE, MEXICO, MICRONESIA, MOLDOVA, MONACO, MONGOLIA, MONTENEGRO, MONTSERRAT, MOROCCO, MOZAMBIQUE, MYANMAR, NAMIBIA, NAURU, NEPAL, NETHERLANDS, NEW_CALEDONIA, NEW_ZEALAND, NICARAGUA, NIGER, NIGERIA, NIUE, NORFOLK_ISLAND, NORTH_KOREA, NORTH_MACEDONIA, NORTHERN_MARIANA_ISLANDS, NORWAY, OMAN, PAKISTAN, PALAU, PALESTINE, PANAMA, PAPUA_NEW_GUINEA, PARAGUAY, PERU, PHILIPPINES, PITCAIRN, POLAND, PORTUGAL, PUERTO_RICO, QATAR, REUNION, ROMANIA, RUSSIA, RWANDA, SAINT_BARTHELEMY, SAINT_HELENA, SAINT_KITTS_AND_NEVIS, SAINT_LUCIA, SAINT_MARTIN, SAINT_PIERRE_AND_MIQUELON, SAINT_VINCENT_AND_THE_GRENADINES, SAMOA, SAN_MARINO, SAO_TOME_AND_PRINCIPE, SAUDI_ARABIA, SENEGAL, SERBIA, SEYCHELLES, SIERRA_LEONE, SINGAPORE, SINT_MAARTEN, SLOVAKIA, SLOVENIA, SOLOMON_ISLANDS, SOMALIA, SOUTH_AFRICA, SOUTH_GEORGIA, SOUTH_KOREA, SOUTH_SUDAN, SPAIN, SRI_LANKA, SUDAN, SURINAME, SVALBARD_AND_JAN_MAYEN, SWEDEN, SWITZERLAND, SYRIA, TAIWAN, TAJIKISTAN, TANZANIA, THAILAND, TIMOR_LESTE, TOGO, TOKELAU, TONGA, TRINIDAD_AND_TOBAGO, TUNISIA, TURKEY, TURKMENISTAN, TURKS_AND_CAICOS_ISLANDS, TUVALU, UGANDA, UKRAINE, UNITED_ARAB_EMIRATES, UNITED_STATES, UNITED_STATES_MINOR_OUTLYING_ISLANDS, UNITED_STATES_VIRGIN_ISLANDS, URUGUAY, UZBEKISTAN, VANUATU, VENEZUELA, VIETNAM, WALLIS_AND_FUTUNA, WESTERN_SAHARA, YEMEN, ZAMBIA, ZIMBABWE};
+    }
+
+    public static H valueOf(String str) {
+        return (H) Enum.valueOf(H.class, str);
+    }
+
+    public static H[] values() {
+        return (H[]) $VALUES.clone();
+    }
+
+    public final String b() {
+        return this.value;
+    }
+}

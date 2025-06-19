@@ -1,0 +1,18 @@
+package com.google.android.play.core.review.internal;
+
+import android.os.IBinder;
+import android.os.IInterface;
+
+/* loaded from: classes2.dex */
+public final class b implements d, IInterface {
+    public final IBinder a;
+
+    public b(IBinder iBinder) {
+        this.a = iBinder;
+    }
+
+    @Override // android.os.IInterface
+    public final IBinder asBinder() {
+        return this.a;
+    }
+}

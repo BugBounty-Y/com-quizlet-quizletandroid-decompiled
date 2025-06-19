@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/list_item_ad_view_container"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="@dimen/listitem_edge_margin"
+    android:layout_marginRight="@dimen/listitem_edge_margin"
+    android:contentDescription="@string/native_ad_content_description"
+    android:importantForAccessibility="no"/>

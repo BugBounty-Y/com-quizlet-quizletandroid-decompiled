@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="@dimen/ref_spacing_medium">
+    <androidx.cardview.widget.CardView
+        android:id="@+id/emptyTextbookImageCard"
+        android:layout_width="144dp"
+        android:layout_height="144dp"
+        app:cardBackgroundColor="?attr/SysColorCard"
+        app:cardCornerRadius="@dimen/radius_xlarge"
+        app:cardElevation="1dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+        <ImageView
+            android:layout_gravity="center"
+            android:layout_width="112dp"
+            android:layout_height="112dp"
+            android:src="0x7f080271"
+            android:adjustViewBounds="true"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"/>
+    </androidx.cardview.widget.CardView>
+    <com.quizlet.partskit.widgets.QTextView
+        android:textColor="?attr/SysColorTextSecondary"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/ref_spacing_medium"
+        android:text="@string/textbook_no_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/emptyTextbookImageCard"
+        style="@style/SubHeader.S4"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

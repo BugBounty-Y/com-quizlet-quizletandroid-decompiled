@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:gravity="center"
+        android:id="@+id/textViewSmartGradingTitle"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/quizlet_edge_margin_one_point_five"
+        android:text="@string/smart_grading_title"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        style="@style/Header.H3"/>
+    <TextView
+        android:id="@+id/textViewSmartGradingDescription"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/quizlet_edge_margin_double"
+        android:layout_marginBottom="@dimen/quizlet_gap_64"
+        android:text="@string/smart_grading_description"
+        android:layout_marginStart="@dimen/quizlet_edge_margin_one_point_five"
+        android:layout_marginEnd="@dimen/quizlet_edge_margin_one_point_five"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewSmartGradingTitle"
+        style="@style/Body.B3"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

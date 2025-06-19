@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.quizlet.partskit.widgets.QTextView
+        android:ellipsize="end"
+        android:gravity="start|center_vertical"
+        android:id="@+id/edit_set_suggestion_text"
+        android:background="?attr/colorBackgroundSecondary"
+        android:padding="@dimen/quizlet_edge_margin_half"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="@dimen/quizlet_min_tap_target_size_minus_half_margin"
+        android:maxLines="1"
+        style="@style/Body.B5"/>
+</merge>

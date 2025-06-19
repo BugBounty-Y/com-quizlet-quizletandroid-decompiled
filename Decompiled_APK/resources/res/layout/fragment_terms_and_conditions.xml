@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:fadingEdgeLength="@dimen/fading_edge_length"
+    android:clipToPadding="false"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:requiresFadingEdge="vertical">
+    <LinearLayout
+        android:orientation="vertical"
+        android:paddingTop="@dimen/ref_spacing_medium"
+        android:paddingBottom="@dimen/ref_spacing_medium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <com.quizlet.partskit.widgets.QTextView
+            android:id="@+id/termsAndConditionsText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/terms_and_conditions_content"
+            android:layout_marginStart="@dimen/ref_spacing_medium"
+            android:layout_marginEnd="@dimen/ref_spacing_medium"
+            style="@style/Body.B3"/>
+        <com.quizlet.assembly.widgets.buttons.AssemblyTextButton
+            android:id="@+id/tosAndPpLink"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/ref_spacing_xsmall"
+            app:text="@string/tos_and_pp_link"
+            app:textButtonVariant="link"/>
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>

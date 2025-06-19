@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/test_mode_fullscreen_overlay"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <include
+        android:id="@+id/transparentAppbar"
+        layout="@layout/layout_transparent_appbar"/>
+    <LinearLayout
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/quizlet_edge_margin">
+        <ImageView
+            android:id="@+id/test_mode_fullscreen_image"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scaleType="fitCenter"
+            android:adjustViewBounds="true"/>
+        <com.quizlet.partskit.widgets.QTextView
+            android:id="@+id/test_mode_fullscreen_text"
+            android:scrollbars="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/quizlet_edge_margin"
+            style="@style/Body.B2"/>
+    </LinearLayout>
+</FrameLayout>

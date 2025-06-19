@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:id="@+id/edit_set_scan_document_container"
+        android:paddingBottom="@dimen/quizlet_edge_margin_one_point_five"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/edit_set_scan_document_image"
+            android:layout_width="@dimen/ref_size_medium"
+            android:layout_height="@dimen/ref_size_medium"
+            android:src="@drawable/ic_sys_scan"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:tint="?attr/AssemblyButtonActiveState"/>
+        <com.quizlet.partskit.widgets.QTextView
+            android:textColor="?attr/AssemblyButtonActiveState"
+            android:layout_gravity="center_vertical"
+            android:id="@+id/edit_set_scan_document_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/edit_set_scan_document_button"
+            android:layout_marginStart="4dp"
+            android:layout_marginEnd="4dp"
+            app:layout_constraintStart_toEndOf="@+id/edit_set_scan_document_image"
+            app:layout_constraintTop_toTopOf="parent"
+            style="@style/SubHeader.S3"/>
+        <com.quizlet.uicommon.ui.common.views.QuizletPlusBadge
+            android:id="@+id/scanDocumentQPlusBadge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="4dp"
+            android:layout_marginEnd="4dp"/>
+    </LinearLayout>
+    <include
+        android:id="@+id/edit_set_scan_document_tooltip_container"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        app:layout_constraintTop_toBottomOf="@+id/edit_set_scan_document_container"
+        layout="@layout/scan_document_tooltip"/>
+</FrameLayout>

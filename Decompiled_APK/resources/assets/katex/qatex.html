@@ -1,0 +1,40 @@
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width,initial-scale=1.0" >
+        <link href="file:///android_asset/katex/markdown-it-katex.min.css" rel="stylesheet" type="text/css">
+    </head>
+    <style type="text/css">
+        html, body {
+            margin : 0;
+            padding : 0;
+            font-family: HurmeGeometricSans2;
+            font-size: {textSize}px !important;
+            color: {textColor} !important;
+        }
+        #input {
+            display: none;
+        }
+    </style>
+    <body class="{nightTheme}">
+        <textarea id="input">{katexText}</textarea>
+        <div id="output" class="markdown-body{resultClass}"></div>
+        <script>
+            window.onerror = function (message, source, lineno, colno, error) {
+                QatexViewInterface.onError();
+                return false;
+            }
+            window.onload = function() {
+                measureHeight();
+            }
+        </script>
+        <script src="file:///android_asset/katex/markdown-it-katex.min.js" type="text/javascript"></script>
+        <script>
+            function measureHeight() {
+                var el = document.getElementById('output');
+                var divHeight = el.offsetHeight;
+                QatexViewInterface.onTextHeightMeasured(divHeight);
+            }
+
+        </script>
+    </body>
+</html>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="95dp"
+    android:layout_height="95dp">
+    <FrameLayout
+        android:id="@+id/pob_monitor_floating_frame"
+        android:layout_width="85dp"
+        android:layout_height="85dp">
+        <Button
+            android:textSize="44sp"
+            android:textColor="#ffffff"
+            android:layout_gravity="center"
+            android:id="@+id/pob_monitor_floating_btn"
+            android:clickable="false"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:text="≡"/>
+    </FrameLayout>
+    <Button
+        android:textSize="10sp"
+        android:textColor="#ffffff"
+        android:id="@+id/pob_monitor_close_btn"
+        android:background="#f40202"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:text="X"
+        android:textAlignment="center"
+        android:layout_alignEnd="@+id/pob_monitor_floating_frame"/> &quot; 
+</RelativeLayout>

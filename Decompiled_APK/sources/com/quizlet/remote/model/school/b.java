@@ -1,0 +1,57 @@
+package com.quizlet.remote.model.school;
+
+import androidx.glance.appwidget.protobuf.Z;
+import com.quizlet.generated.enums.U1;
+import com.quizlet.remote.model.base.ApiPostBody;
+import com.quizlet.remote.model.school.memberships.RemoteNewSchoolMembership;
+import com.quizlet.remote.service.x;
+import kotlin.Unit;
+import kotlin.collections.A;
+import kotlin.coroutines.jvm.internal.i;
+import kotlin.jvm.functions.Function2;
+import kotlinx.coroutines.C;
+
+/* loaded from: classes3.dex */
+public final class b extends i implements Function2 {
+    public int j;
+    public final /* synthetic */ long k;
+    public final /* synthetic */ U1 l;
+    public final /* synthetic */ com.quizlet.data.repository.set.f m;
+
+    /* JADX WARN: 'super' call moved to the top of the method (can break code semantics) */
+    public b(long j, U1 u1, com.quizlet.data.repository.set.f fVar, kotlin.coroutines.h hVar) {
+        super(2, hVar);
+        this.k = j;
+        this.l = u1;
+        this.m = fVar;
+    }
+
+    @Override // kotlin.coroutines.jvm.internal.a
+    public final kotlin.coroutines.h create(Object obj, kotlin.coroutines.h hVar) {
+        return new b(this.k, this.l, this.m, hVar);
+    }
+
+    @Override // kotlin.jvm.functions.Function2
+    public final Object invoke(Object obj, Object obj2) {
+        return ((b) create((C) obj, (kotlin.coroutines.h) obj2)).invokeSuspend(Unit.a);
+    }
+
+    @Override // kotlin.coroutines.jvm.internal.a
+    public final Object invokeSuspend(Object obj) {
+        kotlin.coroutines.intrinsics.a aVar = kotlin.coroutines.intrinsics.a.a;
+        int i = this.j;
+        if (i != 0) {
+            if (i != 1) {
+                throw new IllegalStateException("call to 'resume' before 'invoke' with coroutine");
+            }
+            Z.e(obj);
+            return obj;
+        }
+        Z.e(obj);
+        ApiPostBody<RemoteNewSchoolMembership> apiPostBody = new ApiPostBody<>(A.b(new RemoteNewSchoolMembership(this.l.a(), this.k)));
+        x xVar = (x) this.m.b;
+        this.j = 1;
+        Object objB = xVar.b(apiPostBody, this);
+        return objB == aVar ? aVar : objB;
+    }
+}

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:gravity="center"
+        android:height="@dimen/shortcut_background_size"
+        android:width="@dimen/shortcut_background_size"
+        android:drawable="@drawable/shape_circle_filled_primary"/>
+    <item
+        android:gravity="center"
+        android:height="@dimen/shortcut_icon_size"
+        android:width="@dimen/shortcut_icon_size"
+        android:drawable="@drawable/ic_sys_set_white"/>
+</layer-list>

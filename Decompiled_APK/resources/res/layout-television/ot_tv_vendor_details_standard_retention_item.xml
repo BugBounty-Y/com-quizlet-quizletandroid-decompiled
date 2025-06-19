@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <TextView
+        android:textSize="@dimen/ot_tv_list_item_text_size"
+        android:id="@+id/tv_vd_purpose_item"
+        android:padding="@dimen/ot_vd_purpose_item_padding"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawablePadding="@dimen/ot_vd_bullet_padding"/>
+</LinearLayout>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_activated="true">
+        <objectAnimator
+            android:duration="@android:integer/config_shortAnimTime"
+            android:valueTo="@dimen/card_elevation_active"
+            android:valueType="floatType"
+            android:propertyName="translationZ"/>
+    </item>
+    <item android:state_pressed="true">
+        <objectAnimator
+            android:duration="@android:integer/config_shortAnimTime"
+            android:valueTo="@dimen/card_elevation_active"
+            android:valueType="floatType"
+            android:propertyName="translationZ"/>
+    </item>
+    <item android:state_selected="true">
+        <objectAnimator
+            android:duration="@android:integer/config_shortAnimTime"
+            android:valueTo="@dimen/card_elevation_active"
+            android:valueType="floatType"
+            android:propertyName="translationZ"/>
+    </item>
+    <item android:state_checkable="false">
+        <objectAnimator
+            android:duration="@android:integer/config_shortAnimTime"
+            android:valueTo="0dp"
+            android:valueType="floatType"
+            android:propertyName="translationZ"/>
+    </item>
+    <item>
+        <objectAnimator
+            android:duration="@android:integer/config_shortAnimTime"
+            android:valueTo="@dimen/card_elevation_inactive"
+            android:valueType="floatType"
+            android:propertyName="translationZ"/>
+    </item>
+</selector>

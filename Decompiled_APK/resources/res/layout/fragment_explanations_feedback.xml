@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <FrameLayout
+        android:id="@+id/back"
+        android:background="?attr/selectableItemBackgroundBorderless"
+        android:layout_width="@dimen/ref_size_xlarge"
+        android:layout_height="@dimen/ref_size_xlarge">
+        <ImageView
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/ref_size_medium"
+            android:src="@drawable/ic_sys_close_x"
+            android:contentDescription="@string/back"
+            app:tint="?attr/AssemblyIconColor"/>
+    </FrameLayout>
+    <androidx.fragment.app.FragmentContainerView
+        android:id="@+id/fragmentContainer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+</LinearLayout>

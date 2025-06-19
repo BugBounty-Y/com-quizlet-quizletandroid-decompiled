@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:clipChildren="false"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:divider="@drawable/divider_match_cell_vertical"
+    android:showDividers="end|middle|beginning">
+    <LinearLayout style="@style/MatchRowGroup">
+        <LinearLayout style="@style/MatchCardRow">
+            <com.quizlet.quizletandroid.ui.studymodes.match.view.MatchCardView
+                android:id="@+id/matchSquare1"
+                style="@style/PortraitMatchCardView"/>
+            <com.quizlet.quizletandroid.ui.studymodes.match.view.MatchCardView
+                android:id="@+id/matchSquare2"
+                style="@style/PortraitMatchCardView"/>
+            <com.quizlet.quizletandroid.ui.studymodes.match.view.MatchCardView
+                android:id="@+id/matchSquare3"
+                style="@style/PortraitMatchCardView"/>
+        </LinearLayout>
+        <LinearLayout style="@style/MatchCardRow">
+            <com.quizlet.quizletandroid.ui.studymodes.match.view.MatchCardView
+                android:id="@+id/matchSquare4"
+                style="@style/PortraitMatchCardView"/>
+            <com.quizlet.quizletandroid.ui.studymodes.match.view.MatchCardView
+                android:id="@+id/matchSquare5"
+                style="@style/PortraitMatchCardView"/>
+            <com.quizlet.quizletandroid.ui.studymodes.match.view.MatchCardView
+                android:id="@+id/matchSquare6"
+                style="@style/PortraitMatchCardView"/>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout style="@style/MatchRowGroup">
+        <LinearLayout style="@style/MatchCardRow">
+            <com.quizlet.quizletandroid.ui.studymodes.match.view.MatchCardView
+                android:id="@+id/matchSquare7"
+                style="@style/PortraitMatchCardView"/>
+            <com.quizlet.quizletandroid.ui.studymodes.match.view.MatchCardView
+                android:id="@+id/matchSquare8"
+                style="@style/PortraitMatchCardView"/>
+            <com.quizlet.quizletandroid.ui.studymodes.match.view.MatchCardView
+                android:id="@+id/matchSquare9"
+                style="@style/PortraitMatchCardView"/>
+        </LinearLayout>
+        <LinearLayout style="@style/MatchCardRow">
+            <com.quizlet.quizletandroid.ui.studymodes.match.view.MatchCardView
+                android:id="@+id/matchSquare10"
+                style="@style/PortraitMatchCardView"/>
+            <com.quizlet.quizletandroid.ui.studymodes.match.view.MatchCardView
+                android:id="@+id/matchSquare11"
+                style="@style/PortraitMatchCardView"/>
+            <com.quizlet.quizletandroid.ui.studymodes.match.view.MatchCardView
+                android:id="@+id/matchSquare12"
+                style="@style/PortraitMatchCardView"/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="@dimen/quizlet_edge_margin"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <com.quizlet.uicommon.ui.common.views.QuizletPlusBadge
+        android:id="@+id/quizletPlusBadge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+    <com.quizlet.partskit.widgets.QTextView
+        android:textColor="?attr/SysColorTextPrimary"
+        android:id="@+id/exercise_detail_header_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/quizlet_edge_margin"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/quizletPlusBadge"
+        style="@style/Header.H4"/>
+    <com.quizlet.uicommon.ui.common.views.QuizletVerifiedBadge
+        android:id="@+id/quizletVerifiedBadge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/quizlet_edge_margin_half"
+        app:changeImageColor="false"
+        app:layout_constraintBottom_toBottomOf="@+id/exercise_detail_header_text"
+        app:layout_constraintStart_toEndOf="@+id/exercise_detail_header_text"
+        app:layout_constraintTop_toTopOf="@+id/exercise_detail_header_text"/>
+    <com.quizlet.partskit.widgets.QTextView
+        android:ellipsize="end"
+        android:id="@+id/subHeaderText"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/quizlet_edge_margin"
+        android:maxLines="1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/exercise_detail_header_text"
+        style="@style/ExerciseSubHeaderText"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

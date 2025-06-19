@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <bool name="abc_action_bar_embed_tabs">true</bool>
+    <bool name="abc_config_actionMenuItemAllCaps">true</bool>
+    <bool name="branch_test_mode">false</bool>
+    <bool name="com_braze_firebase_cloud_messaging_registration_enabled">true</bool>
+    <bool name="com_braze_handle_push_deep_links_automatically">true</bool>
+    <bool name="com_braze_push_deep_link_back_stack_activity_enabled">false</bool>
+    <bool name="comments_visible">true</bool>
+    <bool name="config_materialPreferenceIconSpaceReserved">false</bool>
+    <bool name="enable_system_alarm_service_default">false</bool>
+    <bool name="enable_system_foreground_service_default">true</bool>
+    <bool name="enable_system_job_service_default">true</bool>
+    <bool name="ga_autoActivityTracking">true</bool>
+    <bool name="ga_reportUncaughtExceptions">true</bool>
+    <bool name="glance_appwidget_available">true</bool>
+    <bool name="history_enable">true</bool>
+    <bool name="invert_teacher_logo_subtitle">false</bool>
+    <bool name="isLargeDevice">false</bool>
+    <bool name="leak_canary_plumber_auto_install">true</bool>
+    <bool name="link_underline">true</bool>
+    <bool name="mtrl_btn_textappearance_all_caps">true</bool>
+    <bool name="prebid_is_tablet">false</bool>
+    <bool name="workmanager_test_configuration">false</bool>
+</resources>

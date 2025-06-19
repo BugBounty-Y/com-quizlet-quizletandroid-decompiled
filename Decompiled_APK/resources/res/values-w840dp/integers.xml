@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="achievement_badges_max_span_size">5</integer>
+    <integer name="achievement_badges_unexpanded_size">5</integer>
+</resources>

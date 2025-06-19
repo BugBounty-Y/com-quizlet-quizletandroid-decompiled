@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <com.quizlet.partskit.widgets.QTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/quizlet_edge_margin_half"
+        android:layout_marginBottom="@dimen/quizlet_edge_margin"
+        android:text="@string/total_progress"
+        android:layout_marginStart="@dimen/quizlet_edge_margin"
+        style="@style/SubHeader.S5"/>
+    <ProgressBar
+        android:id="@+id/learn_overall_progress_view"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/progress_height"
+        android:progressDrawable="@drawable/q_rounded_progress_bar"
+        style="?android:attr/progressBarStyleHorizontal"/>
+    <com.quizlet.partskit.widgets.QButton
+        android:id="@+id/learn_checkpoint_nextbutton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/button_margin"
+        android:text="@string/learn_next_round"/>
+</LinearLayout>

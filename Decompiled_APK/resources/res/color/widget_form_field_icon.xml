@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:color="?attr/AssemblyMint500"
+        app:state_edittext_focus="true"
+        app:state_success="true"
+        app:state_validated="true"/>
+    <item
+        android:color="?attr/AssemblyErrorText"
+        app:state_success="false"
+        app:state_validated="true"/>
+    <item
+        android:color="?attr/AssemblySunset400"
+        app:state_edittext_focus="true"/>
+    <item android:color="?attr/AssemblyGray700"/>
+</selector>

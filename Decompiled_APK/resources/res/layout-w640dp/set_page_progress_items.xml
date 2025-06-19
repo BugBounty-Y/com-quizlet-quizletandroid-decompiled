@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <com.quizlet.features.setpage.progress.presentation.ui.SetPageProgressItemView
+        android:id="@+id/progressItemNotStarted"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/quizlet_edge_margin"
+        android:layout_weight="1"
+        app:progressBackgroundColor="?attr/iconColorIndigoDarkTransparent"
+        app:progressColor="?attr/iconColorIndigoDark"
+        app:progressStatus="@string/set_page_progress_not_studied"/>
+    <com.quizlet.features.setpage.progress.presentation.ui.SetPageProgressItemView
+        android:id="@+id/progressItemLearning"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/quizlet_edge_margin"
+        android:layout_marginBottom="@dimen/quizlet_edge_margin"
+        android:layout_weight="1"
+        app:progressBackgroundColor="?attr/iconColorFamiliarTransparent"
+        app:progressColor="?attr/iconColorFamiliar"
+        app:progressStatus="@string/set_page_progress_still_learning"/>
+    <com.quizlet.features.setpage.progress.presentation.ui.SetPageProgressItemView
+        android:id="@+id/progressItemMastered"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/quizlet_edge_margin"
+        android:layout_weight="1"
+        app:progressBackgroundColor="?attr/iconColorSuccessTransparent"
+        app:progressColor="?attr/iconColorSuccess"
+        app:progressStatus="@string/set_page_progress_mastered"/>
+</LinearLayout>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <com.quizlet.partskit.widgets.icon.IconFontTextView
+        android:textSize="81dp"
+        android:textColor="?attr/textColorDisabled"
+        android:id="@+id/empty_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/icon_label_flashcards"
+        app:iconName="flashcards"/>
+    <com.quizlet.partskit.widgets.QTextView
+        android:textSize="14sp"
+        android:textColor="?android:attr/textColorSecondary"
+        android:gravity="center"
+        android:id="@+id/empty_message"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"/>
+    <com.quizlet.partskit.widgets.QButton
+        android:id="@+id/empty_button"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:minHeight="@dimen/quizlet_min_tap_target_size"
+        style="@style/QuizletSmallBorderlessButton"/>
+</LinearLayout>

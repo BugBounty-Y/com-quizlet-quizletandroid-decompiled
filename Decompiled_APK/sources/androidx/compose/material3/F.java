@@ -1,0 +1,32 @@
+package androidx.compose.material3;
+
+import androidx.compose.runtime.C0776c;
+import androidx.compose.runtime.InterfaceC0806l;
+import kotlin.Unit;
+import kotlin.jvm.functions.Function2;
+
+/* loaded from: classes.dex */
+public final class F extends kotlin.jvm.internal.r implements Function2 {
+    public final /* synthetic */ androidx.compose.ui.q a;
+    public final /* synthetic */ long b;
+    public final /* synthetic */ long c;
+    public final /* synthetic */ androidx.compose.runtime.internal.d d;
+    public final /* synthetic */ int e;
+
+    /* JADX WARN: 'super' call moved to the top of the method (can break code semantics) */
+    public F(androidx.compose.ui.q qVar, long j, long j2, androidx.compose.runtime.internal.d dVar, int i) {
+        super(2);
+        this.a = qVar;
+        this.b = j;
+        this.c = j2;
+        this.d = dVar;
+        this.e = i;
+    }
+
+    @Override // kotlin.jvm.functions.Function2
+    public final Object invoke(Object obj, Object obj2) {
+        ((Number) obj2).intValue();
+        H.a(this.a, this.b, this.c, this.d, (InterfaceC0806l) obj, C0776c.H(this.e | 1));
+        return Unit.a;
+    }
+}

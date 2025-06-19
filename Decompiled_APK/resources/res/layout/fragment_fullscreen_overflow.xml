@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="?attr/SysColorCard"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/menuRecyclerView"
+        android:paddingTop="@dimen/fullscreen_overflow_item_height"
+        android:fadingEdgeLength="@dimen/fading_edge_length"
+        android:clipToPadding="false"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:requiresFadingEdge="vertical"
+        app:layout_constraintBottom_toTopOf="@+id/cancelSeparator"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"/>
+    <View
+        android:id="@+id/cancelSeparator"
+        android:background="?attr/colorPrimaryDark"
+        android:layout_width="0dp"
+        android:layout_height="1dp"
+        app:layout_constraintBottom_toTopOf="@+id/itemCancel"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"/>
+    <com.quizlet.partskit.widgets.QTextView
+        android:textColor="?attr/SysColorTextPrimary"
+        android:gravity="center"
+        android:id="@+id/itemCancel"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/fullscreen_overflow_item_height"
+        android:text="@string/cancel"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        style="@style/SubHeader.S3"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/cardView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:foreground="?android:attr/selectableItemBackground"
+    app:cardBackgroundColor="?attr/SysColorCard"
+    app:cardCornerRadius="@dimen/simple_image_with_text_card_view_corner_radius">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ImageView
+            android:id="@+id/cardIcon"
+            android:layout_width="@dimen/ref_size_medium"
+            android:layout_height="@dimen/ref_size_medium"
+            android:importantForAccessibility="no"
+            app:layout_constraintBottom_toTopOf="@+id/cardText"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_chainStyle="packed"/>
+        <com.quizlet.partskit.widgets.QTextView
+            android:gravity="center"
+            android:id="@+id/cardText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/simple_image_with_text_card_view_internal_margin"
+            android:layout_marginStart="@dimen/simple_image_with_text_card_view_internal_margin"
+            android:layout_marginEnd="@dimen/simple_image_with_text_card_view_internal_margin"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/cardIcon"
+            style="@style/SubHeader.S4"/>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="@dimen/ref_spacing_small"
+    android:layout_marginStart="@dimen/ref_spacing_small"
+    android:layout_marginEnd="@dimen/ref_spacing_small"
+    app:cardBackgroundColor="?attr/SysColorCard"
+    app:cardCornerRadius="@dimen/ref_radius_large">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:padding="@dimen/ref_spacing_small"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <com.quizlet.partskit.widgets.QTextView
+            android:textColor="?attr/SysColorTextPrimary"
+            android:gravity="center"
+            android:id="@+id/headerText"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            style="@style/Header.H2"/>
+        <com.quizlet.assembly.widgets.buttons.AssemblyPrimaryButton
+            android:id="@+id/getStartedButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/ref_spacing_small"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/headerText"
+            app:primaryButtonVariant="upgrade"
+            app:text="@string/get_started_button"/>
+        <com.quizlet.partskit.widgets.QTextView
+            android:textColor="?attr/SysColorTextPrimary"
+            android:gravity="center"
+            android:id="@+id/logInTextButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/ref_spacing_small"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/getStartedButton"
+            style="@style/SubHeader.S3"/>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.cardview.widget.CardView>

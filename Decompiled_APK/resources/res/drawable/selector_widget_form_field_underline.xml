@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        app:state_edittext_focus="true"
+        app:state_success="true"
+        app:state_validated="true">
+        <shape android:shape="rectangle">
+            <solid android:color="?attr/colorControlSuccess"/>
+        </shape>
+    </item>
+    <item
+        app:state_success="false"
+        app:state_validated="true">
+        <shape android:shape="rectangle">
+            <solid android:color="?attr/colorControlError"/>
+        </shape>
+    </item>
+    <item
+        android:color="?attr/colorControlActivated"
+        app:state_edittext_focus="true">
+        <shape android:shape="rectangle">
+            <solid android:color="?attr/colorControlActivated"/>
+        </shape>
+    </item>
+    <item>
+        <layer-list>
+            <item android:bottom="2dp">
+                <shape android:shape="rectangle">
+                    <solid android:color="?attr/colorControlEnabled"/>
+                </shape>
+            </item>
+        </layer-list>
+    </item>
+</selector>

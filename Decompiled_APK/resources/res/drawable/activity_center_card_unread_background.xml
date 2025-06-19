@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:state_pressed="true"
+        android:drawable="@drawable/activity_center_card_pressed_color_background"/>
+    <item android:drawable="@drawable/activity_center_card_unread_color_background"/>
+</selector>

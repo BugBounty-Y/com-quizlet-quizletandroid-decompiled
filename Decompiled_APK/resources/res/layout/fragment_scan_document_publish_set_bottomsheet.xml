@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <com.quizlet.partskit.widgets.QTextView
+        android:id="@+id/publishSet"
+        android:paddingTop="@dimen/bottomsheet_menu_item_edge_padding"
+        android:text="@string/publish"
+        style="@style/BottomSheetMenuItem"/>
+    <com.quizlet.partskit.widgets.QTextView
+        android:id="@+id/previewSet"
+        android:paddingTop="@dimen/bottomsheet_menu_item_edge_padding"
+        android:text="@string/preview"
+        app:layout_constraintTop_toBottomOf="@+id/captureImageWithCamera"
+        style="@style/BottomSheetMenuItem"/>
+    <com.quizlet.partskit.widgets.QTextView
+        android:textColor="?attr/AssemblyErrorText"
+        android:id="@+id/deleteSet"
+        android:paddingBottom="@dimen/bottomsheet_menu_item_edge_padding"
+        android:text="@string/delete"
+        app:layout_constraintTop_toBottomOf="@+id/captureImageWithCamera"
+        style="@style/BottomSheetMenuItem"/>
+</LinearLayout>

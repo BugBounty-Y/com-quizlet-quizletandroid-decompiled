@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:enabled="true"
+        android:id="@+id/invite_members"
+        android:visible="true"
+        android:title="@string/invite_members"
+        app:showAsAction="never"/>
+    <item
+        android:enabled="true"
+        android:id="@+id/add_sets"
+        android:visible="true"
+        android:title="@string/add_sets"
+        app:showAsAction="never"/>
+    <item
+        android:enabled="true"
+        android:id="@+id/add_folders"
+        android:visible="true"
+        android:title="@string/add_folders"
+        app:showAsAction="never"/>
+    <item
+        android:icon="@drawable/ic_sys_alert"
+        android:enabled="true"
+        android:id="@+id/report"
+        android:visible="true"
+        android:title="@string/report_content"
+        app:iconTint="?attr/AssemblyIconColor"
+        app:showAsAction="never"/>
+    <item
+        android:enabled="true"
+        android:id="@+id/menu_drop_class"
+        android:visible="true"
+        android:title="@string/drop_class"
+        app:showAsAction="never"/>
+</menu>

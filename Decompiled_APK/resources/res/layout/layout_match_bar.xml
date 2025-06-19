@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:gravity="center_vertical"
+    android:layout_gravity="center_vertical"
+    android:id="@+id/match_bar_wrapper"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_centerVertical="true"
+    android:layout_marginStart="@dimen/appbar_title_left_margin"
+    android:layout_marginEnd="@dimen/appbar_edge_margin"
+    android:layout_alignParentStart="true"
+    android:elevation="10dp">
+    <com.quizlet.uicommon.ui.common.views.TimerTextView
+        android:textColor="?attr/colorControlNormal"
+        android:layout_gravity="center_vertical"
+        android:id="@+id/match_bar_timer"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/SubHeader.S2"/>
+    <com.quizlet.partskit.widgets.QTextView
+        android:textSize="20sp"
+        android:textColor="?attr/colorControlNormal"
+        android:layout_gravity="center_vertical"
+        android:id="@+id/match_bar_title"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/match"
+        android:fontFamily="@font/hurme_geometric_sans_2_semibold"/>
+</FrameLayout>

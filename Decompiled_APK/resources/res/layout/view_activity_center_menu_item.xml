@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="?attr/selectableItemBackgroundBorderless"
+    android:layout_width="@dimen/quizlet_min_tap_target_size"
+    android:layout_height="@dimen/quizlet_min_tap_target_size">
+    <ImageView
+        android:id="@+id/activityCenterIcon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_sys_bell"
+        android:contentDescription="@string/activity_center_icon_content_description"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:tint="?attr/colorControlNormal"/>
+    <com.quizlet.quizletandroid.ui.activitycenter.views.UnreadBadgeView
+        android:id="@+id/unreadBadge"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginStart="10dp"
+        app:badgeBackground="@drawable/unread_badge"
+        app:layout_constraintBottom_toBottomOf="@+id/activityCenterIcon"
+        app:layout_constraintStart_toStartOf="@+id/activityCenterIcon"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

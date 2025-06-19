@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:id="@+id/write_results_header"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <com.quizlet.quizletandroid.ui.common.views.ArcProgressLayout
+        android:id="@+id/learn_results_arc_view"
+        android:layout_width="@dimen/arc_progress_bar_size"
+        android:layout_height="@dimen/arc_progress_bar_size"
+        android:layout_marginTop="@dimen/arc_progress_bar_margin"
+        android:text="@string/learn_results_accuracy"/>
+    <com.quizlet.partskit.widgets.QTextView
+        android:id="@+id/learn_results_message"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/button_margin"
+        style="@style/Header.H2"/>
+    <com.quizlet.partskit.widgets.QButton
+        android:id="@+id/learn_results_restart"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="@dimen/quizlet_edge_margin"
+        android:text="@string/learn_start_over"/>
+    <androidx.legacy.widget.Space
+        android:id="@+id/learn_restart_button_space"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/button_margin"/>
+    <com.quizlet.partskit.widgets.QButton
+        android:id="@+id/learn_results_restart_selected"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+</LinearLayout>

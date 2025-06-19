@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+    <View
+        android:layout_gravity="bottom"
+        android:id="@+id/bottomBar"
+        android:background="@drawable/assembly_card_selection_bg"
+        android:duplicateParentState="true"
+        android:layout_width="match_parent"
+        android:layout_height="4dp"/>
+</merge>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/buttonIconLeft"
+        android:visibility="gone"
+        android:duplicateParentState="true"
+        android:layout_width="@dimen/ref_size_medium"
+        android:layout_height="@dimen/ref_size_medium"
+        android:layout_marginEnd="@dimen/ref_spacing_xsmall"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/buttonText"
+        app:layout_constraintHorizontal_chainStyle="packed"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+    <TextView
+        android:gravity="center"
+        android:id="@+id/buttonText"
+        android:duplicateParentState="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/buttonIconRight"
+        app:layout_constraintStart_toEndOf="@+id/buttonIconLeft"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintWidth_min="wrap"
+        style="@style/SubHeader.S3"/>
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/buttonIconRight"
+        android:visibility="gone"
+        android:duplicateParentState="true"
+        android:layout_width="@dimen/ref_size_medium"
+        android:layout_height="@dimen/ref_size_medium"
+        android:layout_marginStart="@dimen/ref_spacing_xsmall"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_chainStyle="packed"
+        app:layout_constraintStart_toEndOf="@+id/buttonText"
+        app:layout_constraintTop_toTopOf="parent"/>
+</merge>

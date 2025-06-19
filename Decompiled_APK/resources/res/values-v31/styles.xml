@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AssemblyTheme.Starting" parent="@style/Theme.SplashScreen">
+        <item name="android:windowSplashScreenBackground">@color/assembly_twilight500</item>
+        <item name="android:windowSplashScreenAnimatedIcon">@drawable/anim_splash_quizlet_logo</item>
+        <item name="android:windowSplashScreenAnimationDuration">1000</item>
+        <item name="postSplashScreenTheme">@style/AssemblyTheme</item>
+    </style>
+    <style name="Glance.AppWidget.Background" parent="@style/Base.Glance.AppWidget.Background">
+        <item name="android:padding">16dp</item>
+        <item name="android:clipToOutline">true</item>
+    </style>
+    <style name="Theme.Quizletandroid.AppWidgetContainerParent" parent="@android:style/Theme.DeviceDefault.DayNight">
+        <item name="appWidgetInnerRadius">@android:dimen/system_app_widget_inner_radius</item>
+        <item name="appWidgetRadius">@android:dimen/system_app_widget_background_radius</item>
+    </style>
+    <style name="Theme.SplashScreen" parent="@style/Base.Theme.SplashScreen.DayNight">
+        <item name="android:windowSplashScreenBackground">?attr/windowSplashScreenBackground</item>
+        <item name="android:windowSplashScreenAnimatedIcon">?attr/windowSplashScreenAnimatedIcon</item>
+        <item name="android:windowSplashScreenAnimationDuration">?attr/windowSplashScreenAnimationDuration</item>
+    </style>
+</resources>

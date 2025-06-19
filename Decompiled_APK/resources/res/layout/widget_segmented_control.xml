@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout
+        android:background="@drawable/bg_rectangle_secondary_background_radius_small"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/qsegmented_control_height"/>
+    <LinearLayout
+        android:orientation="vertical"
+        android:background="@drawable/bg_rectangle_border_twilight500_w2_radius_small"
+        android:padding="2dp"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/qsegmented_control_height">
+        <RadioGroup
+            android:orientation="horizontal"
+            android:id="@+id/widget_segmented_control_radiogroup"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:divider="@drawable/divider_twilight500_w2"
+            android:showDividers="middle">
+            <com.quizlet.partskit.widgets.QRadioButton
+                android:id="@+id/widget_segmented_control_left"
+                style="@style/QuizletSegmentedControl"/>
+            <com.quizlet.partskit.widgets.QRadioButton
+                android:id="@+id/widget_segmented_control_middle"
+                style="@style/QuizletSegmentedControl"/>
+            <com.quizlet.partskit.widgets.QRadioButton
+                android:id="@+id/widget_segmented_control_right"
+                style="@style/QuizletSegmentedControl"/>
+        </RadioGroup>
+    </LinearLayout>
+</merge>

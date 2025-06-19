@@ -1,0 +1,25 @@
+package com.quizlet.quizletandroid.ui.studymodes.testmode.start;
+
+import com.quizlet.generated.enums.O1;
+
+/* loaded from: classes3.dex */
+public abstract /* synthetic */ class v {
+    public static final /* synthetic */ int[] a;
+
+    static {
+        int[] iArr = new int[O1.values().length];
+        try {
+            iArr[O1.WORD.ordinal()] = 1;
+        } catch (NoSuchFieldError unused) {
+        }
+        try {
+            iArr[O1.DEFINITION.ordinal()] = 2;
+        } catch (NoSuchFieldError unused2) {
+        }
+        try {
+            iArr[O1.LOCATION.ordinal()] = 3;
+        } catch (NoSuchFieldError unused3) {
+        }
+        a = iArr;
+    }
+}

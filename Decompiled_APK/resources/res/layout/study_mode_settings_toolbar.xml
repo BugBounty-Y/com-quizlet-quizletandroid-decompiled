@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="?attr/actionBarSize"
+    android:divider="@drawable/spacer_8dp_vertical"
+    android:showDividers="middle">
+    <FrameLayout
+        android:id="@+id/study_mode_settings_toolbar_up_button"
+        android:background="?attr/selectableItemBackgroundBorderless"
+        android:layout_width="48dp"
+        android:layout_height="48dp">
+        <ImageView
+            android:layout_gravity="center"
+            android:id="@+id/study_mode_settings_toolbar_up_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_sys_arrow_left"
+            android:contentDescription="@string/study_mode_settings_up_button_description"
+            app:tint="?attr/iconColorPrimary"/>
+    </FrameLayout>
+    <com.quizlet.partskit.widgets.QTextView
+        android:textSize="18sp"
+        android:textColor="?attr/textColorSecondary"
+        android:id="@+id/study_mode_settings_toolbar_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/study_mode_options"
+        style="@style/SubHeader.S1"/>
+</LinearLayout>

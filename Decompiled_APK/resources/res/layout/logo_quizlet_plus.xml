@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView
+        android:id="@+id/quizletPlusLogo"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/ref_size_medium"
+        android:src="0x7f080384"
+        android:adjustViewBounds="true"
+        android:contentDescription="@string/quizlet_plus"/>
+    <com.quizlet.partskit.widgets.QTextView
+        android:textColor="?attr/AssemblyGray100"
+        android:id="@+id/forTeachers"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/for_teachers_logo_subtitle"
+        style="@style/Body.B2"/>
+</merge>

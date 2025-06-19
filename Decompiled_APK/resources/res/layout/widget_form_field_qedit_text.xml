@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.quizlet.partskit.widgets.QEditText xmlns:android="http://schemas.android.com/apk/res/android"
+    android:textColorHint="?attr/textColorDisabled"
+    android:gravity="top"
+    android:background="@null"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    style="@style/Body.B3"/>

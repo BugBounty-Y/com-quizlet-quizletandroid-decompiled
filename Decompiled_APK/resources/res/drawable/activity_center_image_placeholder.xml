@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:drawable="@drawable/ic_sys_image"
+        android:left="@dimen/activity_center_classic_card_placeholder_icon_padding"
+        android:top="@dimen/activity_center_classic_card_placeholder_icon_padding"
+        android:right="@dimen/activity_center_classic_card_placeholder_icon_padding"
+        android:bottom="@dimen/activity_center_classic_card_placeholder_icon_padding"/>
+</layer-list>
