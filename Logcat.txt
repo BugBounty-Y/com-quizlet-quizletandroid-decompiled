@@ -1,0 +1,166 @@
+
+06-21 08:16:39.278 24344 24344 D ImsResolver: maybeAddedImsService, packageName: 
+com.quizlet.quizletandroid
+06-21 08:16:39.281 24516 15724 I Fitness : OnPackageChangedOperation got intent: Intent { 
+act=android.intent.action.PACKAGE_CHANGED dat=package:com.quizlet.quizletandroid flg=0x45000010 
+cmp=com.google.android.gms/.chimera.PersistentIntentOperationService (has extras) } [CONTEXT 
+service_id=17 ]
+06-21 08:16:56.631 24091 31654 I ActivityManager: START u0 {act=android.intent.action.SEND 
+typ=text/plain flg=0x10000000 
+cmp=com.quizlet.quizletandroid/.ui.sharereceiver.ShareSheetReceiverActivity (has extras)} from uid 0
+06-21 08:16:56.703 24091 31654 I ActivityManager: START u0 {act=android.intent.action.MAIN 
+cat=[android.intent.category.LAUNCHER] flg=0x1000c000 
+cmp=com.quizlet.quizletandroid/.ui.RootActivity} from uid 10085
+06-21 08:16:56.719 24091 31654 I ActivityManager: START u0 
+{cmp=com.quizlet.quizletandroid/com.quizlet.features.notes.upload.UploadNotesActivity (has extras)} 
+from uid 10085
+06-21 08:16:57.175 15306 15757 I .quizletandroi: IncrementDisableThreadFlip blocked for 10.212ms
+06-21 08:16:57.842 15306 15306 W .quizletandroi: Accessing hidden method 
+Landroid/view/RenderNode;->getScaleX()F (dark greylist, linking)
+06-21 08:16:58.169 15306 15439 W GooglePlayServicesUtil: Google Play services out of date for 
+com.quizlet.quizletandroid.  Requires 203400000 but found 202414022
+06-21 08:16:58.169 15306 15316 I .quizletandroi: Background concurrent copying GC freed 60242(4MB) 
+AllocSpace objects, 47(1400KB) LOS objects, 26% free, 16MB/22MB, paused 1.618ms total 1.014s
+06-21 08:16:58.270 23938 24061 W SurfaceFlinger: Attempting to set client state on removed layer: 
+Splash Screen com.quizlet.quizletandroid#0
+06-21 08:16:58.270 23938 24061 W SurfaceFlinger: Attempting to destroy on removed layer: Splash 
+Screen com.quizlet.quizletandroid#0
+06-21 08:16:58.301 15306 15439 W GooglePlayServicesUtil: Google Play services out of date for 
+com.quizlet.quizletandroid.  Requires 203400000 but found 202414022
+06-21 08:16:58.588 24091 25264 I ActivityManager: START u0 
+{cmp=com.quizlet.quizletandroid/.ui.globalnav.GlobalNavigationActivity} from uid 10085
+06-21 08:16:59.472 23938 23938 D SurfaceFlinger: duplicate layer name: changing 
+com.quizlet.quizletandroid/com.quizlet.quizletandroid.ui.globalnav.GlobalNavigationActivity to 
+com.quizlet.quizletandroid/com.quizlet.quizletandroid.ui.globalnav.GlobalNavigationActivity#1
+06-21 08:16:59.501 15306 15306 W .quizletandroi: Accessing hidden method 
+Landroid/view/RenderNode;->getScaleX()F (dark greylist, linking)
+06-21 08:16:59.531 15306 15306 W .quizletandroi: Accessing hidden method 
+Landroid/view/RenderNode;->getScaleX()F (dark greylist, linking)
+06-21 08:16:59.755 15306 15462 I chatty  : uid=10085(com.quizlet.quizletandroid) RenderThread 
+identical 1 line
+06-21 08:16:59.910 24091 24116 I ActivityManager: Displayed 
+com.quizlet.quizletandroid/.ui.globalnav.GlobalNavigationActivity: +935ms (total +3s166ms)
+06-21 08:17:00.157 24091 31654 I ActivityManager: START u0 {cmp=com.quizlet.quizletandroid/com.quizl
+et.features.onboarding.navigation.OnboardingNavigationActivity} from uid 10085
+06-21 08:17:00.718 24091 24108 W ActivityManager: Activity pause timeout for ActivityRecord{db67032 
+u0 com.quizlet.quizletandroid/.ui.globalnav.GlobalNavigationActivity t44}
+06-21 08:17:00.971 15306 15316 I .quizletandroi: Background concurrent copying GC freed 163395(7MB) 
+AllocSpace objects, 61(1820KB) LOS objects, 26% free, 16MB/22MB, paused 753us total 1.351s
+06-21 08:17:02.417 15306 15306 W .quizletandroi: Accessing hidden method 
+Landroid/view/RenderNode;->getScaleX()F (dark greylist, linking)
+06-21 08:17:02.497 15306 15306 W .quizletandroi: Accessing hidden method 
+Landroid/view/RenderNode;->getScaleX()F (dark greylist, linking)
+06-21 08:17:02.546 15306 15306 W .quizletandroi: Accessing hidden method 
+Landroid/view/RenderNode;->getScaleX()F (dark greylist, linking)
+06-21 08:17:02.632 15306 15316 I .quizletandroi: Background concurrent copying GC freed 107396(6MB) 
+AllocSpace objects, 78(2MB) LOS objects, 29% free, 14MB/20MB, paused 5.206ms total 179.214ms
+06-21 08:17:02.676 15306 15306 W .quizletandroi: Accessing hidden method 
+Landroid/view/RenderNode;->getScaleX()F (dark greylist, linking)
+06-21 08:17:02.701 15306 15306 I chatty  : uid=10085(com.quizlet.quizletandroid) identical 1 line
+06-21 08:17:02.720 15306 15306 W .quizletandroi: Accessing hidden method 
+Landroid/view/RenderNode;->getScaleX()F (dark greylist, linking)
+06-21 08:17:02.742 24091 24116 I ActivityManager: Displayed 
+com.quizlet.quizletandroid/com.quizlet.features.onboarding.navigation.OnboardingNavigationActivity: 
++2s9ms
+06-21 08:17:45.228 15306 15439 W GooglePlayServicesUtil: Google Play services out of date for 
+com.quizlet.quizletandroid.  Requires 203400000 but found 202414022
+06-21 08:18:37.502 24091 25979 I ActivityManager: START u0 
+{cmp=com.quizlet.quizletandroid/com.quizlet.features.userprofile.ui.UserProfileActivity (has 
+extras)} from uid 10085
+06-21 08:18:37.837 15306 15316 I .quizletandroi: Background concurrent copying GC freed 118216(6MB) 
+AllocSpace objects, 58(1676KB) LOS objects, 28% free, 14MB/20MB, paused 810us total 315.467ms
+06-21 08:18:37.863 15306 15314 I chatty  : uid=10085(com.quizlet.quizletandroid) FinalizerDaemon 
+identical 1 line
+06-21 08:18:38.092 15306 15306 W .quizletandroi: Accessing hidden method 
+Landroid/view/RenderNode;->getScaleX()F (dark greylist, linking)
+06-21 08:18:38.186 15306 15765 W .quizletandroi: Long monitor contention with owner Thread-23 
+(15552) at com.google.android.gms.ads.identifier.a 
+com.google.android.gms.ads.identifier.b.h()(SourceFile:-1) waiters=0 in 
+com.google.android.gms.ads.identifier.a com.google.android.gms.ads.identifier.b.h() for 331ms
+06-21 08:18:38.209 15306 15439 W GooglePlayServicesUtil: Google Play services out of date for 
+com.quizlet.quizletandroid.  Requires 203400000 but found 202414022
+06-21 08:18:38.254 15306 15439 W GooglePlayServicesUtil: Google Play services out of date for 
+com.quizlet.quizletandroid.  Requires 203400000 but found 202414022
+06-21 08:18:38.332 24091 24116 I ActivityManager: Displayed 
+com.quizlet.quizletandroid/com.quizlet.features.userprofile.ui.UserProfileActivity: +706ms
+06-21 08:19:05.038 24091 24443 I ActivityManager: START u0 {act=android.intent.action.SEND 
+typ=text/plain flg=0x10000000 
+cmp=com.quizlet.quizletandroid/.ui.sharereceiver.ShareSheetReceiverActivity (has extras)} from uid 0
+06-21 08:19:05.131 24091 26332 I ActivityManager: START u0 {act=android.intent.action.MAIN 
+cat=[android.intent.category.LAUNCHER] flg=0x1000c000 
+cmp=com.quizlet.quizletandroid/.ui.RootActivity} from uid 10085
+06-21 08:19:05.146 24091 26332 I ActivityManager: START u0 
+{cmp=com.quizlet.quizletandroid/com.quizlet.features.notes.upload.UploadNotesActivity (has extras)} 
+from uid 10085
+06-21 08:19:05.330 23938 23938 D SurfaceFlinger: duplicate layer name: changing Splash Screen 
+com.quizlet.quizletandroid to Splash Screen com.quizlet.quizletandroid#1
+06-21 08:19:06.156 15306 15439 W GooglePlayServicesUtil: Google Play services out of date for 
+com.quizlet.quizletandroid.  Requires 203400000 but found 202414022
+06-21 08:19:06.201 15306 15306 W .quizletandroi: Accessing hidden method 
+Landroid/view/RenderNode;->getScaleX()F (dark greylist, linking)
+06-21 08:19:06.689 23938 23968 W SurfaceFlinger: Attempting to set client state on removed layer: 
+Splash Screen com.quizlet.quizletandroid#1
+06-21 08:19:06.689 23938 23968 W SurfaceFlinger: Attempting to destroy on removed layer: Splash 
+Screen com.quizlet.quizletandroid#1
+06-21 08:19:06.725 15306 15316 I .quizletandroi: Background concurrent copying GC freed 101814(4MB) 
+AllocSpace objects, 40(1384KB) LOS objects, 30% free, 13MB/19MB, paused 919us total 460.977ms
+06-21 08:19:06.873 24091 25433 I ActivityManager: START u0 
+{cmp=com.quizlet.quizletandroid/.ui.globalnav.GlobalNavigationActivity} from uid 10085
+06-21 08:19:07.790 24091 25979 I ActivityManager: START u0 {flg=0x10000000 
+cmp=com.quizlet.quizletandroid/com.quizlet.security.challenge.activity.SecurityChallengeActivity} 
+from uid 10085
+06-21 08:19:07.981 15306 15306 W .quizletandroi: Accessing hidden method 
+Landroid/view/RenderNode;->getScaleX()F (dark greylist, linking)
+06-21 08:19:07.982 15306 15306 W .quizletandroi: Accessing hidden method 
+Landroid/view/RenderNode;->getScaleX()F (dark greylist, linking)
+06-21 08:19:08.359 24091 25433 I ActivityManager: START u0 {cmp=com.quizlet.quizletandroid/com.quizl
+et.features.onboarding.navigation.OnboardingNavigationActivity} from uid 10085
+06-21 08:19:08.663 15306 15316 I .quizletandroi: Background concurrent copying GC freed 117492(6MB) 
+AllocSpace objects, 39(1000KB) LOS objects, 26% free, 16MB/22MB, paused 1.136ms total 628.503ms
+06-21 08:19:08.877 24091 24108 W ActivityManager: Activity pause timeout for ActivityRecord{f1fd169 
+u0 com.quizlet.quizletandroid/com.quizlet.security.challenge.activity.SecurityChallengeActivity t44}
+06-21 08:19:09.143 15306 15306 W .quizletandroi: Accessing hidden method 
+Landroid/view/RenderNode;->getScaleX()F (dark greylist, linking)
+06-21 08:19:09.357 15306 15439 W GooglePlayServicesUtil: Google Play services out of date for 
+com.quizlet.quizletandroid.  Requires 203400000 but found 202414022
+06-21 08:19:09.479 15306 15439 W GooglePlayServicesUtil: Google Play services out of date for 
+com.quizlet.quizletandroid.  Requires 203400000 but found 202414022
+06-21 08:19:10.083 15306 15316 I .quizletandroi: NativeAlloc concurrent copying GC freed 88705(4MB) 
+AllocSpace objects, 65(2MB) LOS objects, 31% free, 12MB/18MB, paused 601us total 370.774ms
+06-21 08:19:10.180 24091 24116 I ActivityManager: Displayed 
+com.quizlet.quizletandroid/com.quizlet.features.onboarding.navigation.OnboardingNavigationActivity: 
++1s294ms (total +5s118ms)
+06-21 08:19:10.222 15306 15306 W .quizletandroi: Accessing hidden method 
+Landroid/view/RenderNode;->getScaleX()F (dark greylist, linking)
+06-21 08:19:10.429 15306 15306 W .quizletandroi: Accessing hidden method 
+Landroid/view/RenderNode;->getScaleX()F (dark greylist, linking)
+06-21 08:19:10.597 15306 15306 W .quizletandroi: Accessing hidden method 
+Landroid/view/RenderNode;->getScaleX()F (dark greylist, linking)
+06-21 08:19:10.946 15306 15306 W .quizletandroi: Accessing hidden method 
+Landroid/view/RenderNode;->getScaleX()F (dark greylist, linking)
+06-21 08:19:10.966 15306 15306 I chatty  : uid=10085(com.quizlet.quizletandroid) identical 1 line
+06-21 08:19:10.991 15306 15306 W .quizletandroi: Accessing hidden method 
+Landroid/view/RenderNode;->getScaleX()F (dark greylist, linking)
+06-21 08:19:11.577 15306 15316 I .quizletandroi: Background concurrent copying GC freed 51834(4MB) 
+AllocSpace objects, 38(1244KB) LOS objects, 29% free, 14MB/20MB, paused 819us total 365.552ms
+06-21 08:19:14.337 15306 15439 W GooglePlayServicesUtil: Google Play services out of date for 
+com.quizlet.quizletandroid.  Requires 203400000 but found 202414022
+06-21 08:20:16.427 24091 24189 I ActivityManager: Killing 15306:com.quizlet.quizletandroid/u0a85 
+(adj 900): remove task
+06-21 08:20:16.452 24091 24189 W ActivityManager: Scheduling restart of crashed service 
+com.quizlet.quizletandroid/org.chromium.content.app.SandboxedProcessService0 in 1000ms
+06-21 08:20:16.585 24091 24165 W InputDispatcher: channel '832eb6d 
+com.quizlet.quizletandroid/com.quizlet.quizletandroid.ui.globalnav.GlobalNavigationActivity 
+(server)' ~ Consumer closed input channel or an error occurred.  events=0x9
+06-21 08:20:16.585 24091 24165 E InputDispatcher: channel '832eb6d 
+com.quizlet.quizletandroid/com.quizlet.quizletandroid.ui.globalnav.GlobalNavigationActivity 
+(server)' ~ Channel is unrecoverably broken and will be disposed!
+06-21 08:20:16.610 24091 25378 I WindowManager: WIN DEATH: Window{832eb6d u0 
+com.quizlet.quizletandroid/com.quizlet.quizletandroid.ui.globalnav.GlobalNavigationActivity}
+06-21 08:20:16.610 24091 25378 W InputDispatcher: Attempted to unregister already unregistered 
+input channel '832eb6d 
+com.quizlet.quizletandroid/com.quizlet.quizletandroid.ui.globalnav.GlobalNavigationActivity 
+(server)'
+06-21 08:20:16.672 23938 23968 W SurfaceFlinger: Attempting to destroy on removed layer: 
+AppWindowToken{9ed1ab5 token=Token{15456ec ActivityRecord{714959f u0 
+com.quizlet.quizletandroid/.ui.globalnav.GlobalNavigationActivity t44}}}#0
